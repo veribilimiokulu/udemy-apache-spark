@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkTemel/PivotTable.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sparkTemel/PivotTable.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,14 +23,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="scala" value="2704" />
-          <entry key="txt" value="51" />
+          <entry key="scala" value="2996" />
+          <entry key="txt" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="51" />
-          <entry key="Scala" value="2704" />
+          <entry key="PLAIN_TEXT" value="78" />
+          <entry key="Scala" value="2996" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -70,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/PivotTable.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="21" column="103" selection-start-line="21" selection-start-column="103" selection-end-line="21" selection-end-column="103" />
+            <state relative-caret-position="493">
+              <caret line="48" column="31" selection-start-line="46" selection-start-column="4" selection-end-line="48" selection-end-column="31" />
               <folding>
                 <element signature="e#20#59#0" expanded="true" />
               </folding>
@@ -105,8 +106,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="579" />
-    <option name="y" value="31" />
+    <option name="x" value="460" />
+    <option name="y" value="65" />
     <option name="width" value="1473" />
     <option name="height" value="988" />
   </component>
@@ -167,7 +168,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536139554305" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536143527306" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
@@ -253,11 +254,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536129883578</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2. Commit SparkTemel'e Pivot eklendi">
+      <created>1536139675865</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1536139675865</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="579" y="31" width="1473" height="988" extended-state="0" />
+    <frame x="460" y="65" width="1473" height="988" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -273,7 +281,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32982457" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6070175" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30526316" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -296,7 +304,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="1. Commit WordcountDS ve WordCOUNTRDD eklendi" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Commit WordcountDS ve WordCOUNTRDD eklendi" />
+    <MESSAGE value="2. Commit SparkTemel'e Pivot eklendi" />
+    <option name="LAST_COMMIT_MESSAGE" value="2. Commit SparkTemel'e Pivot eklendi" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -328,8 +337,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/PivotTable.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="103" selection-start-line="21" selection-start-column="103" selection-end-line="21" selection-end-column="103" />
+        <state relative-caret-position="493">
+          <caret line="48" column="31" selection-start-line="46" selection-start-column="4" selection-end-line="48" selection-end-column="31" />
           <folding>
             <element signature="e#20#59#0" expanded="true" />
           </folding>

@@ -59,16 +59,9 @@ object PivotTable {
       .count() // gruplama fonksiyon
       .orderBy($"label".desc) // büyükten küçüğe sıralayalım çünkü pivotun değerleri de büyükten küçüğe (1 to 0)
 
-
-
-
-
     println("1 yukarıda matris")
     // 1 yukarıda hata matrisi
     matrisDFGrouped2.show()
-
-
-
 
   }
 }
