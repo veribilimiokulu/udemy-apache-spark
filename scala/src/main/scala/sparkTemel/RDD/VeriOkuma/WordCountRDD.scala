@@ -1,4 +1,4 @@
-package sparkTemel
+package sparkTemel.RDD.VeriOkuma
 
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.sql.SparkSession
@@ -14,8 +14,6 @@ object WordCountRDD {
       .config("spark.executor.memory","4g")
       .config("spark.driver.memory","2g")
       .getOrCreate()
-
-    import spark.implicits._
 
     val hikayeRDD = spark.sparkContext.textFile("C:/Users/toshiba/SkyDrive/veribilimi.co/udemy-apache-spark/data/omer_seyfettin_forsa_hikaye.txt")
     println(hikayeRDD.count())
