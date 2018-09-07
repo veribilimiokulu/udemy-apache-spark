@@ -1,0 +1,1 @@
+var MyVar : String = "Merhaba Scala" //mutable
