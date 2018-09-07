@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../pyspark/.ipynb_checkpoints/DataFrame_Wordcount-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pyspark/.ipynb_checkpoints/Pivot_Table-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pyspark/.ipynb_checkpoints/RDD_Wordcount-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pyspark/.ipynb_checkpoints/RDD_olusturmak-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pyspark/DataFrame_Wordcount.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pyspark/Pivot_Table.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pyspark/RDD_Wordcount.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pyspark/RDD_olusturmak.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/.idea/hydra.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/.idea/scala_compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/scala.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/src/main/scala/sparkTemel/PivotTable.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/src/main/scala/sparkTemel/RDD/Transformations/Filter.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/src/main/scala/sparkTemel/RDD/Transformations/MapAndFlatMap.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/src/main/scala/sparkTemel/RDD/VeriOkuma/WordCountRDD.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/src/main/scala/sparkTemel/WordCountDataSet.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/target/test-classes/sparkTemel/PivotTable$$typecreator4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/target/test-classes/sparkTemel/PivotTable$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/target/test-classes/sparkTemel/PivotTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/target/test-classes/sparkTemel/WordCountDataSet$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/target/test-classes/sparkTemel/WordCountDataSet$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scala/target/test-classes/sparkTemel/WordCountDataSet.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="613683419">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="scala" value="5554" />
+          <entry key="txt" value="118" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="118" />
+          <entry key="Scala" value="5554" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Scala" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="scala" value="10" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1690782399">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="scala" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Scala" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="685">
+              <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataSet/WordCountDataSet.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DtasetFromTextFile.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DatasetFromTextFile.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/WordCountDataSet.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/WordCoutnRDD.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/WordCountRDD.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/PivotTable.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/Transformations/Filter.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/VeriOkuma/WordCountRDD.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Transformations/Map.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Transformations/Filter.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Transformations/MapAndFlatMap.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/VeriOkuma/SparkConfAndContext.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataSet/PivotTable.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataSet/WordCountDataSet.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="242" />
+    <option name="y" value="23" />
+    <option name="width" value="1587" />
+    <option name="height" value="988" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SparkTemel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkTemel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkTemel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkTemel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkTemel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkTemel" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536354883791" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.WordCountDataSet">
+    <configuration name="Filter" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkTemel.Transformations.Filter" />
+      <module name="scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sparkTemel.Transformations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapFlatMap" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkTemel.RDD.Transformations.MapAndFlatMap" />
+      <module name="scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sparkTemel.RDD.Transformations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PivotTable" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkTemel.DataSet.PivotTable" />
+      <module name="scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sparkTemel.RDD.VeriOkuma.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkConfAndContext" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkTemel.RDD.VeriOkuma.SparkConfAndContext" />
+      <module name="Spark-Temel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sparkTemel.RDD.VeriOkuma.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCountDataSet" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkTemel.DataSet.WordCountDataSet" />
+      <module name="Spark-Temel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sparkTemel.DataSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.PivotTable" />
+      <item itemvalue="Application.Filter" />
+      <item itemvalue="Application.MapFlatMap" />
+      <item itemvalue="Application.SparkConfAndContext" />
+      <item itemvalue="Application.WordCountDataSet" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WordCountDataSet" />
+        <item itemvalue="Application.SparkConfAndContext" />
+        <item itemvalue="Application.MapFlatMap" />
+        <item itemvalue="Application.Filter" />
+        <item itemvalue="Application.PivotTable" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="" />
+      <created>1536124249265</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536124249265</updated>
+    </task>
+    <task id="LOCAL-00001" summary="1. Commit WordcountDS ve WordCOUNTRDD eklendi">
+      <created>1536129883578</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536129883578</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2. Commit SparkTemel'e Pivot eklendi">
+      <created>1536139675865</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1536139675865</updated>
+    </task>
+    <task id="LOCAL-00003" summary="3. Commit scala SparkTemel'e RDD map flatmap ve filter eklendi">
+      <created>1536260082271</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1536260082272</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="242" y="23" width="1587" height="988" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20694171" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41520467" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32982457" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="1. Commit WordcountDS ve WordCOUNTRDD eklendi" />
+    <MESSAGE value="2. Commit SparkTemel'e Pivot eklendi" />
+    <MESSAGE value="3. Commit scala SparkTemel'e RDD map flatmap ve filter eklendi" />
+    <option name="LAST_COMMIT_MESSAGE" value="3. Commit scala SparkTemel'e RDD map flatmap ve filter eklendi" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/WordCountRDD.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/package.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/PivotTable.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Transformations/Filter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Transformations/MapAndFlatMap.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="42" column="59" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/VeriOkuma/WordCountRDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/VeriOkuma/SparkConfAndContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataSet/PivotTable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/WordCountDataSet.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="39" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataSet/WordCountDataSet.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
