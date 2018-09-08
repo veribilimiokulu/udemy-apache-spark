@@ -39,11 +39,16 @@ object Functions {
       for(i <- args){
         toplam += i
       }
-
       toplam
     }
-
     println("args ile sayilarin toplami: " + sayilariTopla(1,2,3,4,5))
+
+
+    // Fonksiyon kullanmanın farklı bir yöntemi
+    val ikiSayiTopla = (x:Int, y:Int) => x + y
+
+    println("İki sayının fonksiyon ile toplanması: " + ikiSayiTopla(5,3))
+
 
 
   }
