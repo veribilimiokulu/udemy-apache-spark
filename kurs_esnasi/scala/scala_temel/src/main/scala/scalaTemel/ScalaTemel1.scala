@@ -1,6 +1,6 @@
 package scalaTemel
 
-object ScalaTemel {
+object ScalaTemel1 {
   def main(args: Array[String]): Unit = {
     println("Merhaba Scala")
 

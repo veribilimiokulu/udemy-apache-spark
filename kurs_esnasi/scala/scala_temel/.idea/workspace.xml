@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec9f5a91-28ce-4bd6-92d5-5f28d39e1af2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/scala_temel/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/scala_temel/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/scala_temel/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/scala_temel/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaTemel/ScalaTemel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaTemel/ScalaTemel.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/scalaTemel/ScalaTemel$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/scalaTemel/ScalaTemel$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalaTemel/ScalaTemel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalaTemel/ScalaTemel1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/scalaTemel/ScalaTemel$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/scalaTemel/ScalaTemel.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,32 +24,34 @@
     <session id="-444460464">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="3" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="scala" value="2" />
+          <entry key="scala" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Scala" value="2" />
+          <entry key="Scala" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="scala" value="678" />
+          <entry key="scala" value="1133" />
+          <entry key="txt" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="678" />
+          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="Scala" value="1133" />
         </counts>
       </usages-collector>
     </session>
@@ -60,11 +67,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/scalaTemel/ScalaTemel.scala">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/scalaTemel/ScalaTemel1.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="34">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/scalaTemel/ScalaTemel2.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -86,6 +102,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/scalaTemel/ScalaTemel.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/scalaTemel/ScalaTemel2.scala" />
       </list>
     </option>
   </component>
@@ -110,7 +127,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,12 +173,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536401907064" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536404983688" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -174,9 +191,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ScalaTemel2">
     <configuration name="ScalaTemel" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scalaTemel.ScalaTemel" />
+      <option name="MAIN_CLASS_NAME" value="scalaTemel.ScalaTemel1" />
       <module name="scala_temel" />
       <extension name="coverage">
         <pattern>
@@ -188,8 +205,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ScalaTemel2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scalaTemel.ScalaTemel2" />
+      <module name="scala_temel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scalaTemel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ScalaTemel" />
+      <item itemvalue="Application.ScalaTemel2" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ScalaTemel2" />
         <item itemvalue="Application.ScalaTemel" />
       </list>
     </recent_temporary>
@@ -205,12 +240,21 @@
       <option name="presentableId" value="Default" />
       <updated>1536360053360</updated>
     </task>
+    <task id="LOCAL-00001" summary="Scala temel 1 dersi eklendi">
+      <created>1536402085497</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536402085497</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="14" width="1186" height="988" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22202487" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5124334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -219,7 +263,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32982457" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32982457" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -241,6 +285,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Scala temel 1 dersi eklendi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scala temel 1 dersi eklendi" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/scala/scalaTemel/package.scala" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -250,10 +298,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scalaTemel/ScalaTemel.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scalaTemel/ScalaTemel1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scalaTemel/ScalaTemel2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
         </state>
       </provider>
     </entry>

@@ -11,6 +11,13 @@ object Loops {
       i += 1
     }
 
+    /********************  DO WHILE DÖNGÜSÜ  ****************/
+    println("do while döngüsü")
+    do{
+      println(i)
+      i -= 1
+    } while(i > 0)
+
     /********************  FOR DÖNGÜSÜ  ****************/
     println("for döngüsü")
     for (i <- 0 to 10){ // hem 0 hem 10 dahil
@@ -47,13 +54,13 @@ object Loops {
 
 
     println("for döngüsü ile belirli kurallar uygulayarak collection oluşturmak")
-
     val tekNumaralar = for{
       i <- 1 to 30
       if(i % 2) == 1
     }yield i
 
     tekNumaralar.foreach(println)
+
 
 
   }
