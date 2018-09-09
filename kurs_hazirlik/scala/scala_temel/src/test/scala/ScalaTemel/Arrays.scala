@@ -48,6 +48,9 @@ object Arrays {
     val insanlar2 = insanlar ++ Array("Mahmut")
     insanlar2.foreach(println)
 
+
+
+
     /**************  ARRAY BUFFER ************************/
     val meyveler = ArrayBuffer[String]()
 
@@ -69,11 +72,13 @@ object Arrays {
     println(meyveler(5))
 
 
-    val sayilar = ArrayBuffer[Int]()
-    for(i <- 0 to 10){
-      sayilar(i) = i
-    }
-    println(sayilar)
+    /**************  ARRAY BUFFER ************************/
+      println("yield ile liste biriktirme ve başka bir değişkene atama")
+
+    // meyveler içinde dolaş her meyveyi bğyğk harf yap, biriktir ve meyveleBuyuk değişkenine ata
+    val meyvelerBuyuk = for(meyve <- meyveler) yield meyve.toUpperCase
+    println("meyvelerBuyuk yazdırma: ")
+    meyvelerBuyuk.foreach(println)
 
   }
 }
