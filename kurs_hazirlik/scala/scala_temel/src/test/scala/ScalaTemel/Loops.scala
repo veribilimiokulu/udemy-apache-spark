@@ -52,7 +52,6 @@ object Loops {
 
 
 
-
     println("for döngüsü ile belirli kurallar uygulayarak collection oluşturmak")
     val tekNumaralar = for{
       i <- 1 to 30
@@ -61,7 +60,12 @@ object Loops {
 
     tekNumaralar.foreach(println)
 
-
+    /********************  FOREACH DÖNGÜSÜ  ****************/
+    // meyveler listesi içinde dolaşıp her bir elemanı büyük harf yapıp yazdırmak için foreach
+    val meyveler = List("Elma","Muz","Nar","Ayva")
+    meyveler.foreach(x =>{
+      println(x.toUpperCase)
+    })
 
   }
 }

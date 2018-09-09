@@ -208,7 +208,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536481977337" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536490325708" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -222,7 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RandomNumbers">
+  <component name="RunManager" selected="Application.Loops">
     <configuration name="Arrays" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ScalaTemel.Arrays" />
       <module name="scala_temel" />
@@ -249,8 +249,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintFormatting" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ScalaTemel.PrintFormatting" />
+    <configuration name="Loops" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ScalaTemel.Loops" />
       <module name="scala_temel" />
       <extension name="coverage">
         <pattern>
@@ -289,19 +289,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PrintFormatting" />
       <item itemvalue="Application.Strings" />
       <item itemvalue="Application.Functions" />
       <item itemvalue="Application.Arrays" />
       <item itemvalue="Application.RandomNumbers" />
+      <item itemvalue="Application.Loops" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Loops" />
         <item itemvalue="Application.RandomNumbers" />
         <item itemvalue="Application.Arrays" />
         <item itemvalue="Application.Functions" />
         <item itemvalue="Application.Strings" />
-        <item itemvalue="Application.PrintFormatting" />
       </list>
     </recent_temporary>
   </component>
