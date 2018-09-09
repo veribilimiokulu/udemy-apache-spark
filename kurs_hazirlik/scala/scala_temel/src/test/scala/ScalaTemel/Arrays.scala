@@ -1,12 +1,16 @@
 package ScalaTemel
 
+import scala.collection.mutable.ArrayBuffer
+
 object Arrays {
   def main(args:Array[String]):Unit = {
 
+   /**************  ARRAY  ************************/
     /*
     Array özellikleri:
-    1. Mutable'dır. İçindeki güncelleriz.
-    2. Ancak boyutu değişmez. 20 elemanlı bir Array'a 21. eklemek için yeni bir val ile tutmak gerekir.
+    1. Muteable'dır. İçindekini güncelleriz.
+    2. Ancak boyutu değişmez. 20 elemanlı bir Array'a 21. eklemek için
+      yeni bir val ile tutmak gerekir.
 
      */
     // 20 elemanlı Int Array oluştur. Hepsine sıfır atar.
@@ -24,6 +28,11 @@ object Arrays {
       i += 1
     })
 
+    //for ile Array içini dolduralım
+    for(i <- (0 to rakamArray.length-1)){
+      rakamArray(i) = i
+      println(rakamArray(i))
+    }
     // String Array oluştur ve bir değerine yeniden atama yap
     val insanlar = Array("Ali","Osman")
     //insanlar(2) = "Mahmut" // Hata verir çünkü böyle bir indis yok
@@ -38,6 +47,33 @@ object Arrays {
     // Array'a yeni eleman ekle ve yeni bir val ile tut
     val insanlar2 = insanlar ++ Array("Mahmut")
     insanlar2.foreach(println)
+
+    /**************  ARRAY BUFFER ************************/
+    val meyveler = ArrayBuffer[String]()
+
+    // ArrayBuffer'a indis belirterek eleman ekleme
+    meyveler.insert(0,"Elma")
+    println("meyveler: " + meyveler)
+
+    // Indis belirtmeden sonuna ekleme
+    meyveler += "Portakal"
+    println("meyveler: " + meyveler)
+
+    // Array ile çoklu eleman ekleme ++'a dikkat
+    meyveler ++= Array("Muz","Armut")
+    println("meyveler: " + meyveler)
+
+    //insert metodu ile belirli bir indisten itibaren çoklu eleman ekleme
+    meyveler.insert(1,"Nar","Üzüm","Kivi","Karpuz")
+    println(meyveler)
+    println(meyveler(5))
+
+
+    val sayilar = ArrayBuffer[Int]()
+    for(i <- 0 to 10){
+      sayilar(i) = i
+    }
+    println(sayilar)
 
   }
 }
