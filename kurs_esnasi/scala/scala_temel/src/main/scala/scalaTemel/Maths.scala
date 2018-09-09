@@ -37,6 +37,6 @@ object Maths {
     /**************  MIN MAX *********/
     println("2 ve 5 küçük olan: " + min(2,5))
 
-   
+
   }
 }
