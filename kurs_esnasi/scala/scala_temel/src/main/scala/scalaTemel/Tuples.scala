@@ -1,0 +1,5 @@
+package scalaTemel
+
+object Tuples {
+
+}
