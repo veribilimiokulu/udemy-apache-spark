@@ -20,6 +20,7 @@ object RandomNumbers {
     //random Double (0 ile 1 arasında değer döner)
     println(r.nextDouble)
 
+    println(r.nextLong())
 
 
     // Seed belirleyerek çalışmaların tekrarı sağlanır
@@ -27,7 +28,8 @@ object RandomNumbers {
     println(r.nextInt(100)) // Yukarıdaki int sürekli değişirken buradaki aynı değer üretiyor
 
 
-    println(r.nextPrintableChar())
+    println("Rastgele üretilmiş bir karakter: " + r.nextPrintableChar())
+    println("Rastgele üretilmiş n uzunluğunda bir string: " + r.nextString(10))
 
   }
 }
