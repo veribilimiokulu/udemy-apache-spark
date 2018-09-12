@@ -2,11 +2,17 @@ package ScalaTemel
 
 object Lists {
   def main(args: Array[String]): Unit = {
-
+  // Immutable
 
    //Sadece tam sayılardan oluşan bir liste
     val ciftNumaralar = List(2,4,6,8,10)
     println(ciftNumaralar)
+
+    // Liste elemanına erişim
+    println("2 indisli elemana erişim: " + ciftNumaralar(2))
+
+    // Liste elemanını değiştirme
+    // ciftNumaralar(2) = 20 // hata verir çünkü immutable
 
     // Liste uzunluğu
     println("Liste uzunluğu: " + ciftNumaralar.size)
