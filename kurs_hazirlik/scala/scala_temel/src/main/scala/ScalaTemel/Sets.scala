@@ -52,6 +52,20 @@ object Sets {
     val setFromList = myList.toSet
     println("setFromList: " + setFromList)
 
+    /*************** SET OPERASYONLARI  ************/
+    println("myImmutSet2: " + myImmutSet2)
 
+    // Kesişim
+    println("Intersect" + setFromList.intersect(myImmutSet2))
+
+    // İki küme farkı
+    println("setFromList - myImmutSet2: " + setFromList.diff(myImmutSet2))
+
+    // tersini yapalım
+    println("myImmutSet2 - setFromList: " + myImmutSet2.diff(setFromList))
+
+
+    // İki küme birleşimi
+    println("İki küme birleşimi: " +myImmutSet2.union(setFromList))
   }
 }
