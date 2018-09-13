@@ -1,5 +1,15 @@
 package ScalaTemel
 
+
+
+class Selam(karsilamaSozcugu: String, bitisSozcugu: String) {
+
+  def sabah(kime: String): Unit =
+    println(karsilamaSozcugu + kime + bitisSozcugu)
+
+}
+
+
 object Classes {
   def main(args: Array[String]): Unit = {
 
