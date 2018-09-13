@@ -1,0 +1,5 @@
+package ScalaTemel
+
+object LineerCebir {
+
+}
