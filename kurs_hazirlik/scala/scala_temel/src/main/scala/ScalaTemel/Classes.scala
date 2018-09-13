@@ -3,9 +3,33 @@ package ScalaTemel
 object Classes {
   def main(args: Array[String]): Unit = {
 
-    val boncuk = new Hayvan("Kuş","cik",0.5F)
 
-    boncuk.toString()
+    val selamSabah1 = new Selam("Merhaba, ", "!")
+    selamSabah1.sabah("Turgut Amca") // Merhaba, Turgut Amca!
+
+
+    val selamSabah2 = new Selam("Güle güle ", "yine bekleriz.")
+    selamSabah2.sabah("Ayşe Teyze, ") // Merhaba, Turgut Amca!
+
+
+/************* CASE CLASS ***************/
+    case class Point(x: Int, y: Int)
+
+    val point1 = Point(1,2)
+    val point2 = Point(2,3)
+
+    if(point1 == point2) println("İki nokta eşit") else println("İki nokta eşit değil")
+
+
+    case class Ogrenci(isim:String, notu:Float)
+    val ahmet = Ogrenci("Ahmet", 89.77F)
+
+    println(s"${ahmet.isim}'in başarı notu: ${ahmet.notu}.")
+
+    case class Calisan(isim:String="İsim yok", unvan:String="İsim Yok", maas:Int=3000)
+    val sevda = Calisan("Sevda","Analist", 5000)
+
+    println(s"${sevda.isim}, ${sevda.unvan} pozisyonunda aylık ${sevda.maas} TL maaş ile çalışıyor.")
 
   }
 }

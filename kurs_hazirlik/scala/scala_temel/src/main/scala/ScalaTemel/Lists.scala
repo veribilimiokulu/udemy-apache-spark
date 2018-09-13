@@ -24,11 +24,19 @@ object Lists {
     val karisikListe = List(1,2,3.3,5.50,false, "Gelin","Görümce","Elti")
     println(karisikListe)
 
-    // 8'den büyük olanları filtrele
-    println("8'den büyük olanları filtrele: " + ciftNumaralar.filter(8<))
+   // 8'den büyük olanları filtrele
 
-    // %'ten küçük olanlar
-    println("5'ten küçük olanları filtrele: " + ciftNumaralar.filter(5>))
+   println("8'den büyük olanları filtrele: " + ciftNumaralar.filter(x => x < 8))
+   println("8'den büyük olanları filtrele: " + ciftNumaralar.filter(_ > 8))
+
+
+   // 5'ten küçük olanlar
+   println("5'ten küçük olanları filtrele: " + ciftNumaralar.filter(x => x < 5))
+   println("5'ten küçük olanları filtrele: " + ciftNumaralar.filter(_ < 5))
+
+
+   //5'ten küçük olanlara başka bir operasyon daha yapalım
+   println("5'ten küçük olanları 10 ile çarp: " + ciftNumaralar.filter(_ < 5).map(_*10))
 
     // Liste toplamı
     println("Liste toplamı: " + ciftNumaralar.sum)
