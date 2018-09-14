@@ -15,7 +15,9 @@ object WordCountRDD {
       .config("spark.driver.memory","2g")
       .getOrCreate()
 
-    val hikayeRDD = spark.sparkContext.textFile("C:/Users/toshiba/SkyDrive/veribilimi.co/udemy-apache-spark/data/omer_seyfettin_forsa_hikaye.txt")
+    val sc = spark.sparkContext
+
+    val hikayeRDD = sc.textFile("C:/Users/toshiba/SkyDrive/veribilimi.co/udemy-apache-spark/data/omer_seyfettin_forsa_hikaye.txt")
     println(hikayeRDD.count())
 
     val kelimeler = hikayeRDD.flatMap(kelime => kelime.split(" "))
