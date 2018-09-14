@@ -222,11 +222,11 @@
       </method>
     </configuration>
     <configuration name="MapFlatMap" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkTemel.RDD.Transformations.MapAndFlatMap" />
-      <module name="scala" />
+      <option name="MAIN_CLASS_NAME" value="sparkTemel.RDD.MapAndFlatMap" />
+      <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sparkTemel.RDD.Transformations.*" />
+          <option name="PATTERN" value="sparkTemel.RDD.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,11 +248,11 @@
       </method>
     </configuration>
     <configuration name="SparkConfAndContext" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkTemel.RDD.VeriOkuma.SparkConfAndContext" />
+      <option name="MAIN_CLASS_NAME" value="sparkTemel.RDD.SparkConfAndContext" />
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sparkTemel.RDD.VeriOkuma.*" />
+          <option name="PATTERN" value="sparkTemel.RDD.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,11 +261,11 @@
       </method>
     </configuration>
     <configuration name="WordCountDataSet" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkTemel.DataSet.WordCountDataSet" />
+      <option name="MAIN_CLASS_NAME" value="sparkTemel.DataFrameDataSet.WordCountDataSet" />
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sparkTemel.DataSet.*" />
+          <option name="PATTERN" value="sparkTemel.DataFrameDataSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

@@ -1,8 +1,7 @@
-package sparkTemel.RDD.Transformations
+package sparkTemel.RDD
 
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark.sql.SparkSession
-import org.apache.spark.{SparkContext, SparkConf}
+import org.apache.spark.{SparkConf, SparkContext}
 
 object Filter {
   def main(args: Array[String]): Unit = {

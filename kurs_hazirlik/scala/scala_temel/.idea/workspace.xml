@@ -1,71 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a7dbc2e-3ec5-4a0b-a7fc-687c5b94d6c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/ScalaTemel/Odev.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Arrays$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Arrays$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Arrays$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Arrays$$anonfun$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Arrays$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Arrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Classes$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Classes$Calisan$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Classes$Calisan$4$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Classes$Ogrenci$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Classes$Ogrenci$4$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Classes$Point$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Classes$Point$4$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Classes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Conditionals$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Conditionals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/DataTypes$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/DataTypes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Functions$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Functions$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Functions$$anonfun$sayilariTopla$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Functions$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Functions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Lists$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Lists$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Lists$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Lists$$anonfun$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Lists$$anonfun$main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Lists$$anonfun$main$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Lists$$anonfun$main$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Lists$$anonfun$main$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Lists$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Lists.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Loops$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Loops$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Loops$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Loops$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Loops$$anonfun$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Loops$$anonfun$main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Loops$$anonfun$main$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Loops$$anonfun$main$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Loops$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Loops.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Maps$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Maps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Maths$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Maths.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/PrintFormatting$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/PrintFormatting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/RandomNumbers$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/RandomNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Selam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Sets$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Sets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Strings$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Strings$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Strings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Tuples$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Tuples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0a7dbc2e-3ec5-4a0b-a7fc-687c5b94d6c4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,7 +14,7 @@
     <session id="1174369202">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="11" />
           <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.10" value="1" />
@@ -325,7 +261,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536901264100" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536902760304" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
@@ -495,7 +431,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3292978" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32603937" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.29431072" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.29431072" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />

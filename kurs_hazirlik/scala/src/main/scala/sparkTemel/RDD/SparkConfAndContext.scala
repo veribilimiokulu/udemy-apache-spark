@@ -1,6 +1,6 @@
-package sparkTemel.RDD.VeriOkuma
-import org.apache.spark.{SparkConf, SparkContext}
+package sparkTemel.RDD
 
+import org.apache.spark.{SparkConf, SparkContext}
 
 object SparkConfAndContext {
   def main(args: Array[String]): Unit = {
