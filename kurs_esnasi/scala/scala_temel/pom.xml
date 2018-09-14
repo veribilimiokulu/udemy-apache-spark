@@ -44,6 +44,11 @@
             <artifactId>scalatest_2.11</artifactId>
             <version>3.0.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.scalanlp</groupId>
+            <artifactId>breeze_2.11</artifactId> <!-- or 2.11 -->
+            <version>0.13.2</version>
+        </dependency>
     </dependencies>
     <build>
         <sourceDirectory>src/main/scala</sourceDirectory>

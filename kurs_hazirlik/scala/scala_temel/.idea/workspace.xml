@@ -2,83 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a7dbc2e-3ec5-4a0b-a7fc-687c5b94d6c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/ScalaTemel/VectorOps.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ScalaTemel/Odev.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Arrays$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Arrays$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Arrays$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Arrays$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Arrays$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Arrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Classes$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Classes$Calisan$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Classes$Calisan$4$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Classes$Ogrenci$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Classes$Ogrenci$4$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Classes$Point$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Classes$Point$4$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Classes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Conditionals$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Conditionals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/DataTypes$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/DataTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Functions$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Functions$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Functions$$anonfun$sayilariTopla$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Functions$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Functions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Lists$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Lists$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Lists$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Lists$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Lists$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Lists$$anonfun$main$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Lists$$anonfun$main$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Lists$$anonfun$main$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Lists$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Lists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Loops$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Loops$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Loops$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Loops$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Loops$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Loops$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Loops$$anonfun$main$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Loops$$anonfun$main$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Loops$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Loops.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Maps$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Maps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Maths$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Maths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/PrintFormatting$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/PrintFormatting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/RandomNumbers$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/RandomNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Selam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Sets$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Sets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Strings$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Strings$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Strings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Tuples$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/scala_temel/target/test-classes/scalaTemel/Tuples.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ScalaTemel/00_DersSıralaması" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ScalaTemel/00_DersSıralaması" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ScalaTemel/LineerCebir.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ScalaTemel/MatrixOps.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Arrays$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Arrays$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Arrays$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Arrays$$anonfun$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Arrays$$anonfun$main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Arrays$$anonfun$main$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Arrays$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Arrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Classes$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Classes$Calisan$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Classes$Calisan$4$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Classes$Ogrenci$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Classes$Ogrenci$4$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Classes$Point$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Classes$Point$4$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Classes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Conditionals$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Conditionals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/DataTypes$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/DataTypes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Functions$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Functions$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Functions$$anonfun$sayilariTopla$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Functions$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Functions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Lists$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Lists$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Lists$$anonfun$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Lists$$anonfun$main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Lists$$anonfun$main$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Lists$$anonfun$main$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Lists$$anonfun$main$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Lists$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Lists.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Loops$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Loops$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Loops$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Loops$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Loops$$anonfun$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Loops$$anonfun$main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Loops$$anonfun$main$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Loops$$anonfun$main$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Loops$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Loops.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Maps$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Maps$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Maps$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Maps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Maths$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Maths.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/PrintFormatting$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/PrintFormatting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/RandomNumbers$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/RandomNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Selam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Sets$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Sets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Strings$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Strings$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Strings$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Strings$$anonfun$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Strings$$anonfun$main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Strings$$anonfun$main$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Strings$$anonfun$main$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Strings$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Strings$Ogrenci$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Strings$Ogrenci$4$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Strings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Tuples$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScalaTemel/Tuples.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,13 +78,13 @@
     <session id="1174369202">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="11" />
-          <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -106,21 +92,21 @@
           <entry key="00_DersSıralaması" value="1" />
           <entry key="DersSıralaması" value="1" />
           <entry key="sc" value="1" />
-          <entry key="scala" value="29" />
+          <entry key="scala" value="32" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Scala" value="30" />
+          <entry key="Scala" value="33" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="00_DersSıralaması" value="180" />
-          <entry key="scala" value="21463" />
+          <entry key="scala" value="22887" />
           <entry key="txt" value="131" />
           <entry key="xml" value="59" />
         </counts>
@@ -128,10 +114,11 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="311" />
-          <entry key="Scala" value="21463" />
+          <entry key="Scala" value="22887" />
           <entry key="XML" value="59" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
@@ -139,7 +126,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/Sets.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
+            <state relative-caret-position="221">
               <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
             </state>
           </provider>
@@ -154,7 +141,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/VectorOps.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -166,11 +153,38 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/Odev.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="60" column="96" selection-start-line="60" selection-start-column="96" selection-end-line="60" selection-end-column="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/Maps.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/Maths.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/MatrixOps.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+            <state relative-caret-position="714">
+              <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
               <folding>
                 <element signature="e#20#44#0" expanded="true" />
               </folding>
@@ -190,7 +204,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="801">
+            <state relative-caret-position="952">
               <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
             </state>
           </provider>
@@ -243,6 +257,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/ScalaTemel/MatrixOps.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ScalaTemel/VectorOps.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ScalaTemel/Odev.scala" />
       </list>
     </option>
   </component>
@@ -254,9 +269,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-5" />
-    <option name="width" value="1112" />
-    <option name="height" value="959" />
+    <option name="x" value="21" />
+    <option name="y" value="17" />
+    <option name="width" value="1463" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -266,7 +282,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -304,12 +322,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536865600095" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536901264100" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
@@ -324,7 +340,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LineerCebir">
+  <component name="RunManager" selected="Application.Odev">
     <configuration name="Classes" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ScalaTemel.Classes" />
       <module name="scala_temel" />
@@ -364,12 +380,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sets" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ScalaTemel.Sets" />
+    <configuration name="Odev" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ScalaTemel.Odev" />
       <module name="scala_temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ScalaTemel.VectorOps" />
+          <option name="PATTERN" value="ScalaTemel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -392,18 +408,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Classes" />
-      <item itemvalue="Application.Sets" />
       <item itemvalue="Application.Strings" />
       <item itemvalue="Application.LineerCebir" />
       <item itemvalue="Application.MatrixOps" />
+      <item itemvalue="Application.Odev" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Odev" />
         <item itemvalue="Application.LineerCebir" />
         <item itemvalue="Application.MatrixOps" />
         <item itemvalue="Application.Classes" />
         <item itemvalue="Application.Strings" />
-        <item itemvalue="Application.Sets" />
       </list>
     </recent_temporary>
   </component>
@@ -459,10 +475,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="0" width="1112" height="959" extended-state="0" />
+    <frame x="21" y="17" width="1463" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18536122" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2259444" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -478,8 +494,8 @@
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.26513317" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3292978" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32687652" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.42251816" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32603937" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.29431072" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -505,13 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="97" column="74" selection-start-line="97" selection-start-column="74" selection-end-line="97" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/Maths.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
@@ -546,13 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/Maps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/Tuples.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -581,24 +583,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/Classes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/00_DersSıralaması">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/Sets.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -609,17 +597,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/RandomNumbers.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/Classes.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/MatrixOps.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        <state relative-caret-position="714">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
           <folding>
             <element signature="e#20#44#0" expanded="true" />
           </folding>
@@ -628,7 +616,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
+        <state relative-caret-position="952">
           <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
         </state>
       </provider>
@@ -640,6 +628,41 @@
           <folding>
             <element signature="e#274#295#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/Maths.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/Sets.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/Maps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/RandomNumbers.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/Odev.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="60" column="96" selection-start-line="60" selection-start-column="96" selection-end-line="60" selection-end-column="96" />
         </state>
       </provider>
     </entry>
