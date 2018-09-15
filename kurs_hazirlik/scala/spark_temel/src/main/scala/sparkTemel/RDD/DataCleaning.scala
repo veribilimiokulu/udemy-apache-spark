@@ -21,11 +21,11 @@ object DataCleaning {
     val sc = spark.sparkContext
 
     // Veri okuma
-    val retailRDD = sc.textFile("C:\\Users\\toshiba\\SkyDrive\\veribilimi.co\\Datasets\\OnlineRetail.csv")
+    val retailRDD = sc.textFile("C:\\Users\\toshiba\\SkyDrive\\veribilimi.co\\Datasets\\OnlineRetail_Old.csv")
 
     // Okunan veriye göz atma
     //retailRDD.take(5).foreach(println)
-
+/*
     /***************** HEADER'DAN KURTULMA  *****************************/
     val firstline = retailRDD.first().split(";").toArray
     // firstline: Array[String] = Array(InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country)
@@ -39,7 +39,7 @@ object DataCleaning {
     println()
     //retailRDDWithoutHeader.take(5).foreach(println)
 
-
+*/
     /***************** VERİ TEMİZLİĞİ  *****************************/
   def verimiTemizle(line:String):String={
     // InvoiceNo;StockCode;Description;Quantity;InvoiceDate;UnitPrice;CustomerID;Country
@@ -69,7 +69,7 @@ object DataCleaning {
     sonuc
   }
 
-    val temizRetailRDD = retailRDDWithoutHeader.map(x => verimiTemizle(x))
+    val temizRetailRDD = retailRDD.map(x => verimiTemizle(x))
 
     println()
     //temizRetailRDD.take(5).foreach(println)
@@ -86,8 +86,10 @@ object DataCleaning {
     */
 
     // Miktarı 10'dan küçük olanları filtrele
-    temizRetailRDD.filter(x => x.split(";")(3).toInt < 10).take(10).foreach(println)
+    //temizRetailRDD.filter(x => x.split(";")(3).toInt < 10).take(10).foreach(println)
 
-    temizRetailRDD.coalesce(1).saveAsTextFile("C:\\Users\\toshiba\\SkyDrive\\veribilimi.co\\Datasets\\OnlineRetailClean")
+    temizRetailRDD
+      .coalesce(1)
+      .saveAsTextFile("C:\\Users\\toshiba\\SkyDrive\\veribilimi.co\\Datasets\\OnlineRetailClean")
   }
 }

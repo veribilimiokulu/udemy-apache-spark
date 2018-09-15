@@ -30,26 +30,37 @@ object Filter {
   (idx, iter) => if (idx == 0) iter.drop(1) else iter
 )
     //başlıksız satır sayısı
-    println("Başlıksız satır sayısı: "+ retailRDDWithHeader.count())
+    println("Başlıksız satır sayısı: "+ retailRDD.count())
 
 
-    println(" \n \n")
-
-    val adultSplittedRDD = retailRDDWithHeader.map(line => line.split(";"))
-    println(adultSplittedRDD.take(5))
-
+    /************** FİLTRELEME ÖRNEKLERİ  ************************************/
     println(" \n \n")
     println("**********  Birim fiyatı 30'dan küçük olanları filtrele   **************")
-    adultRDD.filter(line => line.split(",")(0).toInt < 30).take(5).foreach(println)
+    retailRDD.filter(line => line.split(";")(3).toInt > 30).take(5).foreach(println)
+
 
     println(" \n \n")
-    println("********** Yaşı 30'dan küçük, fnlwgt 10000'den büyük US uyrukluları filtrele   **************")
-    adultRDD.filter(line =>
-        line.split(",")(0).toInt < 30 && //Yaşı 30'dan küçükler
-          line.split(",")(2).trim().toInt > 10000 &&  // fnlwgt 10000'den büyükler
-          line.split(",")(13).trim.equals("United-States")) // Uyruk US olanlar
+    println("********** Ürün tanımı içinde COFFEE geçenleri ve birim fiyatı 20.0'den büyükleri filtrele   **************")
+    retailRDD.filter(line =>
+        line.split(";")(2).contains("COFFEE") && // COFFEE geçen ürünler (Description)
+        line.split(";")(5).trim() // Birim fiyat (UnitPrice)
+          .replace(",",".") // Floata çevirmeden önce , ile . yer değiştir.
+          .toFloat > 20.0 ) // Float a çevir ve birim fiyatı 20'den büyükleri filtrele
       .take(10).foreach(println)  // sadece 10 tanesini getir bakalım
 
+
+    println(" \n \n")
+    println("********** Fonksiyon ile Ürün tanımı içinde COFFEE geçenleri ve birim fiyatı 20.0'den büyükleri filtrele   **************")
+
+    def coffeePrice20(line:String):Boolean={
+
+      var coffee = line.split(";")(2)
+      var unitPrice = line.split(";")(5).trim.replace(",",".").toFloat
+
+      return coffee.contains("COFFEE") && unitPrice > 20.0
+    }
+
+    retailRDD.filter(x=>coffeePrice20(x)).take(5).foreach(println)
 
   }
 }
