@@ -15,31 +15,31 @@ object Filter {
     println("/************************** RDD Transformations filter() ************************************/")
 
 
-    val adultRDDWithHeader = sc.textFile("C:\\Users\\toshiba\\SkyDrive\\veribilimi.co\\Datasets\\adult_dataset\\adult.data")
+    val retailRDDWithHeader = sc.textFile("C:\\Users\\toshiba\\SkyDrive\\veribilimi.co\\Datasets\\OnlineRetail.csv")
 
     println("RDD ham hali")
-    adultRDDWithHeader.take(5).foreach(println)
+    retailRDDWithHeader.take(5).foreach(println)
 
 
     //başlıkla beraber satır sayısı
-    println("Başlıkla beraber satır sayısı: "+ adultRDDWithHeader.count())
+    println("Başlıkla beraber satır sayısı: "+ retailRDDWithHeader.count())
 
 
     // Başlıktan kurtulalım
-    val adultRDD = adultRDDWithHeader.mapPartitionsWithIndex(
+    val retailRDD = retailRDDWithHeader.mapPartitionsWithIndex(
   (idx, iter) => if (idx == 0) iter.drop(1) else iter
 )
     //başlıksız satır sayısı
-    println("Başlıksız satır sayısı: "+ adultRDD.count())
+    println("Başlıksız satır sayısı: "+ retailRDDWithHeader.count())
 
 
     println(" \n \n")
 
-    val adultSplittedRDD = adultRDD.map(line => line.split(","))
+    val adultSplittedRDD = retailRDDWithHeader.map(line => line.split(";"))
     println(adultSplittedRDD.take(5))
 
     println(" \n \n")
-    println("**********  Age 30'dan küçük olanları filtrele   **************")
+    println("**********  Birim fiyatı 30'dan küçük olanları filtrele   **************")
     adultRDD.filter(line => line.split(",")(0).toInt < 30).take(5).foreach(println)
 
     println(" \n \n")
