@@ -7,39 +7,54 @@ object MapAndFlatMap {
   def main(args: Array[String]): Unit = {
     Logger.getLogger("org").setLevel(Level.ERROR)
 
-    println("RDD map() ve flatMap() transformation örneği")
-
     val conf = new SparkConf().setAppName("sparkTemelRDD").setMaster("local[4]")
     val sc = new SparkContext(conf)
 
 
     // RDD okuma
-    val adultRDDWithHeader = sc.textFile("C:\\Users\\toshiba\\SkyDrive\\veribilimi.co\\Datasets\\adult_dataset\\adult.data")
-
-    println("RDD ham hali")
-    adultRDDWithHeader.take(5).foreach(println)
+    val retailRDD = sc.textFile("C:\\Users\\toshiba\\SkyDrive\\veribilimi.co\\Datasets\\OnlineRetail.csv")
+        .filter(!_.contains("InvoiceNo")) // Başlık satırını atla
 
 
-    //başlıkla beraber satır sayısı
-    println("Başlıkla beraber satır sayısı: "+ adultRDDWithHeader.count())
+    println("\n \n ******************* MAP *****************************************")
+    // Quantity ile Unit price çarparak işlem tutarını bulmak ve InvoiceNo'dan C harflerini bularak yeni bir sütunda
+    // işlemin iptal olup olmadığını boolean olarak yazmak
+    val retailMapPriceRDD = retailRDD.map(line => {
+      val invoiceNo = line.split(";")(0).takeRight(6).toInt // iptaller için c olduğundan onları atlıyoruz
+      val isCancelled = if(line.split(";")(0).startsWith("C")) true else false
+      val total = line.split(";")(3).toInt * line.split(";")(5).replace(",",".").toDouble
+
+      invoiceNo+";"+total+";"+isCancelled
+    })
+    println("retailMapPriceRDD:")
+    retailMapPriceRDD.take(10).foreach(println)
+
+    println("\nİptal olanları filtreleme")
+    retailMapPriceRDD.filter(x=> x.split(";")(2) == "true").take(10).foreach(println)
+
+    println("\nİptal olanların sayısı: \n" + retailMapPriceRDD.filter(x=> x.split(";")(2) == "true").count())
 
 
-    // Başlıktan kurtulalım
-    val adultRDD = adultRDDWithHeader.mapPartitionsWithIndex(
-      (idx, iter) => if (idx == 0) iter.drop(1) else iter
-    )
-    //başlıksız satır sayısı
-    println("Başlıksız satır sayısı: "+ adultRDD.count())
-
-    println(" \n \n")
-    val adultMapSplittedRDD = adultRDD.map(line => line.split(","))
-    println("map splitted satır sayısı: " + adultMapSplittedRDD.count())
+    println("map splitted satır sayısı: " + retailMapPriceRDD.count())
 
 
-    val adultFlatMapSplittedRDD = adultRDD.flatMap(x => x.split(","))
-    println("flatMap splitted satır sayısı: " + adultFlatMapSplittedRDD.count())
 
 
-    val somOfCols = adultRDD.map(line => line.split(",")(1))
+
+    println("\n \n ******************* FLATMAP *****************************************")
+    val retailFlatMapSplittedRDD = retailRDD.flatMap(x => x.split(";"))
+    println("flatMap splitted satır sayısı: " + retailFlatMapSplittedRDD.count())
+    retailFlatMapSplittedRDD.take(10).foreach(println)
+
+
+    println()
+    val retailFlatMapToUpperRDD = retailRDD.flatMap(x => x.split(";")).map(x=>x.toUpperCase)
+    println("retailFlatMapToUpperRDD")
+    retailFlatMapToUpperRDD.take(10).foreach(println)
+
+
+
+
+
   }
 }
