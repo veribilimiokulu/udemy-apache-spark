@@ -38,8 +38,12 @@ object MapAndFlatMap {
     println("map splitted satır sayısı: " + retailMapPriceRDD.count())
 
 
+    println("\n \n ******************* MAPPARTITIONSWITHINDEX *****************************************")
 
-
+    val mapPartWithIndexRDD = retailMapPriceRDD.mapPartitionsWithIndex(
+      (id,iter) => if(id >= 0) iter else iter
+    )
+    mapPartWithIndexRDD.take(5).foreach(println)
 
     println("\n \n ******************* FLATMAP *****************************************")
     val retailFlatMapSplittedRDD = retailRDD.flatMap(x => x.split(";"))
