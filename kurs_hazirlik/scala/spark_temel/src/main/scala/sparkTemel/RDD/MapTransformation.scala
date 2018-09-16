@@ -3,7 +3,7 @@ package sparkTemel.RDD
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.{SparkConf, SparkContext}
 
-object MapAndFlatMap {
+object MapTransformation {
   def main(args: Array[String]): Unit = {
     Logger.getLogger("org").setLevel(Level.ERROR)
 
@@ -34,21 +34,6 @@ object MapAndFlatMap {
     retailMapPriceRDD.filter(x=> x.split(";")(2) == "true").take(10).foreach(println)
 
     println("\nİptal olanların sayısı: \n" + retailMapPriceRDD.filter(x=> x.split(";")(2) == "true").count())
-
-
-
-
-
-    println("\n \n ******************* FLATMAP *****************************************")
-    val retailFlatMapSplittedRDD = retailRDD.flatMap(x => x.split(";"))
-    println("flatMap splitted satır sayısı: " + retailFlatMapSplittedRDD.count())
-    retailFlatMapSplittedRDD.take(10).foreach(println)
-
-
-    println("flatMap ile her kelimeyi büyük harf yapma: ")
-    val retailFlatMapToUpperRDD = retailRDD.flatMap(x => x.split(";")).map(x=>x.toUpperCase)
-    println("retailFlatMapToUpperRDD")
-    retailFlatMapToUpperRDD.take(2).foreach(println)
 
 
 

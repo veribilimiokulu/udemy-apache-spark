@@ -379,7 +379,7 @@
       </method>
     </configuration>
     <configuration name="MapAndFlatMap" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkTemel.RDD.MapAndFlatMap" />
+      <option name="MAIN_CLASS_NAME" value="sparkTemel.RDD.MapTransformation" />
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>

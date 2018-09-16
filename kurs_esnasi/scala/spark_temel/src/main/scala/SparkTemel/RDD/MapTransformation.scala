@@ -9,7 +9,7 @@ object MapTransformation {
 
     val conf = new SparkConf().setAppName("sparkTemelRDD").setMaster("local[4]")
     val sc = new SparkContext(conf)
-    
+
 
 
   }
