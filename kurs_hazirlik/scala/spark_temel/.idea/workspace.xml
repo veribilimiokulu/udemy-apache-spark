@@ -5,17 +5,6 @@
       <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../scala_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala_temel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/MapAndFlatMap.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/MapAndFlatMap.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$main$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$main$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$main$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$main$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$main$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$main$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,7 +88,7 @@
     <session id="586853202">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.9" value="1" />
@@ -109,10 +98,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="scala" value="5456" />
+          <entry key="txt" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="PLAIN_TEXT" value="70" />
           <entry key="Scala" value="5456" />
         </counts>
       </usages-collector>
@@ -169,8 +160,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/MapAndFlatMap.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
+            <state relative-caret-position="617">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -335,7 +326,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537078740156" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537078789586" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Datasets/OnlineRetail.csv" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
@@ -466,12 +457,25 @@
       <option name="project" value="LOCAL" />
       <updated>1536260082272</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Scala SparkTemel MapAndFlatMap'e iptal edilen tutarları hesaplama eklendi">
+      <created>1537078728987</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1537078728987</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Scala SparkTemel MapAndFlatMap'e iptal edilen tutarları hesaplama eklendi">
+      <created>1537078761268</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1537078761268</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1385" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="73" y="0" width="1385" height="954" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19622642" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -482,7 +486,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3654267" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3654267" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -513,7 +517,8 @@
     <MESSAGE value="1. Commit WordcountDS ve WordCOUNTRDD eklendi" />
     <MESSAGE value="2. Commit SparkTemel'e Pivot eklendi" />
     <MESSAGE value="3. Commit scala SparkTemel'e RDD map flatmap ve filter eklendi" />
-    <option name="LAST_COMMIT_MESSAGE" value="3. Commit scala SparkTemel'e RDD map flatmap ve filter eklendi" />
+    <MESSAGE value="Scala SparkTemel MapAndFlatMap'e iptal edilen tutarları hesaplama eklendi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scala SparkTemel MapAndFlatMap'e iptal edilen tutarları hesaplama eklendi" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/WordCountRDD.scala" />
@@ -610,8 +615,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/MapAndFlatMap.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
+        <state relative-caret-position="617">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
