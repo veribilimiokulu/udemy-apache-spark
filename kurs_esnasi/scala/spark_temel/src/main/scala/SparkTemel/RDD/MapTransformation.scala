@@ -3,7 +3,7 @@ package SparkTemel.RDD
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.{SparkConf, SparkContext}
 
-object MapAndFlatMap {
+object MapTransformation {
   def main(args: Array[String]): Unit = {
     Logger.getLogger("org").setLevel(Level.ERROR)
 

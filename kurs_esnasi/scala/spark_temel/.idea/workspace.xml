@@ -168,7 +168,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537102042917" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537103238024" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Datasets/OnlineRetail.csv" />
   </component>
   <component name="RunDashboard">
@@ -198,7 +198,7 @@
       </method>
     </configuration>
     <configuration name="MapAndFlatMap" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="SparkTemel.RDD.MapAndFlatMap" />
+      <option name="MAIN_CLASS_NAME" value="SparkTemel.RDD.MapTransformation" />
       <module name="spark_temel" />
       <extension name="coverage">
         <pattern>
