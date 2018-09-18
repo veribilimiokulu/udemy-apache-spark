@@ -12,7 +12,7 @@ object FlatMapTransformation {
 
 
     // RDD okuma
-    val retailRDD = sc.textFile("C:\\Users\\toshiba\\SkyDrive\\veribilimi.co\\Datasets\\OnlineRetail.csv")
+      val retailRDD = sc.textFile("C:\\Users\\toshiba\\SkyDrive\\veribilimi.co\\Datasets\\OnlineRetail.csv")
       .filter(!_.contains("InvoiceNo")) // Başlık satırını atla
 
 
