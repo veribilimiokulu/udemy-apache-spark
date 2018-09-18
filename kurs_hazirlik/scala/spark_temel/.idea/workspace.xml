@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/FlatMapTransformation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/FlatMapTransformation.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$main$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$main$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$main$12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$main$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$main$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$main$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$main$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$$anonfun$main$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$TotalCancelledPrice$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap$TotalCancelledPrice$4$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/MapAndFlatMap.class" beforeDir="false" />
-    </list>
+    <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,7 +84,7 @@
     <session id="586853202">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.11" value="1" />
@@ -119,14 +94,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="scala" value="6369" />
+          <entry key="scala" value="6385" />
           <entry key="txt" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="70" />
-          <entry key="Scala" value="6369" />
+          <entry key="Scala" value="6385" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -206,8 +181,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CountByValue.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="27" column="92" selection-start-line="27" selection-start-column="92" selection-end-line="27" selection-end-column="92" />
+            <state relative-caret-position="637">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="e#23#62#0" expanded="true" />
               </folding>
@@ -375,7 +350,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537263266716" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537263301494" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Datasets/OnlineRetail.csv" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
@@ -536,7 +511,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36540803" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36540803" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -544,7 +519,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.39829478" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32932165" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32886723" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -685,8 +660,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CountByValue.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="27" column="92" selection-start-line="27" selection-start-column="92" selection-end-line="27" selection-end-column="92" />
+        <state relative-caret-position="637">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#23#62#0" expanded="true" />
           </folding>
