@@ -16,10 +16,10 @@ object PairRDDOps {
 
     // Mesleklere göre ortalama kazançları bulma
     def meslekMaas(line:String) ={
-      val sehir = line.split(",")(3)
+      val meslek = line.split(",")(3)
       val maas = line.split(",")(5).toDouble
 
-      (sehir, maas)
+      (meslek, maas)
     }
 
 
