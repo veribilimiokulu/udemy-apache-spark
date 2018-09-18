@@ -12,21 +12,16 @@ object FlatMapTransformation {
 
 
     // RDD okuma
-      val retailRDD = sc.textFile("C:\\Users\\toshiba\\SkyDrive\\veribilimi.co\\Datasets\\OnlineRetail.csv")
-      .filter(!_.contains("InvoiceNo")) // Başlık satırını atla
+      val insanlarRDD = sc.textFile("C:\\Users\\toshiba\\SkyDrive\\veribilimi.co\\Datasets\\simple_data.csv")
+      .filter(!_.contains("sirano")) // Başlık satırını atla
 
+    //insanlarRDD.take(10).foreach(println)
 
-    println("\n \n ******************* FLATMAP *****************************************")
-    val retailFlatMapSplittedRDD = retailRDD.flatMap(x => x.split(";"))
-    println("flatMap splitted satır sayısı: " + retailFlatMapSplittedRDD.count())
-    retailFlatMapSplittedRDD.take(10).foreach(println)
+    println("\nmap(): \n")
+    insanlarRDD.map(x => x.split(",")).take(2).foreach(println)
 
-
-    println("flatMap ile her kelimeyi büyük harf yapma: ")
-    val retailFlatMapToUpperRDD = retailRDD.flatMap(x => x.split(";")).map(x=>x.toUpperCase)
-    println("retailFlatMapToUpperRDD")
-    retailFlatMapToUpperRDD.take(2).foreach(println)
-
+    println("\nflatMap(): \n")
+    insanlarRDD.flatMap(x => x.split(",")).take(10).foreach(println)
 
   }
 }
