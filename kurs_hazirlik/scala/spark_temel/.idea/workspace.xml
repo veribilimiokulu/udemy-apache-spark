@@ -84,35 +84,35 @@
     <session id="586853202">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.0" value="5" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="scala" value="5456" />
+          <entry key="scala" value="5469" />
           <entry key="txt" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="70" />
-          <entry key="Scala" value="5456" />
+          <entry key="Scala" value="5469" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="1" />
-          <entry key="scala" value="4" />
+          <entry key="scala" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Scala" value="4" />
+          <entry key="Scala" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -132,7 +132,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/DataCleaning.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="340">
               <caret line="20" column="31" selection-start-line="11" selection-start-column="4" selection-end-line="20" selection-end-column="31" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
@@ -144,7 +144,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/WordCountRDD.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="425">
               <caret line="25" column="72" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="72" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
@@ -153,11 +153,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/MapAndFlatMap.scala">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/MapTransformation.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="289">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="e#24#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/FlatMapTransformation.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -168,7 +180,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/RDDOlusturmak.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
+            <state relative-caret-position="1326">
               <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
@@ -189,7 +201,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Join.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="306">
               <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
@@ -247,6 +259,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/RDDOlusturmak.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Join.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/MapAndFlatMap.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/MapTransformation.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/FlatMapTransformation.scala" />
       </list>
     </option>
   </component>
@@ -322,7 +336,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537078789586" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537103592843" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Datasets/OnlineRetail.csv" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
@@ -473,7 +487,7 @@
   <component name="ToolWindowManager">
     <frame x="73" y="0" width="1385" height="954" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19924529" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20226415" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -557,7 +571,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/DataCleaning.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="340">
           <caret line="20" column="31" selection-start-line="11" selection-start-column="4" selection-end-line="20" selection-end-column="31" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
@@ -567,7 +581,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/WordCountRDD.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="425">
           <caret line="25" column="72" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="72" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
@@ -577,7 +591,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/RDDOlusturmak.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
+        <state relative-caret-position="1326">
           <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
@@ -594,7 +608,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Join.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="306">
           <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
@@ -609,10 +623,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/MapAndFlatMap.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/MapTransformation.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="289">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/FlatMapTransformation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>

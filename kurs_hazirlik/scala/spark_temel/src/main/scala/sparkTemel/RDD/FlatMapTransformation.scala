@@ -27,6 +27,6 @@ object FlatMapTransformation {
     println("retailFlatMapToUpperRDD")
     retailFlatMapToUpperRDD.take(2).foreach(println)
 
-    
+
   }
 }
