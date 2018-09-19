@@ -8,7 +8,8 @@ object groupBy {
     Logger.getLogger("org").setLevel(Level.ERROR)
 
     val sc = new SparkContext("local[4]","groupBy")
-println("\nrakamlarRDD")
+
+    println("\nrakamlarRDD")
     val rakamlarRDD = sc.makeRDD(List(1,2,1,4,2,3,4,1,5,3,4,2,3,4,4)) // org.apache.spark.rdd.RDD[Int]
     rakamlarRDD.take(10).foreach(println)
 
@@ -17,9 +18,11 @@ println("\nrakamlarRDD")
     rakamlarGroupBy.foreach(println)
 
 
-    println("\nrakamlarGBK")
-    val rakamlarGBK = rakamlarGroupBy.groupByKey() //  org.apache.spark.rdd.RDD[(Int, Iterable[Int])]
-    rakamlarGBK.foreach(println)
+    println("\nrakamlarCBV")
+    val rakamlarCBV = rakamlarRDD.countByValue() //  org.apache.spark.rdd.RDD[(Int, Iterable[Int])]
+    rakamlarCBV.foreach(println)
+
+
 
 
   }

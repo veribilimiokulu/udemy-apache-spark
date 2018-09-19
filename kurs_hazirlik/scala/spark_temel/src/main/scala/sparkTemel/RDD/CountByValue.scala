@@ -15,6 +15,8 @@ object CountByValue {
     // RDD okuma ve başlık satırını filtreleme
     val retailRDD = sc.textFile("C:\\Users\\toshiba\\SkyDrive\\veribilimi.co\\Datasets\\OnlineRetail.csv")
       .filter(!_.contains("InvoiceNo")) // Başlık satırını atla
+
+
     println("\ncountByValue ile işlem sayısı en çok olan 10 müşteriyi bulma yöntem-1\n")
     println("\nmap() ile CustomerID'yi seçme ve retailCustomerIDRDD'ye atama: \n")
     val retailCustomerIDRDD = retailRDD.map(_.split(";")(6))
