@@ -18,10 +18,24 @@ object FlatMapTransformation {
     //insanlarRDD.take(10).foreach(println)
 
     println("\nmap(): \n")
-    insanlarRDD.map(x => x.split(",")).take(2).foreach(println)
+    insanlarRDD.map(x => x.toUpperCase).take(2).foreach(println)
 
     println("\nflatMap(): \n")
-    insanlarRDD.flatMap(x => x.split(",")).take(10).foreach(println)
+    insanlarRDD.flatMap(x => x.toUpperCase).take(10).foreach(println)
 
+
+    println("\nwordcount sonuçlarını iyileştirme")
+    val hikayeRDD = sc.textFile("C:\\Users\\toshiba\\SkyDrive\\veribilimi.co\\Datasets\\omer_seyfettin_forsa_hikaye.txt")
+
+    println("\nkelimeler: ")
+    val  stopWords = ", ; . ? ! ve ile ama ki ne kim nasıl hangi"
+    val kelimeler = hikayeRDD.flatMap(_.split(" ")).filter(x => x.contains(stopWords))
+    kelimeler.take(10).foreach(println)
+
+    val kelimeSayilari = kelimeler.countByValue()
+    println("\nkelimeSayıları: ")
+    kelimeSayilari.take(20).foreach(println)
+
+    kelimeSayilari.map(x => (x._1,x._2.toFloat))
   }
 }

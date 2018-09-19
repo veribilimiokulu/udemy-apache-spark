@@ -26,21 +26,21 @@ object PairRDDOps {
     val meslekMaasPairRDD = insanlarRDD.map(meslekMaas)
 
 
-    println("\nsehirMaasPairRDD: ")
+    println("\nmeslekMaasPairRDD map() sonucu: ")
     meslekMaasPairRDD.take(4).foreach(println)
 
 
-    println("\nsehireGoreMaasMap: ")
+    println("\nmeslegeGoreMaasMap mapValues() sonucu: ")
     val meslegeGoreMaasMap = meslekMaasPairRDD.mapValues(x=>(x,1))
     meslegeGoreMaasMap.take(4).foreach(println)
 
 
-    println("\nsehirMaasRBK: ")
+    println("\nmeslekMaasRBK reduceByKey sonucu: ")
     val meslekMaasRBK = meslegeGoreMaasMap.reduceByKey((x,y) => (x._1 + y._1,  x._2 + y._2))
     meslekMaasRBK.take(13).foreach(println)
 
 
-    println("\nsehirMaasRBK: ")
+    println("\nmeslekOrtMaas: ")
     val meslekOrtMaas = meslekMaasRBK.mapValues(x => x._1 / x._2)
     meslekOrtMaas.take(13).foreach(println)
 
