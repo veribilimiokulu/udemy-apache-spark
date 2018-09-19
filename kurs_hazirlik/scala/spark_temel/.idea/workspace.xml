@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../RDD_MapTransformation.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/FlatMapTransformation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/FlatMapTransformation.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/PairRDDOps.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/PairRDDOps.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/PairRDDOps$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/PairRDDOps$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/ReduceByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/ReduceByKey.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -91,36 +88,37 @@
     <session id="586853202">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="scala" value="9011" />
+          <entry key="scala" value="9423" />
           <entry key="txt" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="70" />
-          <entry key="Scala" value="9011" />
+          <entry key="Scala" value="9423" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="1" />
-          <entry key="scala" value="12" />
+          <entry key="scala" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Scala" value="12" />
+          <entry key="Scala" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -131,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/DataCleaning.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="108" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="108" />
+            <state relative-caret-position="374">
+              <caret line="23" column="108" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="108" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -143,7 +141,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/WordCountRDD.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="306">
               <caret line="19" column="113" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="113" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
@@ -155,8 +153,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/ReduceByKey.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="364">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#24#60#0" expanded="true" />
               </folding>
@@ -173,13 +171,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/PairRDDOps.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+            <state relative-caret-position="119">
+              <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="49" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/reduce.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+              <folding>
+                <element signature="e#23#62#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,7 +198,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/FlatMapTransformation.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="510">
               <caret line="31" column="64" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
@@ -200,7 +210,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/groupBy.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
+            <state relative-caret-position="374">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
@@ -260,10 +270,11 @@
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/MapAndFlatMap.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/MapTransformation.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CountByValue.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/ReduceByKey.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/FlatMapTransformation.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/groupBy.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/PairRDDOps.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/ReduceByKey.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/reduce.scala" />
       </list>
     </option>
   </component>
@@ -288,6 +299,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -334,13 +347,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537343293514" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537354897278" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Datasets/OnlineRetail.csv" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
@@ -356,22 +367,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PairRDDOps">
-    <configuration name="CountByValue" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkTemel.RDD.CountByValue" />
-      <module name="Spark-Temel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sparkTemel.RDD.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.reduce">
     <configuration name="FlatMapTransformation" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkTemel.RDD.FlatMapTransformation" />
+      <option name="MAIN_CLASS_NAME" value="sparkTemel.RDD.MapFlatMap" />
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
@@ -422,20 +420,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="reduce" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkTemel.RDD.reduce" />
+      <module name="Spark-Temel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sparkTemel.RDD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.CountByValue" />
       <item itemvalue="Application.FlatMapTransformation" />
       <item itemvalue="Application.PairRDDOps" />
       <item itemvalue="Application.ReduceByKey" />
       <item itemvalue="Application.groupBy" />
+      <item itemvalue="Application.reduce" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.reduce" />
         <item itemvalue="Application.PairRDDOps" />
         <item itemvalue="Application.groupBy" />
         <item itemvalue="Application.FlatMapTransformation" />
         <item itemvalue="Application.ReduceByKey" />
-        <item itemvalue="Application.CountByValue" />
       </list>
     </recent_temporary>
   </component>
@@ -499,7 +510,7 @@
     <frame x="351" y="76" width="1385" height="935" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25283018" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25660378" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -508,7 +519,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4351621" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4351621" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -592,9 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1326">
           <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,16 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/00_RDD_Takip">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -619,16 +617,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="65" selection-start-line="7" selection-start-column="4" selection-end-line="15" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/DataCleaning.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="108" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="108" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/DataCleaning.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/WordCountRDD.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="108" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="108" />
+        <state relative-caret-position="306">
+          <caret line="19" column="113" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="113" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
@@ -642,29 +647,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/WordCountRDD.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="19" column="113" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="113" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/ReduceByKey.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#24#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/FlatMapTransformation.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="510">
           <caret line="31" column="64" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
@@ -674,7 +659,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/groupBy.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
+        <state relative-caret-position="374">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
@@ -682,12 +667,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/00_RDD_Takip">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/PairRDDOps.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+        <state relative-caret-position="119">
+          <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="49" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/ReduceByKey.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#24#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/reduce.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="e#23#62#0" expanded="true" />
           </folding>
         </state>
       </provider>

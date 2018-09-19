@@ -36,5 +36,7 @@ object ReduceByKey {
     val stockAndPriceRBK2 = stockAndPriceRDD.reduceByKey((x,y) => (scala.math.max(x,y)))
     stockAndPriceRBK2.take(10).foreach(println)
 
+
+
   }
 }
