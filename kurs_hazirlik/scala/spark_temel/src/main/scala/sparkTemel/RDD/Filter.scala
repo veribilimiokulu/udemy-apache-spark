@@ -1,5 +1,8 @@
 package sparkTemel.RDD
-
+/*
+* fiter transformation için orta dereceli örnekler
+* İçinde COFFEE gçen ürünler ve fiyatı 30'dan büyük olan ürünler gibi
+* */
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.{SparkConf, SparkContext}
 
@@ -35,7 +38,7 @@ object Filter {
 
     /************** FİLTRELEME ÖRNEKLERİ  ************************************/
     println(" \n \n")
-    println("**********  Birim fiyatı 30'dan küçük olanları filtrele   **************")
+    println("**********  Birim fiyatı 30'dan büyük olanları filtrele   **************")
     retailRDD.filter(line => line.split(";")(3).toInt > 30).take(5).foreach(println)
 
 

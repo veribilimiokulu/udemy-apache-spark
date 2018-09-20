@@ -2,8 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a7dbc2e-3ec5-4a0b-a7fc-687c5b94d6c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/src/main/scala/SparkTemel/RDD/MapTransformation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/src/main/scala/SparkTemel/RDD/MapTransformation.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ScalaTemel/Aggregate.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/src/main/scala/sparkTemel/RDD/CollectCountCountByValue.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/src/main/scala/sparkTemel/RDD/CollectCountCountByValue.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/src/main/scala/sparkTemel/RDD/Filter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/src/main/scala/sparkTemel/RDD/Filter.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/src/main/scala/sparkTemel/RDD/MapFlatMap.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/src/main/scala/sparkTemel/RDD/MapFlatMap.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/src/main/scala/sparkTemel/RDD/PairRDDOps.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/src/main/scala/sparkTemel/RDD/PairRDDOps.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/src/main/scala/sparkTemel/RDD/groupBy.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/src/main/scala/sparkTemel/RDD/groupBy.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/src/main/scala/sparkTemel/RDD/reduce.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/src/main/scala/sparkTemel/RDD/reduce.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/CollectCountCountByValue$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/CollectCountCountByValue$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/Filter$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/Filter$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$main$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$main$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$main$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$main$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/groupBy$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/groupBy$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/groupBy$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/reduce$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/reduce$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/reduce$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/reduce$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/reduce$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/reduce$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/reduce$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark_temel/target/classes/sparkTemel/RDD/reduce$.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,14 +60,14 @@
     <session id="1174369202">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
+          <entry key="project.closed" value="25" />
           <entry key="project.open.time.0" value="13" />
-          <entry key="project.open.time.1" value="7" />
+          <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -32,21 +75,21 @@
           <entry key="00_DersSıralaması" value="1" />
           <entry key="DersSıralaması" value="1" />
           <entry key="sc" value="1" />
-          <entry key="scala" value="33" />
+          <entry key="scala" value="34" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Scala" value="34" />
+          <entry key="Scala" value="35" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="00_DersSıralaması" value="180" />
-          <entry key="scala" value="23278" />
+          <entry key="scala" value="23303" />
           <entry key="txt" value="152" />
           <entry key="xml" value="59" />
         </counts>
@@ -54,7 +97,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="332" />
-          <entry key="Scala" value="23278" />
+          <entry key="Scala" value="23303" />
           <entry key="XML" value="59" />
         </counts>
       </usages-collector>
@@ -63,98 +106,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/Sets.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/Classes.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/VectorOps.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#274#295#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/Odev.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="60" column="96" selection-start-line="60" selection-start-column="96" selection-end-line="60" selection-end-column="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/PatternMatching.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/Aggregate.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/Maps.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/Maths.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/MatrixOps.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-              <folding>
-                <element signature="e#20#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/RandomNumbers.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+            <state relative-caret-position="187">
+              <caret line="11" column="106" selection-start-line="11" selection-start-column="97" selection-end-line="11" selection-end-column="106" />
             </state>
           </provider>
         </entry>
@@ -208,6 +164,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/ScalaTemel/VectorOps.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ScalaTemel/Odev.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ScalaTemel/PatternMatching.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ScalaTemel/Aggregate.scala" />
       </list>
     </option>
   </component>
@@ -219,8 +176,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="389" />
-    <option name="y" value="75" />
+    <option name="x" value="345" />
+    <option name="y" value="214" />
     <option name="width" value="1428" />
     <option name="height" value="853" />
   </component>
@@ -232,9 +189,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,10 +226,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537074690179" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537475163869" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
@@ -290,13 +248,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PatternMatching">
-    <configuration name="Classes" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ScalaTemel.Classes" />
+  <component name="RunManager" selected="Application.Aggregate">
+    <configuration name="Aggregate" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ScalaTemel.Aggregate" />
       <module name="scala_temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ScalaTemel.VectorOps" />
+          <option name="PATTERN" value="ScalaTemel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,19 +315,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Classes" />
       <item itemvalue="Application.LineerCebir" />
       <item itemvalue="Application.MatrixOps" />
       <item itemvalue="Application.Odev" />
       <item itemvalue="Application.PatternMatching" />
+      <item itemvalue="Application.Aggregate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aggregate" />
         <item itemvalue="Application.PatternMatching" />
         <item itemvalue="Application.Odev" />
         <item itemvalue="Application.LineerCebir" />
         <item itemvalue="Application.MatrixOps" />
-        <item itemvalue="Application.Classes" />
       </list>
     </recent_temporary>
   </component>
@@ -432,9 +390,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="389" y="75" width="1428" height="853" extended-state="0" />
+    <frame x="345" y="214" width="1428" height="853" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18859649" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19152047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -447,11 +405,11 @@
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3292978" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="6" visible="true" weight="0.22916667" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.22916667" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3292978" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32603937" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.43108973" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.30277777" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -627,6 +585,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaTemel/Aggregate.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="106" selection-start-line="11" selection-start-column="97" selection-end-line="11" selection-end-column="106" />
         </state>
       </provider>
     </entry>

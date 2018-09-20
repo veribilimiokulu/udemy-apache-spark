@@ -1,5 +1,7 @@
 package sparkTemel.RDD
-
+/*
+* reduce ve aggregate actionları için listelerle basit iki örnek
+* */
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.{SparkConf, SparkContext}
 

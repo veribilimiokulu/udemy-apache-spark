@@ -18,12 +18,5 @@ object groupBy {
     rakamlarGroupBy.foreach(println)
 
 
-    println("\nrakamlarCBV")
-    val rakamlarCBV = rakamlarRDD.countByValue() //  org.apache.spark.rdd.RDD[(Int, Iterable[Int])]
-    rakamlarCBV.foreach(println)
-
-
-
-
   }
 }

@@ -2,8 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d863510-22d9-457b-8e9d-2b24bc35a778" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/src/main/scala/sparkTemel/RDD/CollectCountCountByValue.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/src/main/scala/sparkTemel/RDD/CollectCountCountByValue.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/src/main/scala/sparkTemel/RDD/Filter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/src/main/scala/sparkTemel/RDD/Filter.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/src/main/scala/sparkTemel/RDD/MapFlatMap.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/src/main/scala/sparkTemel/RDD/MapFlatMap.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/src/main/scala/sparkTemel/RDD/PairRDDOps.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/src/main/scala/sparkTemel/RDD/PairRDDOps.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/src/main/scala/sparkTemel/RDD/groupBy.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/src/main/scala/sparkTemel/RDD/groupBy.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/src/main/scala/sparkTemel/RDD/reduce.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/src/main/scala/sparkTemel/RDD/reduce.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/CollectCountCountByValue$.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/CollectCountCountByValue$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/Filter$$anonfun$main$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/Filter$.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/Filter$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$$anonfun$main$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/MapFlatMap$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$main$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$main$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$main$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$$anonfun$main$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/PairRDDOps$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/groupBy$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/groupBy$.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/groupBy$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/reduce$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/reduce$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/reduce$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/reduce$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/reduce$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/reduce$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/reduce$.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark_temel/target/classes/sparkTemel/RDD/reduce$.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,9 +55,9 @@
     <session id="1690782399">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -26,7 +66,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+    <option name="x" value="202" />
+    <option name="y" value="20" />
     <option name="width" value="1226" />
     <option name="height" value="1047" />
   </component>
@@ -36,8 +77,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -53,20 +95,25 @@
             <path>
               <item name="scala" type="b2602c69:ProjectViewProjectNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="scala_temel" type="462c0819:PsiDirectoryNode" />
+              <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scala" type="b2602c69:ProjectViewProjectNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="scala_temel" type="462c0819:PsiDirectoryNode" />
+              <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scala" type="b2602c69:ProjectViewProjectNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="scala_temel" type="462c0819:PsiDirectoryNode" />
+              <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
@@ -74,17 +121,26 @@
             <path>
               <item name="scala" type="b2602c69:ProjectViewProjectNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="scala_temel" type="462c0819:PsiDirectoryNode" />
+              <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="ScalaTemel" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkTemel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkTemel" type="462c0819:PsiDirectoryNode" />
+              <item name="RDD" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -113,18 +169,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1226" height="1047" extended-state="0" />
+    <frame x="202" y="20" width="1226" height="1047" extended-state="0" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24957119" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -132,14 +185,17 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">

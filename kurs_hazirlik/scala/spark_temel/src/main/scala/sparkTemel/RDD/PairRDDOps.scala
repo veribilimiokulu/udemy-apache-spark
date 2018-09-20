@@ -1,5 +1,8 @@
 package sparkTemel.RDD
-
+/*
+* Mesleklere göre ortalam maaşı bulmak için
+* mapValues ve reduceByKey kullanımı
+* */
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.{SparkConf, SparkContext}
 

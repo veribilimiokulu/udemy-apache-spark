@@ -1,5 +1,7 @@
 package sparkTemel.RDD
-
+/*
+* map ve flatMap arasındaki farka vurgu yaparak iki transformation operasyonuna basit bir örnek
+* */
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.{SparkConf, SparkContext}
 
