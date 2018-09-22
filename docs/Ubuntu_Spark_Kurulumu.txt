@@ -1,0 +1,77 @@
+
+Ubuntu Spark Kurulumu
+
+Java-8 install 
+	Kaynak: https://medium.com/coderscorner/installing-oracle-java-8-in-ubuntu-16-10-845507b13343
+	1. sudo add-apt-repository ppa:webupd8team/java
+
+	2. sudo apt-get update
+
+	3. sudo apt-get install oracle-java8-installer
+	
+	4. java -version 
+	
+	5. sudo update-alternatives --config java
+
+		With the “auto mode”, highest priority alternative will always be selected as 
+		the default alternative even when a new or an upgraded package is installed whereas 
+		with the “manual mode”, regardless of the priority, your choice will always 
+		be considered as the default alternative until you choose another package.
+
+
+Set JAVA_HOME environment variable
+	
+	1. Java'nın nerede yüklü olduğunu öğren 
+			sudo update-alternatives --config java
+			
+	2. sudo nano /etc/environment		
+			
+	3. JAVA_HOME="/usr/lib/jvm/java-8-oracle"		
+			
+			
+	4.  Finally reload it and check whether the environment variable has been properly set.
+
+		source /etc/environment
+		echo $JAVA_HOME		
+			
+			
+Spark'ı Firefox üzerinden indir
+	1. Downloads dizininden /home/erkan'a taşı 
+		Komut: mv Downloads/spark-2.3.1-bin-hadoop2.7.tgz .
+	
+	2. Aç
+	Komut:tar -xzf spark-2.3.1-bin-hadoop2.7.tgz
+	
+	3. spark a linkle 
+	Komut:ln -s spark-2.3.1-bin-hadoop2.7.tgz spark 
+	
+	4. sudo nano /etc/environment komutuyla environment içine gir
+		PATH sonuna : ekledikten sonra /home/erkan/spark/bin 
+		ekledikten sonra en alt satıra
+		SPARK_HOME="/home/erkan/spark"
+		ekle 
+		Ctrl+O -> Enter -> Ctrl+X ile çık
+		
+	5. Ayarların geçerli olması için source /etc/environment
+	komutunu çalıştır
+		
+	6. spark-shell ile sparkın çalıştığını kontrol et.
+		
+		
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			

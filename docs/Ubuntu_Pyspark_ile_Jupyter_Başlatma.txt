@@ -1,0 +1,17 @@
+ubuntu anaconda kurulumunda pyspark komutu ile jupyter notebook çalışması için
+home dizinde 
+sudo nano .bashrc komutu ile dosya içinde en alt satırdan sonra
+	
+export PATH="/home/erkan/anaconda3/bin:$PATH"
+export PYSPARK_PYTHON="/home/erkan/anaconda3/bin/python"
+export PYSPARK_DRIVER_PYTHON="/home/erkan/anaconda3/bin/jupyter"
+export PYSPARK_DRIVER_PYTHON_OPTS="notebook --NotebookApp.open_browser=False --NotebookApp.ip='*' --NotebookApp.port=8889"
+
+eklenir.
+
+Ctrl+O -> Enter -> Ctrl+X
+ile kaydedip çıkılır.
+source .bashrc komutu ile değişikliklerin algılanması sağlanır.
+
+Komut satırına pyspark yazıldığında jupyter açılır. Link kopyalanıp browsera yapıştırıldığında
+jupyter ana sayfa ekrana gelir.
