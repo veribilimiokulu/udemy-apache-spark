@@ -8,7 +8,7 @@ object Accumulators {
   def main(args: Array[String]): Unit = {
     Logger.getLogger("org").setLevel(Level.ERROR)
 
-    val sc = new SparkContext("local[4]","Accumulators")
+  /*  val sc = new SparkContext("local[4]","Accumulators")
 
     println("\nProducts: ")
     val productsRDD = sc.textFile("C:\\Users\\toshiba\\SkyDrive\\veribilimi.co\\udemy-apache-spark\\data\\retail_db\\products.csv")
@@ -31,5 +31,6 @@ object Accumulators {
 
 
     sc.stop()
+  */
   }
 }
