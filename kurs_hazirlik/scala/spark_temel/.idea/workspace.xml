@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Accumulators.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Accumulators.scala" afterDir="false" />
-    </list>
+    <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,7 +84,7 @@
     <session id="586853202">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="9" />
           <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.10" value="1" />
@@ -175,7 +172,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/BasicTransformationActionsTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="649">
               <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="e#24#73#0" expanded="true" />
@@ -365,7 +362,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537628031118" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537629119897" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Datasets/OnlineRetail.csv" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
@@ -533,7 +530,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4351621" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4351621" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -752,7 +749,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/BasicTransformationActionsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="649">
           <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
           <folding>
             <element signature="e#24#73#0" expanded="true" />
