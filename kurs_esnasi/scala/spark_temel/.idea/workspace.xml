@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65394900-b508-4089-a340-e2b7deccdddb" name="Default Changelist" comment="" />
+    <list default="true" id="65394900-b508-4089-a340-e2b7deccdddb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/scala_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/scala_temel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,38 +18,38 @@
     <session id="-70970778">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
-          <entry key="project.open.time.0" value="8" />
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.0" value="9" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="3" />
-          <entry key="scala" value="10" />
+          <entry key="scala" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSV" value="3" />
-          <entry key="Scala" value="10" />
+          <entry key="Scala" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="scala" value="4450" />
+          <entry key="scala" value="5102" />
           <entry key="txt" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="55" />
-          <entry key="Scala" value="4450" />
+          <entry key="Scala" value="5102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -63,12 +67,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/BasicTransformationActionTest.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/DataFrameGiris.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+            <state relative-caret-position="562">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
               <folding>
-                <element signature="e#24#73#0" expanded="true" />
+                <element signature="e#36#76#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,6 +96,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/FlatMapTransformation.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/MapFlatMap.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/BasicTransformationActionTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/DataFrameGiris.scala" />
       </list>
     </option>
   </component>
@@ -103,9 +108,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="246" />
-    <option name="y" value="43" />
-    <option name="width" value="1209" />
+    <option name="x" value="4" />
+    <option name="y" value="7" />
+    <option name="width" value="1750" />
     <option name="height" value="916" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -117,8 +122,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,7 +155,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="RDD" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkTemel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spark_temel" type="b2602c69:ProjectViewProjectNode" />
@@ -165,7 +170,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537631834738" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537764485733" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Datasets/OnlineRetail.csv" />
   </component>
   <component name="RunDashboard">
@@ -180,13 +185,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BasicTransformationActionTest">
+  <component name="RunManager" selected="Application.DataFrameGiris">
     <configuration name="BasicTransformationActionTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="SparkTemel.RDD.BasicTransformationActionTest" />
       <module name="spark_temel" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="SparkTemel.RDD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataFrameGiris" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="SparkTemel.DataframeDataset.DataFrameGiris" />
+      <module name="spark_temel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SparkTemel.DataframeDataset.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,33 +251,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RDDOlusturmak" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="SparkTemel.RDD.RDDOlusturmak" />
-      <module name="spark_temel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SparkTemel.RDD.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.RDDOlusturmak" />
       <item itemvalue="Application.FlatMapTransformation" />
       <item itemvalue="Application.FlatMapTransformation (1)" />
       <item itemvalue="Application.PairRDDOps" />
       <item itemvalue="Application.BasicTransformationActionTest" />
+      <item itemvalue="Application.DataFrameGiris" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataFrameGiris" />
         <item itemvalue="Application.BasicTransformationActionTest" />
         <item itemvalue="Application.FlatMapTransformation (1)" />
         <item itemvalue="Application.PairRDDOps" />
         <item itemvalue="Application.FlatMapTransformation" />
-        <item itemvalue="Application.RDDOlusturmak" />
       </list>
     </recent_temporary>
   </component>
@@ -285,9 +290,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="246" y="43" width="1209" height="916" extended-state="0" />
+    <frame x="4" y="7" width="1750" height="916" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2689295" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.011242604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -296,7 +301,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30523628" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37292466" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -304,7 +309,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32948717" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32950193" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -344,16 +349,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../Datasets/OnlineRetail_Old.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../Datasets/OnlineRetail.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state>
-          <caret column="62" selection-start-column="53" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Datasets/OnlineRetail_Old.csv" />
+    <entry file="file://$PROJECT_DIR$/../../../../Datasets/OnlineRetail.csv" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/MapTransformation.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -378,6 +375,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/BasicTransformationActionTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding>
+            <element signature="e#24#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -385,12 +392,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/BasicTransformationActionTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/DataFrameGiris.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        <state relative-caret-position="562">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
           <folding>
-            <element signature="e#24#73#0" expanded="true" />
+            <element signature="e#36#76#0" expanded="true" />
           </folding>
         </state>
       </provider>
