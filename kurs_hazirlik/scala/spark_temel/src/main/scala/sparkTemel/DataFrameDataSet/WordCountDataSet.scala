@@ -11,7 +11,7 @@ object WordCountDataSet {
     // Spark Session oluşturma
     val spark = SparkSession.builder
     .master("local[4]")
-    .appName("RDD-Olusturmak")
+    .appName("Wordcount")
     .config("spark.executor.memory","4g")
     .config("spark.driver.memory","2g")
     .getOrCreate()
