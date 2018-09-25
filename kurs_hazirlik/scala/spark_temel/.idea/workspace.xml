@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../scala_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala_temel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -95,37 +94,37 @@
         <counts>
           <entry key="project.closed" value="24" />
           <entry key="project.open.time.0" value="10" />
-          <entry key="project.open.time.1" value="8" />
+          <entry key="project.open.time.1" value="9" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="scala" value="14847" />
+          <entry key="scala" value="17466" />
           <entry key="txt" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="70" />
-          <entry key="Scala" value="14847" />
+          <entry key="Scala" value="17466" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="1" />
-          <entry key="scala" value="24" />
+          <entry key="scala" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Scala" value="24" />
+          <entry key="Scala" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -136,8 +135,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataframeGiris.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="38" column="45" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="38" selection-end-column="45" />
+            <state relative-caret-position="238">
+              <caret line="38" column="45" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="38" selection-end-column="45" />
               <folding>
                 <element signature="e#37#77#0" expanded="true" />
               </folding>
@@ -145,13 +144,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/CsvDosyasinaSQLAtmak.scala">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/Schema.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="27" />
+            <state relative-caret-position="442">
+              <caret line="26" column="45" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="26" selection-end-column="45" />
               <folding>
-                <element signature="e#37#77#0" expanded="true" />
+                <element signature="e#36#76#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DatafrmaOperations01.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="28" column="14" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="28" selection-end-column="14" />
+              <folding>
+                <element signature="e#36#76#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/StringOps.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="65" column="49" lean-forward="true" selection-start-line="65" selection-start-column="49" selection-end-line="65" selection-end-column="49" />
+              <folding>
+                <element signature="e#36#76#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -215,6 +238,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataframeGiris.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/WordCountDataSet.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/CsvDosyasinaSQLAtmak.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/Schema.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DatafrmaOperations01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/StringOps.scala" />
       </list>
     </option>
   </component>
@@ -226,10 +252,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="270" />
-    <option name="y" value="56" />
-    <option name="width" value="1230" />
-    <option name="height" value="935" />
+    <option name="x" value="1038" />
+    <option name="width" value="1309" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -291,8 +316,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,7 +325,7 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="sparktemel" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537798742384" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537888795373" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Datasets/OnlineRetail.csv" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -319,33 +344,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CsvDosyasinaSQLAtmak">
-    <configuration name="BasicTransformationActionsTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkTemel.RDD.BasicTransformationActionsTest" />
-      <module name="Spark-Temel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sparkTemel.RDD.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BroadcastVariables" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkTemel.RDD.BroadcastVariables" />
-      <module name="Spark-Temel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sparkTemel.RDD.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StringOps">
     <configuration name="CsvDosyasinaSQLAtmak" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="sparkTemel.DataFrameDataSet.CsvDosyasinaSQLAtmak" />
       <module name="Spark-Temel" />
@@ -359,8 +358,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataframeOlusturma" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkTemel.DataFrameDataSet.DataframeGiris" />
+    <configuration name="DatafrmaOperations01" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkTemel.DataFrameDataSet.DatafrmaOperations01" />
+      <module name="Spark-Temel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sparkTemel.DataFrameDataSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Schema" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkTemel.DataFrameDataSet.Schema" />
+      <module name="Spark-Temel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sparkTemel.DataFrameDataSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringOps" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkTemel.DataFrameDataSet.StringOps" />
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
@@ -386,19 +411,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BroadcastVariables" />
-      <item itemvalue="Application.BasicTransformationActionsTest" />
-      <item itemvalue="Application.DataframeOlusturma" />
       <item itemvalue="Application.WordCountDataSet" />
       <item itemvalue="Application.CsvDosyasinaSQLAtmak" />
+      <item itemvalue="Application.Schema" />
+      <item itemvalue="Application.DatafrmaOperations01" />
+      <item itemvalue="Application.StringOps" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringOps" />
+        <item itemvalue="Application.DatafrmaOperations01" />
+        <item itemvalue="Application.Schema" />
         <item itemvalue="Application.CsvDosyasinaSQLAtmak" />
         <item itemvalue="Application.WordCountDataSet" />
-        <item itemvalue="Application.DataframeOlusturma" />
-        <item itemvalue="Application.BasicTransformationActionsTest" />
-        <item itemvalue="Application.BroadcastVariables" />
       </list>
     </recent_temporary>
   </component>
@@ -459,10 +484,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="270" y="56" width="1230" height="935" extended-state="0" />
+    <frame x="1038" y="0" width="1309" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25982907" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.012810248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -471,7 +496,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37905237" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5021882" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -479,7 +504,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.39775562" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32793018" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32713348" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -671,22 +696,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataframeGiris.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="38" column="45" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="38" selection-end-column="45" />
-          <folding>
-            <element signature="e#37#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/CsvDosyasinaSQLAtmak.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="27" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="27" />
           <folding>
             <element signature="e#37#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataframeGiris.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="38" column="45" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="38" selection-end-column="45" />
+          <folding>
+            <element signature="e#37#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/Schema.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="45" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="26" selection-end-column="45" />
+          <folding>
+            <element signature="e#36#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DatafrmaOperations01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="28" column="14" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="28" selection-end-column="14" />
+          <folding>
+            <element signature="e#36#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/StringOps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="65" column="49" lean-forward="true" selection-start-line="65" selection-start-column="49" selection-end-line="65" selection-end-column="49" />
+          <folding>
+            <element signature="e#36#76#0" expanded="true" />
           </folding>
         </state>
       </provider>
