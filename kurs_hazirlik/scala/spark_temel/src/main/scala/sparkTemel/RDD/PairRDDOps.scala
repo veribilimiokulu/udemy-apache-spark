@@ -12,7 +12,7 @@ object PairRDDOps {
 
     val sc = new SparkContext("local[4]","ParRDD-Operations")
 
-    val insanlarRDD = sc.textFile("C:\\Users\\toshiba\\SkyDrive\\veribilimi.co\\udemy-apache-spark\\data\\simple_data.csv")
+    val insanlarRDD = sc.textFile("D:\\Udemy_Spark_Kursu\\kodlar\\data\\simple_data.csv")
         .filter(!_.contains("sirano"))
 
     insanlarRDD.take(4).foreach(println)
