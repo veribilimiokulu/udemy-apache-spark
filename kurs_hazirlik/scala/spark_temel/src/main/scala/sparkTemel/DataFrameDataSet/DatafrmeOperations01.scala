@@ -2,7 +2,7 @@ package sparkTemel.DataFrameDataSet
 import org.apache.spark.sql.SparkSession
 import org.apache.log4j.{Level, Logger}
 
-object DatafrmaOperations01 {
+object DatafrmeOperations01 {
   def main(args: Array[String]): Unit = {
     //********* LOG SEVİYESİNİ AYARLAMA ************************
     Logger.getLogger("org").setLevel(Level.ERROR)

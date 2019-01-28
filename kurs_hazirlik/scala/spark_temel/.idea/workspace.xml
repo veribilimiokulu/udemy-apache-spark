@@ -8,8 +8,22 @@
   <component name="ChangeListManager">
     <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/ReduceByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/ReduceByKey.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/PairRDDOps$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/PairRDDOps$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DatafrmaOperations01.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DatafrmeOperations01.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/Schema.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/Schema.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/DataFrameDataSet/DatafrmaOperations01$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/DataFrameDataSet/DatafrmaOperations01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/DataFrameDataSet/Schema$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/DataFrameDataSet/Schema$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/LogAnalizi$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/LogAnalizi$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/LogAnalizi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/ReduceByKey$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/ReduceByKey$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/ReduceByKey$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/ReduceByKey$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/ReduceByKey$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/ReduceByKey$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/ReduceByKey$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/ReduceByKey$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/ReduceByKey$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/ReduceByKey$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/ReduceByKey$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/ReduceByKey$$anonfun$main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/ReduceByKey$$anonfun$main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/ReduceByKey$$anonfun$main$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/ReduceByKey$$anonfun$main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/ReduceByKey$$anonfun$main$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/ReduceByKey$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/ReduceByKey$.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/Schema.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="262">
+              <caret line="80" column="70" selection-start-line="80" selection-start-column="70" selection-end-line="80" selection-end-column="70" />
               <folding>
                 <element signature="e#36#76#0" expanded="true" />
               </folding>
@@ -43,11 +57,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DatafrmeOperations01.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <element signature="e#36#76#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/StringOps.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="34">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
               <folding>
                 <element signature="e#36#76#0" expanded="true" />
               </folding>
@@ -111,12 +137,13 @@
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataframeGiris.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/WordCountDataSet.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/CsvDosyasinaSQLAtmak.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/Schema.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DatafrmaOperations01.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/StringOps.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/PairRDDOps.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/LogAnalizi.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/ReduceByKey.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DatafrmeOperations01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/Schema.scala" />
       </list>
     </option>
   </component>
@@ -127,11 +154,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="408" />
-    <option name="y" value="79" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="239" />
     <option name="width" value="1564" />
-    <option name="height" value="947" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -141,6 +167,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,7 +214,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -196,7 +222,7 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="sparktemel" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548661566892" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548678912907" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -215,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReduceByKey">
+  <component name="RunManager" selected="Application.Schema">
     <configuration name="CombineByKey" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="sparkTemel.RDD.CombineByKey" />
       <module name="Spark-Temel" />
@@ -268,8 +294,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringOps" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkTemel.DataFrameDataSet.StringOps" />
+    <configuration name="Schema" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkTemel.DataFrameDataSet.Schema" />
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
@@ -282,19 +308,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StringOps" />
       <item itemvalue="Application.CombineByKey" />
       <item itemvalue="Application.PairRDDOps" />
       <item itemvalue="Application.LogAnalizi" />
       <item itemvalue="Application.ReduceByKey" />
+      <item itemvalue="Application.Schema" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Schema" />
         <item itemvalue="Application.ReduceByKey" />
         <item itemvalue="Application.LogAnalizi" />
         <item itemvalue="Application.PairRDDOps" />
         <item itemvalue="Application.CombineByKey" />
-        <item itemvalue="Application.StringOps" />
       </list>
     </recent_temporary>
   </component>
@@ -362,10 +388,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="408" y="79" width="1564" height="947" extended-state="1" />
+    <frame x="239" y="0" width="1564" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.06715426" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21143617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -374,15 +400,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5012285" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.53610504" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.39775562" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32923833" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32713348" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32923833" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32678133" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -555,16 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DatafrmaOperations01.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="28" column="14" selection-start-line="6" selection-start-column="3" selection-end-line="28" selection-end-column="14" />
-          <folding>
-            <element signature="e#36#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataframeGiris.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -607,10 +623,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/Schema.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DatafrmeOperations01.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="170">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
             <element signature="e#36#76#0" expanded="true" />
           </folding>
@@ -619,8 +635,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/StringOps.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="34">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <element signature="e#36#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/Schema.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="80" column="70" selection-start-line="80" selection-start-column="70" selection-end-line="80" selection-end-column="70" />
           <folding>
             <element signature="e#36#76#0" expanded="true" />
           </folding>
