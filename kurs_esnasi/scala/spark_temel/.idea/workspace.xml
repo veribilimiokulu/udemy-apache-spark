@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="65394900-b508-4089-a340-e2b7deccdddb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,13 +24,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/StringOps.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-494">
+            <state relative-caret-position="17">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/DataframeToDisk.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
-                <element signature="e#72#112#0" expanded="true" />
+                <element signature="e#73#113#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,6 +67,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/Wordcount.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/CsvDosyasinaSQLAtmak.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/StringOps.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/DataframeToDisk.scala" />
       </list>
     </option>
   </component>
@@ -68,8 +79,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="631" />
-    <option name="y" value="14" />
+    <option name="x" value="-14" />
+    <option name="y" value="18" />
     <option name="width" value="1239" />
     <option name="height" value="996" />
   </component>
@@ -82,6 +93,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,11 +140,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548679252781" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548685089842" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -147,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CsvDosyasinaSQLAtmak">
+  <component name="RunManager" selected="Application.DataframeToDisk">
     <configuration name="BasicTransformationActionTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="SparkTemel.RDD.BasicTransformationActionTest" />
       <module name="spark_temel" />
@@ -187,12 +198,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlatMapTransformation (1)" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="SparkTemel.RDD.MapFlatMap" />
+    <configuration name="DataframeToDisk" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="SparkTemel.DataframeDataset.sparkTemel.DataFrameDataSet.DataframeToDisk" />
       <module name="spark_temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SparkTemel.RDD.*" />
+          <option name="PATTERN" value="SparkTemel.DataframeDataset.sparkTemel.DataFrameDataSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,19 +225,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FlatMapTransformation (1)" />
       <item itemvalue="Application.BasicTransformationActionTest" />
       <item itemvalue="Application.DataFrameGiris" />
       <item itemvalue="Application.Wordcount" />
       <item itemvalue="Application.CsvDosyasinaSQLAtmak" />
+      <item itemvalue="Application.DataframeToDisk" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataframeToDisk" />
         <item itemvalue="Application.CsvDosyasinaSQLAtmak" />
         <item itemvalue="Application.Wordcount" />
         <item itemvalue="Application.DataFrameGiris" />
         <item itemvalue="Application.BasicTransformationActionTest" />
-        <item itemvalue="Application.FlatMapTransformation (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -259,10 +270,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="631" y="14" width="1239" height="996" extended-state="0" />
+    <frame x="-14" y="18" width="1239" height="996" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.259542" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10178117" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -271,7 +282,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42641947" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36384705" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -280,7 +291,6 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32908458" />
-      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -289,6 +299,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -384,10 +395,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/StringOps.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494">
+        <state relative-caret-position="17">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/DataframeToDisk.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
-            <element signature="e#72#112#0" expanded="true" />
+            <element signature="e#73#113#0" expanded="true" />
           </folding>
         </state>
       </provider>
