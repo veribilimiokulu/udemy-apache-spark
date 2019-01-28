@@ -1,5 +1,8 @@
 package sparkTemel.RDD
+/*
+ReduceByKey ile Her bir ürünün sahip olduğu en düşük/yüksek fiyatı bulmak
 
+ */
 import org.apache.spark.SparkContext
 import org.apache.log4j.{Level,Logger}
 object ReduceByKey {
