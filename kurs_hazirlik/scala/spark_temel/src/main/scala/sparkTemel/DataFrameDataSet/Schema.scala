@@ -96,7 +96,8 @@ object Schema {
       .write
       .mode("Overwrite")
       .option("sep",";")
-      .csv("D:\\Datasets\\OnlineRetail2.csv")
+      .option("header","true")
+      .csv("D:\\Datasets\\OnlineRetail2")
 
 
     // düzeltilmiş csv'yi tekrar oku elle tanımlanan şemayı ver
@@ -105,7 +106,7 @@ object Schema {
       .option("sep",";")
       //.option("inferSchema","true")
       .schema(retailManualSchema)
-      .load("D:\\Datasets\\OnlineRetail2.csv")
+      .load("D:\\Datasets\\OnlineRetail2")
 
 
     println("\n Elle şema oluşturduktan sonra")
