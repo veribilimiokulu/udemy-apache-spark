@@ -7,9 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/Schema.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/Schema.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataframeToDisk.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+            <state relative-caret-position="934">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="e#37#77#0" expanded="true" />
               </folding>
@@ -120,8 +118,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="239" />
-    <option name="width" value="1564" />
+    <option name="x" value="377" />
+    <option name="width" value="1426" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -187,7 +185,7 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="sparktemel" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548682543675" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548682630555" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -356,14 +354,21 @@
       <option name="project" value="LOCAL" />
       <updated>1548679043131</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Scala Dataframe DataframeToDisk kurs hazırlık eklendi">
+      <created>1548682599939</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1548682599939</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="239" y="0" width="1564" height="1047" extended-state="0" />
+    <frame x="377" y="0" width="1426" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21409574" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23572475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -372,7 +377,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.53610504" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.53610504" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -404,7 +409,8 @@
     <MESSAGE value="Scala SparkTemel MapAndFlatMap'e iptal edilen tutarları hesaplama eklendi" />
     <MESSAGE value="Scala SparkTemel RDD ReduceByKey'e yorum eklendi veri yolu değiştirildi." />
     <MESSAGE value="Scala Dataframe Schema kurs hazırlık eklendi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scala Dataframe Schema kurs hazırlık eklendi" />
+    <MESSAGE value="Scala Dataframe DataframeToDisk kurs hazırlık eklendi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scala Dataframe DataframeToDisk kurs hazırlık eklendi" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/WordCountRDD.scala" />
@@ -628,8 +634,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataframeToDisk.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        <state relative-caret-position="934">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="e#37#77#0" expanded="true" />
           </folding>
