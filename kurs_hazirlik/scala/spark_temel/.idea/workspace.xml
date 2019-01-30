@@ -7,7 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataExplore.scala" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,26 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DateTimeOps.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="14" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="32" selection-end-column="14" />
-              <folding>
-                <element signature="e#37#76#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataExplore.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="305" column="95" selection-start-line="305" selection-start-column="95" selection-end-line="305" selection-end-column="95" />
-              <folding>
-                <element signature="e#37#76#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -64,8 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DtasetFromTextFile.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DatasetFromTextFile.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/WordCountDataSet.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/WordCoutnRDD.scala" />
@@ -115,6 +99,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DateTimeOps.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/SparkSQL.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataExplore.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/DataExplore.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala" />
       </list>
     </option>
   </component>
@@ -165,23 +151,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SparkTemel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkTemel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SparkTemel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkTemel" type="462c0819:PsiDirectoryNode" />
-              <item name="DataFrameDataSet" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -194,7 +163,7 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="sparktemel" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548877669472" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548877723648" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -219,7 +188,7 @@
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sparkTemel.DataFrameDataSet.*" />
+          <option name="PATTERN" value="MachineLearning.Preprocessing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,7 +227,7 @@
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sparkTemel.DataFrameDataSet.*" />
+          <option name="PATTERN" value="MachineLearning.Preprocessing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,11 +236,11 @@
       </method>
     </configuration>
     <configuration name="SparkSQL" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkTemel.DataFrameDataSet.DataExplore" />
+      <option name="MAIN_CLASS_NAME" value="MachineLearning.Preprocessing.DataExplore" />
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sparkTemel.DataFrameDataSet.*" />
+          <option name="PATTERN" value="MachineLearning.Preprocessing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -375,9 +344,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="192" y="32" width="1610" height="970" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18322581" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18322581" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -386,7 +354,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47789726" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.47789726" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -663,11 +631,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataExplore.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="305" column="95" selection-start-line="305" selection-start-column="95" selection-end-line="305" selection-end-column="95" />
+        <state relative-caret-position="55">
+          <caret line="303" column="10" selection-start-line="303" selection-start-column="10" selection-end-line="303" selection-end-column="10" />
           <folding>
             <element signature="e#37#76#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/DataExplore.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>

@@ -1,7 +1,7 @@
-package sparkTemel.DataFrameDataSet
+package MachineLearning.Preprocessing
 
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark.sql.{SparkSession, functions => F}
+import org.apache.spark.sql.SparkSession
 
 object DataExplore {
   def main(args: Array[String]): Unit = {
