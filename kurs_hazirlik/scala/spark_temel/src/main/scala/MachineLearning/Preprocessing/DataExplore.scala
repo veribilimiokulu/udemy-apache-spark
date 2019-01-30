@@ -49,7 +49,7 @@ object DataExplore {
 
     // okunan dataframe'e ilk bakış
     println("\n adultTestDF")
-    //adultTrainDF.show(5)
+    //adultTestDF.show(5)
 
     // İki veri setini birleştirelim
     val adultWholeDF = adultTrainDF.union(adultTestDF)
