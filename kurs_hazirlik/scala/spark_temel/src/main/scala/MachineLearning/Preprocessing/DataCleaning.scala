@@ -196,15 +196,28 @@ object DataCleaning {
       ).show(30)
 
 
-      // Kontrol yaptıktan sonra değişimi yeni DF'te tutalım
+    // Kontrol yaptıktan sonra değişimi yeni DF'te tutalım
+
+    /*
+      1. Yöntem
       val adultWholeDF5 = adultWholeDF4.withColumn("education_merged",
         when(col("education").contains("1st-4th") || col("education").contains("5th-6th") || col("education").contains("7th-8th"), "Elementary-School")
           .when(col("education").contains("9th") || col("education").contains("10th") || col("education").contains("11th") || col("education").contains("12th"), "High-School")
           .when(col("education").contains("Masters") || col("education").contains("Doctorate"), "Post-Graduate")
           .when(col("education").contains("Bachelors") || col("education").contains("Some-college"), "Under-Graduate")
-          .otherwise(col("education")).as("ed")
+          .otherwise(col("education")))
       )
-        .withColumn("education", trim(col("education")))
+        */
+
+// 2. Yöntem Bu yöntem boşlukları temizlemeden çalışmadı.
+    val adultWholeDF5 = adultWholeDF4.withColumn("education_merged",
+      when(col("education").isin("1st-4th","education","5th-6th","education","7th-8th"), "Elementary-School")
+        .when(col("education").isin("9th","10th","11th","12th"), "High-School")
+        .when(col("education").isin("Masters","Doctorate"), "Post-Graduate")
+        .when(col("education").isin("Bachelors","Some-college"), "Under-Graduate")
+        .otherwise(col("education")))
+
+
 
     // Birleştirme sonucunu görelim.
       println("education birleştirme sonucunu")
