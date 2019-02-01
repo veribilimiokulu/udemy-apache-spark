@@ -90,8 +90,10 @@ object DataCleaning {
       ///////////////////// 2. OUTPUT İÇİNDEKİ "." TEMİZLİĞİ /////////////////////////////////////////////////////
       // Her ne kadar taslak planda output temizliğini son madde olarak yazmış olsak da. İşin kolay olması ve diğer temizlik
       // işlemlerini etkiliyor olması nedeniyle. Bu temizliği en başta yapalım.
-      // . içerenleri filtreleyelim ancak "!" ile tersini yapalım.
-      val adultWholeDF2 = adultWholeDF1.filter(!(col("output").contains(".")))
+
+      val adultWholeDF2 = adultWholeDF1
+        .withColumn("output", regexp_replace(col("output"), "<=50K.","<=50K"))
+        .withColumn("output", regexp_replace(col("output"), ">50K.",">50K"))
 
       // Temizlik sonucunu görelim.
       println("output groupby inceleme")
@@ -99,8 +101,17 @@ object DataCleaning {
         .agg(count($"*").as("sayi"))
         //.count()
         .show(false)
+    /*
+    output groupby inceleme
+    +------+-----+
+    |output|sayi |
+    +------+-----+
+    |<=50K |37155|
+    |>50K  |11687|
+    +------+-----+
+     // İstediğimiz gibi satır sayısı değişmemiş ancak sınıf sayısı 2'ye düştü.
+    */
 
-      // İstediğimiz gibi satır sayısı değişmemiş ancak sınıf sayısı 2'ye düştü.
 
 
 
@@ -241,8 +252,8 @@ object DataCleaning {
     println("Hollanda sonrası satır sayısı: ", adultWholeDF6.count())
 
     /*
-    (Hollanda öncesi satır sayısı: ,30153)
-    (Hollanda sonrası satır sayısı: ,30152)
+    (Hollanda öncesi satır sayısı: ,45208)
+    (Hollanda sonrası satır sayısı: ,45207)
      Satır bir azaldığına göre çıkarma işlemi başarılı.
      */
 
@@ -267,6 +278,6 @@ object DataCleaning {
       .csv("D:\\Datasets\\adult_preprocessed")
 
     // Yazdığımız yerde dosyayı Notepad++ ile kontrol edelim
-    // Nitelik sırası düzgün ve satır sayısı da 30153 (başlık dahil) sorun yoktur.
+    // Nitelik sırası düzgün ve satır sayısı da 45.208 (başlık dahil) sorun yoktur.
     }
   }
