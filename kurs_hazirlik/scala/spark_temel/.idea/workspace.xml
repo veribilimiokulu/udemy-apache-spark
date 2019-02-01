@@ -7,8 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="28" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#39#78#0" expanded="true" />
               </folding>
@@ -32,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataCleaning.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
               <folding>
                 <element signature="e#39#78#0" expanded="true" />
               </folding>
@@ -114,8 +113,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/SparkSQL.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataExplore.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/DataExplore.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataCleaning.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala" />
       </list>
     </option>
   </component>
@@ -140,8 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,6 +185,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,7 +194,7 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="sparktemel" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548945202698" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549000074434" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -214,7 +213,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SparkSQL">
+  <component name="RunManager" selected="Application.DataExplore">
+    <configuration name="DataExplore" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MachineLearning.Preprocessing.DataExplore" />
+      <module name="Spark-Temel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MachineLearning.Preprocessing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataframeToDisk" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="sparkTemel.DataFrameDataSet.DataframeToDisk" />
       <module name="Spark-Temel" />
@@ -267,29 +279,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SparkSQL" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="MachineLearning.Preprocessing.DataExplore" />
-      <module name="Spark-Temel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MachineLearning.Preprocessing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.DataExplore" />
       <item itemvalue="Application.DataframeToDisk" />
       <item itemvalue="Application.DateTimeOps" />
       <item itemvalue="Application.ReduceByKey" />
       <item itemvalue="Application.Schema" />
-      <item itemvalue="Application.SparkSQL" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SparkSQL" />
+        <item itemvalue="Application.DataExplore" />
         <item itemvalue="Application.DateTimeOps" />
         <item itemvalue="Application.DataframeToDisk" />
         <item itemvalue="Application.Schema" />
@@ -377,7 +376,7 @@
   <component name="ToolWindowManager">
     <frame x="192" y="32" width="1610" height="970" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18580645" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1883871" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -663,20 +662,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataExplore.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/DataExplore.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataCleaning.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="19" selection-end-column="28" />
+        <state relative-caret-position="255">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding>
             <element signature="e#39#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataCleaning.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#39#78#0" expanded="true" />
           </folding>

@@ -2,6 +2,7 @@ package MachineLearning.Preprocessing
 
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.{functions => F}
 
 object DataExplore {
   def main(args: Array[String]): Unit = {
@@ -314,7 +315,8 @@ object DataExplore {
               Masters, Doctorate: high-education
               Bachelors, Some-college: undergraduate
          sınıfları yukarıdaki gibi birleştirilebilir.
-      5. output (hedef değişkendeki) >50K. ve <=50K. değerlerindeki "." kaldırılmalı
+      5. native_country'de ? var ve Hollanda 1 kez tekrarlanmış.
+      6. output (hedef değişkendeki) >50K. ve <=50K. değerlerindeki "." kaldırılmalı
 
      */
 

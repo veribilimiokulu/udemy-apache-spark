@@ -188,7 +188,8 @@ Yorum: Genel bir sıkıntı görünmüyor ancak çok fazla kategori var belki ba
               Masters, Doctorate: high-education
               Bachelors, Some-college: undergraduate
          sınıfları yukarıdaki gibi birleştirilebilir.
-      5. output (hedef değişkendeki) >50K. ve <=50K. değerlerindeki "." kaldırılmalı
+      5. native_country'de ? var ve Hollanda 1 kez tekrarlanmış.
+      6. output (hedef değişkendeki) >50K. ve <=50K. değerlerindeki "." kaldırılmalı
      */
 
   }
