@@ -281,7 +281,7 @@ object DataExplore {
     adultWholeDF.groupBy($"native_country")
       .agg(F.count($"*").as("sayi"))
       //.count()
-      .show(false)
+      .show(50,false)
 
     // Yorum: Büyük çoğunluk USA'den
 
@@ -293,7 +293,20 @@ object DataExplore {
       .agg(F.count($"*").as("sayi"))
       //.count()
       .show(false)
+          /*
+          +-------+-----+
+          |output |sayi |
+          +-------+-----+
+          | >50K  |7841 |
+          | >50K. |3846 |
+          | <=50K.|12435|
+          | <=50K |24720|
+          +-------+-----+
 
+          >50K:  11.687
+          <=50K: 37.155
+          top:   48.842
+           */
     // Yorum: "." içeren sonuçlar var. Bunların temizlenmesi gerekir.
 
 
