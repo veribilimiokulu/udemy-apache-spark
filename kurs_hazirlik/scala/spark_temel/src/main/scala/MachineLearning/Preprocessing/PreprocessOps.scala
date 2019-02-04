@@ -21,7 +21,6 @@ object PreprocessOps {
     val sc = spark.sparkContext
     import spark.implicits._
 
-
     ///////////////////// VERİ OKUMA ///////////////////////////////////
     val df = spark.read.format("csv")
       .option("header","true")
@@ -36,41 +35,36 @@ object PreprocessOps {
     ///////////////////// VERİ SETİNE ETİKET EKLEME ///////////////////////////////////
     // Sınıflandırma hedef değişken (etiket-label) yaratmak adına
     // Geliri 7000 üstü olanların ekonomik_durumu iyi diyelim.
-   val df1 = df.withColumn("ekonomik_durum",
-      when(col("aylik_gelir").gt(7000), "iyi")
-        .otherwise("kötü"))
 
+    val df1 = df.withColumn("ekonomik_durum",
+      when(col("aylik_gelir").gt(7000),"iyi")
+        .otherwise("kötü")
+    )
     println("ekonomik_durum eklenmiş DF:")
     df1.show()
-
 
 
     /////////////////////  StringIndexer AŞAMASI  ////////////////////////////////////////////////
     //=============================================================================================
 
-    ///////////////////// meslek sütunu için StringIndexer ///////////////////////////////////////
-    // meslek için bir adet StringIndexer nesnesi oluşturalım.
     val meslekIndexer = new StringIndexer()
       .setInputCol("meslek")
       .setOutputCol("meslekIndex")
-      .setHandleInvalid("skip")// Varsayılan error. Tanımadığı bir değer ile karşılaşınca hata verir.
-    // Özellikle zayıf sınıflar her bir "partition" da bulunmayabilir.
-    // Hata almamak için skip.
+      .setHandleInvalid("skip")
 
+    val meslekIndexerModel = meslekIndexer.fit(df1)
+    val meslekIndexedDF = meslekIndexerModel.transform(df1)
 
-    // meslekIndexer nesnesini eğitelim.
-    // Burada aslında çok karmaşık bir eğitim yok. Sadece hangi string değerin kaç kere tekrarlandığını hesaplıyor.
-    // sıralıyor ve en çok tekrarlandan en az tekrarlanana doğru 0.0'dan başlayarak ardışık artan tam sayılar atayacak şekilde
-    // kendini veriye uyduruyor.
-    // Bir çok makine öğrenmesi sınıfında olduğu gibi bu da bir model(StringIndexerModel) üretiyor.
-    val meslekndexerIndexModel = meslekIndexer.fit(df1)
-
-
-    // StringIndexerModel'in transform metoduna orjinal df'i parametre verdiğimizde bize string niteliğin indekslenmiş halini
-    // dataframe'e ekleyerek dataframe'i geri dönüyor.
-    val meslekIndexedDF = meslekndexerIndexModel.transform(df1)
     println("meslek sütunu için StringIndex eklenmiş DF: meslekIndexedDF")
     meslekIndexedDF.show()
+
+    println("Mesleklerin frekansları: ")
+    df.groupBy(col("meslek"))
+      .agg(
+        count(col("*")).as("sayi")
+      )
+      .sort(desc("sayi"), asc("meslek"))
+      .show()
 
 
     ///////////////////// sehir sütunu için StringIndexer ///////////////////////////////////////
@@ -84,33 +78,9 @@ object PreprocessOps {
 
     val sehirIndexerIndexModel = sehirIndexer.fit(meslekIndexedDF)
     val sehirIndexedDF = sehirIndexerIndexModel.transform(meslekIndexedDF)
+
     println("sehir sütunu için StringIndex eklenmiş DF: sehirIndexedDF")
     sehirIndexedDF.show()
-
-    ///////////////////// hedef değişken (ekonomik_durum) için StringIndexer ///////////////////////////////////////
-    val labelIndexer = new StringIndexer()
-    labelIndexer.setInputCol("ekonomik_durum")
-    labelIndexer.setOutputCol("label")
-
-    val labelIndexerModel = labelIndexer.fit(sehirIndexedDF)
-    val labelIndexedDF = labelIndexerModel.transform(sehirIndexedDF)
-    println("label (ekonomik_durum) sütunu için StringIndex eklenmiş DF: sehirIndexedDF")
-    labelIndexedDF.show()
-
-
-    ////////////////// OneHotEncoderEstimator AŞAMASI ////////////////////////////////////////////
-   // =============================================================================================
-
-    // Yeni bir OneHotEncoderEstimator nesnesi oluşturalım.
-    val encoder = new OneHotEncoderEstimator()
-      .setInputCols(Array("meslekIndex","sehirIndex")) // StringIndexed sütunları topluca ver
-      .setOutputCols(Array("meslekIndexVec","sehirIndexVec")) // OneHotEncoded sütun isimlerini topluca ver.
-
-    val myOneHotEncoderModel = encoder.fit(labelIndexedDF)
-    val oneHotEncodeDF = myOneHotEncoderModel.transform(labelIndexedDF)
-
-    println("oneHotEncodeDF:")
-    oneHotEncodeDF.show()
 
     println("Şehirlerin frekansları: ")
     df.groupBy(col("sehir"))
@@ -120,44 +90,78 @@ object PreprocessOps {
       .sort(desc("sayi"), asc("sehir"))
       .show()
 
+    ////////////////// OneHotEncoderEstimator AŞAMASI ////////////////////////////////////////////
+    // =============================================================================================
 
-    println("Mesleklerin frekansları: ")
-    df.groupBy(col("meslek"))
-      .agg(
-        count(col("*")).as("sayi")
-      )
-      .sort(desc("sayi"), asc("meslek"))
-      .show()
+    val encoder = new OneHotEncoderEstimator()
+      .setInputCols(Array[String]("meslekIndex","sehirIndex"))
+      .setOutputCols(Array[String]("meslekIndexEncoded","sehirIndexEncoded"))
 
+    val encoderModel = encoder.fit(sehirIndexedDF)
+    val oneHotEncodeDF = encoderModel.transform(sehirIndexedDF)
 
-
-    // Peki her nitelik için bunca işi tekrarlayacak mıyız?
-    // Cevabı Pipeline'da.
+    println("oneHotEncodeDF:")
+    oneHotEncodeDF.show()
 
 
     ////////////////// VectorAssembler AŞAMASI ////////////////////////////////////////////
     // ====================================================================================
 
     val vectorAssembler = new VectorAssembler()
-      .setInputCols(Array[String]("meslekIndexVec","sehirIndexVec","yas","aylik_gelir"))
+      .setInputCols(Array[String]("meslekIndexEncoded","sehirIndexEncoded","yas","aylik_gelir"))
       .setOutputCol("vectorizedFeatures")
 
     val vectorAssembledDF = vectorAssembler.transform(oneHotEncodeDF)
+
+
     println("vectorAssembledDF: ")
     vectorAssembledDF.show(false)
 
 
+
+    ////////////////// LabelIndexer AŞAMASI ////////////////////////////////////////////
+    // ====================================================================================
+    val labelIndexer = new StringIndexer()
+      .setInputCol("ekonomik_durum")
+      .setOutputCol("label")
+
+    val labelIndexerModel = labelIndexer.fit(vectorAssembledDF)
+    val labelIndexerDF = labelIndexerModel.transform(vectorAssembledDF)
+
+    println("labelIndexerDF: ")
+    labelIndexerDF.show(truncate = false)
+
     ////////////////// StandardScaler AŞAMASI ////////////////////////////////////////////
     // ====================================================================================
-    val standardScaler = new StandardScaler()
+
+    import scala.math._
+    val yasinEtkisi = sqrt(pow((35-33),2))
+    val maasEtkisi = sqrt(pow((18000-3500),2))
+    val oklitMesafesi = sqrt(pow((35-33),2) + pow((18000-3500),2))
+
+    println(s"Toplam etki: $oklitMesafesi, yaş etkisi: $yasinEtkisi, maaş etkisi: $maasEtkisi")
+
+    val scaler = new StandardScaler()
       .setInputCol("vectorizedFeatures")
       .setOutputCol("features")
-      .setWithStd(true) // Whether to scale the data to unit standard deviation.
 
-    val standardScalerModel = standardScaler.fit(vectorAssembledDF)
-    val standardScaledDF = standardScalerModel.transform(vectorAssembledDF)
-    println("standardScaledDF: ")
-    standardScaledDF.show(false)
+    val scalerModel = scaler.fit(labelIndexerDF)
+    val scalerDF = scalerModel.transform(labelIndexerDF)
+
+    println("scalerDF: ")
+    scalerDF.show(truncate = false)
+
+
+    ////////////////// Train-Test Ayırma AŞAMASI ////////////////////////////////////////////
+    // ====================================================================================
+
+
+    val Array(trainDF, testDF) =  scalerDF.randomSplit(Array(0.8, 0.2), 142L)
+
+    println("trainDF: ")
+    trainDF.show(false)
+    println("testDF: ")
+    testDF.show(false)
 
   }
 }
