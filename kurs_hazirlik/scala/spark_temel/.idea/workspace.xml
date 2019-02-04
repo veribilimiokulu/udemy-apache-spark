@@ -6,13 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/DataCleaning$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/DataCleaning$$anonfun$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/DataCleaning$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/DataCleaning$$anonfun$main$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/DataCleaning$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/DataCleaning$.class" afterDir="false" />
-    </list>
+    <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataCleaning.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4097">
+            <state relative-caret-position="4675">
               <caret line="277" column="45" selection-start-line="277" selection-start-column="11" selection-end-line="277" selection-end-column="45" />
               <folding>
                 <element signature="e#39#78#0" expanded="true" />
@@ -50,7 +44,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1734">
+            <state relative-caret-position="803">
               <caret line="159" column="20" selection-start-line="159" selection-start-column="20" selection-end-line="159" selection-end-column="20" />
               <folding>
                 <element signature="e#39#78#0" expanded="true" />
@@ -296,11 +290,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DateTimeOps" />
-      <item itemvalue="Application.DataExplore" />
       <item itemvalue="Application.DataCleaning" />
-      <item itemvalue="Application.PreprocessOps" />
+      <item itemvalue="Application.DataExplore" />
+      <item itemvalue="Application.DateTimeOps" />
       <item itemvalue="Application.OneHotEncoderOps" />
+      <item itemvalue="Application.PreprocessOps" />
     </list>
     <recent_temporary>
       <list>
@@ -392,7 +386,7 @@
   <component name="ToolWindowManager">
     <frame x="306" y="5" width="1388" height="1021" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1754518" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17771085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -678,6 +672,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/OneHotEncoderOps.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4743">
@@ -690,18 +685,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataCleaning.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4097">
+        <state relative-caret-position="4675">
           <caret line="277" column="45" selection-start-line="277" selection-start-column="11" selection-end-line="277" selection-end-column="45" />
-          <folding>
-            <element signature="e#39#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/OneHotEncoderOps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="96" selection-start-line="66" selection-start-column="4" selection-end-line="96" />
           <folding>
             <element signature="e#39#78#0" expanded="true" />
           </folding>
@@ -710,7 +695,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
+        <state relative-caret-position="803">
           <caret line="159" column="20" selection-start-line="159" selection-start-column="20" selection-end-line="159" selection-end-column="20" />
           <folding>
             <element signature="e#39#78#0" expanded="true" />
