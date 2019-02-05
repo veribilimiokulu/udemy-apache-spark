@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Feb 05 23:38:26 AST 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0168-bf62-1f8e-000016a9a870 
+on database directory D:\Udemy_Spark_Kursu\kodlar\kurs_esnasi\scala\spark_temel\metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@4a6facb0 
+Loaded from file:/C:/spark/jars/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_201-b09
+user.dir=D:\Udemy_Spark_Kursu\kodlar\kurs_esnasi\scala\spark_temel
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

@@ -7,8 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/target/classes/MachineLearning/Preprocessing/PreprocessOps$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/target/classes/MachineLearning/Preprocessing/PreprocessOps$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pyspark/MachineLearning/Preprocessing/PreprocessOps.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../pyspark/MachineLearning/Preprocessing/PreprocessOps.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/PreprocessOps$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/PreprocessOps$.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,13 +48,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
+            <state relative-caret-position="327">
               <caret line="168" column="45" selection-start-line="168" selection-start-column="45" selection-end-line="168" selection-end-column="45" />
               <folding>
                 <element signature="e#39#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PipelineOps.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="56" column="54" lean-forward="true" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
+              <folding>
+                <element signature="e#38#77#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,7 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/Transformations/Filter.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/VeriOkuma/WordCountRDD.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Transformations/Map.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Transformations/Filter.scala" />
@@ -129,6 +143,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/StringIndexerOps.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/CategoricalOps.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PipelineOps.scala" />
       </list>
     </option>
   </component>
@@ -153,8 +168,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,7 +223,7 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="sparktemel" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549358311460" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549404932072" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -227,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PreprocessOps">
+  <component name="RunManager" selected="Application.PipelineOps">
     <configuration name="DataCleaning" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="MachineLearning.Preprocessing.DataCleaning" />
       <module name="Spark-Temel" />
@@ -254,12 +269,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTimeOps" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="SparkTemel.DataframeDataset.DateTimeOps" />
+    <configuration name="OneHotEncoderOps" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MachineLearning.Preprocessing.OneHotEncoderOps" />
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SparkTemel.DataframeDataset.*" />
+          <option name="PATTERN" value="MachineLearning.Preprocessing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,8 +282,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneHotEncoderOps" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="MachineLearning.Preprocessing.OneHotEncoderOps" />
+    <configuration name="PipelineOps" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MachineLearning.Preprocessing.PipelineOps" />
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
@@ -296,17 +311,17 @@
     <list>
       <item itemvalue="Application.DataCleaning" />
       <item itemvalue="Application.DataExplore" />
-      <item itemvalue="Application.DateTimeOps" />
       <item itemvalue="Application.OneHotEncoderOps" />
       <item itemvalue="Application.PreprocessOps" />
+      <item itemvalue="Application.PipelineOps" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PipelineOps" />
         <item itemvalue="Application.PreprocessOps" />
         <item itemvalue="Application.OneHotEncoderOps" />
         <item itemvalue="Application.DataCleaning" />
         <item itemvalue="Application.DataExplore" />
-        <item itemvalue="Application.DateTimeOps" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +406,7 @@
     <frame x="306" y="5" width="1388" height="1021" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18222892" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18825302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -400,7 +415,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5236486" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5225225" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -700,10 +715,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
+        <state relative-caret-position="327">
           <caret line="168" column="45" selection-start-line="168" selection-start-column="45" selection-end-line="168" selection-end-column="45" />
           <folding>
             <element signature="e#39#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PipelineOps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="56" column="54" lean-forward="true" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
+          <folding>
+            <element signature="e#38#77#0" expanded="true" />
           </folding>
         </state>
       </provider>

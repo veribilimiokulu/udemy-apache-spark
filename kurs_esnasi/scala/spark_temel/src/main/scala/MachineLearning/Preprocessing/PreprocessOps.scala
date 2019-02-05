@@ -1,9 +1,10 @@
 package MachineLearning.Preprocessing
 
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark.sql.{DataFrame, SparkSession}
-import org.apache.spark.sql.functions._
 import org.apache.spark.ml.feature.{OneHotEncoderEstimator, StandardScaler, StringIndexer, VectorAssembler}
+import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.functions._
+
 object PreprocessOps {
   def main(args: Array[String]): Unit = {
     ///////////////////// LOG SEVİYESİNİ AYARLAMA /////////////////////
@@ -18,7 +19,6 @@ object PreprocessOps {
       .getOrCreate()
 
     val sc = spark.sparkContext
-    import spark.implicits._
 
     ///////////////////// VERİ OKUMA ///////////////////////////////////
     val df = spark.read.format("csv")
@@ -162,6 +162,18 @@ object PreprocessOps {
     println("testDF: ")
     testDF.show(false)
 
+// Basit bir ML modeli
+    import org.apache.spark.ml.classification.LogisticRegression
+
+    val lrObj = new LogisticRegression()
+      .setLabelCol("label")
+      .setFeaturesCol("features")
+      .setPredictionCol("prediction")
+
+    val lrModel = lrObj.fit(trainDF)
+
+    println("ML test sonucu DF: ")
+    lrModel.transform(testDF).show()
 
 
   }

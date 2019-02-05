@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="65394900-b508-4089-a340-e2b7deccdddb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/PreprocessOps$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/PreprocessOps$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_hazirlik/pyspark/MachineLearning/Preprocessing/PreprocessOps.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_hazirlik/pyspark/MachineLearning/Preprocessing/PreprocessOps.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,13 +27,55 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="163" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="163" />
+            <state relative-caret-position="153">
+              <caret line="9" column="49" selection-start-line="8" selection-start-column="3" selection-end-line="9" selection-end-column="49" />
               <folding>
                 <element signature="e#39#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PipelineOps.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="40" lean-forward="true" selection-end-line="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/Regression/LinearRegressionOps.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-85">
+              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+              <folding>
+                <element signature="e#50#89#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/Classification/LogisticRegressionOps.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/SparkStreaming/Streaming.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+              <folding>
+                <element signature="e#23#62#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,6 +109,10 @@
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataCleaning.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PipelineOps.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/Classification/LogisticRegressionOps.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/SparkStreaming/Streaming.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/Regression/LinearRegressionOps.scala" />
       </list>
     </option>
   </component>
@@ -74,10 +124,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="1" />
-    <option name="width" value="1475" />
-    <option name="height" value="1039" />
+    <option name="x" value="68" />
+    <option name="y" value="24" />
+    <option name="width" value="1416" />
+    <option name="height" value="973" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -87,7 +137,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,11 +174,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549288361902" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549400621872" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -144,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PreprocessOps">
+  <component name="RunManager" selected="Application.LinearRegressionOps">
     <configuration name="DataCleaning" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="MachineLearning.Preprocessing.DataCleaning" />
       <module name="spark_temel" />
@@ -158,12 +208,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataExplore" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="MachineLearning.Preprocessing.DataExplore" />
+    <configuration name="LinearRegressionOps" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MachineLearning.Preprocessing.Regression.LinearRegressionOps" />
       <module name="spark_temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MachineLearning.Preprocessing.*" />
+          <option name="PATTERN" value="MachineLearning.Preprocessing.Regression.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +221,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTimeOps" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="SparkTemel.DataframeDataset.DateTimeOps" />
+    <configuration name="PipelineOps" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MachineLearning.Preprocessing.PipelineOps" />
       <module name="spark_temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SparkTemel.DataframeDataset.*" />
+          <option name="PATTERN" value="MachineLearning.Preprocessing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,12 +247,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Schema" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="SparkTemel.DataframeDataset.Schema" />
+    <configuration name="Streaming" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="SparkStreaming.Streaming" />
       <module name="spark_temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SparkTemel.DataframeDataset.*" />
+          <option name="PATTERN" value="SparkStreaming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,18 +262,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.DataCleaning" />
-      <item itemvalue="Application.DataExplore" />
-      <item itemvalue="Application.DateTimeOps" />
       <item itemvalue="Application.PreprocessOps" />
-      <item itemvalue="Application.Schema" />
+      <item itemvalue="Application.PipelineOps" />
+      <item itemvalue="Application.Streaming" />
+      <item itemvalue="Application.LinearRegressionOps" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinearRegressionOps" />
+        <item itemvalue="Application.Streaming" />
+        <item itemvalue="Application.PipelineOps" />
         <item itemvalue="Application.PreprocessOps" />
         <item itemvalue="Application.DataCleaning" />
-        <item itemvalue="Application.DataExplore" />
-        <item itemvalue="Application.DateTimeOps" />
-        <item itemvalue="Application.Schema" />
       </list>
     </recent_temporary>
   </component>
@@ -256,10 +306,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="1" width="1475" height="1039" extended-state="0" />
+    <frame x="68" y="24" width="1416" height="973" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.04310954" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22640118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -268,12 +318,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6523179" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42380953" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32948717" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.29642856" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32844242" />
@@ -438,11 +488,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="163" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="163" />
+        <state relative-caret-position="153">
+          <caret line="9" column="49" selection-start-line="8" selection-start-column="3" selection-end-line="9" selection-end-column="49" />
           <folding>
             <element signature="e#39#78#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkStreaming/Streaming.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="e#23#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/Classification/LogisticRegressionOps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/Regression/LinearRegressionOps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="e#50#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PipelineOps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="40" lean-forward="true" selection-end-line="84" />
         </state>
       </provider>
     </entry>
