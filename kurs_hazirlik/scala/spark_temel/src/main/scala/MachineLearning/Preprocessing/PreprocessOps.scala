@@ -163,5 +163,30 @@ object PreprocessOps {
     println("testDF: ")
     testDF.show(false)
 
+    ////////////////// Basit Bir Makine Öğrenmesi Modeli//////////////////////////////////
+    // ====================================================================================
+
+    // Sınıflandırma-lojistik regresyon olsun
+    import org.apache.spark.ml.classification._
+
+    val lrClassifier = new LogisticRegression()
+      .setFeaturesCol("features")
+      .setLabelCol("label")
+      .setPredictionCol("prediction")
+
+    val lrModel = lrClassifier.fit(trainDF)
+
+    println("train datasei")
+    lrModel.transform(trainDF).show()
+
+
+    println("test datasei")
+    lrModel.transform(testDF).show()
+
+
+
+
+
+
   }
 }
