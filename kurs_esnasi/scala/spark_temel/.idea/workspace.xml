@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65394900-b508-4089-a340-e2b7deccdddb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/Classification/LogisticRegressionOps$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/Classification/LogisticRegressionOps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/PipelineOps$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/PipelineOps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/PreprocessOps$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/PreprocessOps$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/Regression/LinearRegressionOps$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/Regression/LinearRegressionOps.class" beforeDir="false" />
-    </list>
+    <list default="true" id="65394900-b508-4089-a340-e2b7deccdddb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PipelinesOps.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+            <state relative-caret-position="658">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
               <folding>
                 <element signature="e#38#77#0" expanded="true" />
               </folding>
@@ -181,7 +171,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549407698347" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549408937352" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -309,7 +299,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-21" y="23" width="1416" height="1012" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19985251" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -320,7 +309,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22866894" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22866894" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -555,8 +544,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PipelinesOps.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+        <state relative-caret-position="658">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
           <folding>
             <element signature="e#38#77#0" expanded="true" />
           </folding>
