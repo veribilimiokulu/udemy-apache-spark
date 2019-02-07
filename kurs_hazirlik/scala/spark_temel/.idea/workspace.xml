@@ -7,12 +7,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkTemel/BroadcastAndAccumulator/BroadcastVariablesOps.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sparkTemel/BroadcastAndAccumulator/BroadcastVariablesOps$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sparkTemel/BroadcastAndAccumulator/BroadcastVariablesOps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$main$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$main$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/target/classes/MachineLearning/Preprocessing/PreprocessOps$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/target/classes/MachineLearning/Preprocessing/PreprocessOps$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pyspark/MachineLearning/Preprocessing/PreprocessOps.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../pyspark/MachineLearning/Preprocessing/PreprocessOps.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/PreprocessOps$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/PreprocessOps$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CountByValue.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CountByValue.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Join.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Join.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/CountByValue$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/CountByValue$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$TotalPrice$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$TotalPrice$4$.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,49 +39,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/BroadcastAndAccumulator/BroadcastVariablesOps.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4743">
-              <caret line="281" column="36" selection-start-line="281" selection-start-column="36" selection-end-line="281" selection-end-column="36" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <element signature="e#39#78#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataCleaning.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4675">
-              <caret line="277" column="45" selection-start-line="277" selection-start-column="11" selection-end-line="277" selection-end-column="45" />
-              <folding>
-                <element signature="e#39#78#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="168" column="45" selection-start-line="168" selection-start-column="45" selection-end-line="168" selection-end-column="45" />
-              <folding>
-                <element signature="e#39#78#0" expanded="true" />
+                <element signature="e#44#83#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PipelineOps.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Join.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="56" column="54" lean-forward="true" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
+            <state relative-caret-position="338">
+              <caret line="100" column="4" lean-forward="true" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/PairRDDOps.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="28" selection-end-column="55" />
               <folding>
-                <element signature="e#38#77#0" expanded="true" />
+                <element signature="e#112#151#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataframeToDisk.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="826">
+              <caret line="55" column="45" lean-forward="true" selection-start-line="50" selection-start-column="6" selection-end-line="55" selection-end-column="45" />
+              <folding>
+                <element signature="e#37#77#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CountByValue.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="35" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="35" />
+              <folding>
+                <element signature="e#24#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Accumulators.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -93,7 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/VeriOkuma/WordCountRDD.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Transformations/Map.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Transformations/Filter.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Transformations/MapAndFlatMap.scala" />
@@ -106,11 +137,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/WordCountRDD.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/DataCleaning.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/RDDOlusturmak.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Join.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/MapAndFlatMap.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/MapTransformation.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/FlatMapTransformation.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CountByValue.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CollectCountCountByValue.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/groupBy.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/MapFlatMap.scala" />
@@ -144,6 +173,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/CategoricalOps.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PipelineOps.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CountByValue.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/BroadcastAndAccumulator/BroadcastVariablesOps.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Join.scala" />
       </list>
     </option>
   </component>
@@ -155,9 +187,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="306" />
-    <option name="y" value="5" />
-    <option name="width" value="1388" />
+    <option name="x" value="33" />
+    <option name="y" value="44" />
+    <option name="width" value="1637" />
     <option name="height" value="1021" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -168,8 +200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,21 +231,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SparkTemel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Preprocessing" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkTemel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,7 +246,7 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="sparktemel" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549404932072" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549540759949" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -242,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PipelineOps">
+  <component name="RunManager" selected="Application.Join">
     <configuration name="DataCleaning" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="MachineLearning.Preprocessing.DataCleaning" />
       <module name="Spark-Temel" />
@@ -256,12 +279,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataExplore" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="MachineLearning.Preprocessing.DataExplore" />
+    <configuration name="Join" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkTemel.RDD.Join" />
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MachineLearning.Preprocessing.*" />
+          <option name="PATTERN" value="sparkTemel.RDD.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -310,18 +333,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.DataCleaning" />
-      <item itemvalue="Application.DataExplore" />
       <item itemvalue="Application.OneHotEncoderOps" />
       <item itemvalue="Application.PreprocessOps" />
       <item itemvalue="Application.PipelineOps" />
+      <item itemvalue="Application.Join" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Join" />
         <item itemvalue="Application.PipelineOps" />
         <item itemvalue="Application.PreprocessOps" />
         <item itemvalue="Application.OneHotEncoderOps" />
         <item itemvalue="Application.DataCleaning" />
-        <item itemvalue="Application.DataExplore" />
       </list>
     </recent_temporary>
   </component>
@@ -403,10 +426,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="306" y="5" width="1388" height="1021" extended-state="0" />
+    <frame x="33" y="44" width="1637" height="1021" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18825302" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.021559924" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -415,7 +438,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5225225" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3704955" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -482,13 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Join.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/MapTransformation.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -539,13 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CountByValue.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="39" column="122" selection-start-line="39" selection-start-column="122" selection-end-line="39" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/00_RDD_Takip">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -591,13 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Accumulators.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataframeGiris.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -620,16 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/PairRDDOps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <element signature="e#112#151#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -682,33 +674,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataExplore.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/DataExplore.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataframeToDisk.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="55" column="45" lean-forward="true" selection-start-line="50" selection-start-column="6" selection-end-line="55" selection-end-column="45" />
-          <folding>
-            <element signature="e#37#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/OneHotEncoderOps.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PipelineOps.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4743">
-          <caret line="281" column="36" selection-start-line="281" selection-start-column="36" selection-end-line="281" selection-end-column="36" />
+        <state relative-caret-position="259">
+          <caret line="56" column="54" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
           <folding>
-            <element signature="e#39#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataCleaning.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4675">
-          <caret line="277" column="45" selection-start-line="277" selection-start-column="11" selection-end-line="277" selection-end-column="45" />
-          <folding>
-            <element signature="e#39#78#0" expanded="true" />
+            <element signature="e#38#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -723,13 +695,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PipelineOps.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataCleaning.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="56" column="54" lean-forward="true" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
+        <state relative-caret-position="803">
+          <caret line="277" column="45" selection-start-line="277" selection-start-column="11" selection-end-line="277" selection-end-column="45" />
           <folding>
-            <element signature="e#38#77#0" expanded="true" />
+            <element signature="e#39#78#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="803">
+          <caret line="281" column="36" selection-start-line="281" selection-start-column="36" selection-end-line="281" selection-end-column="36" />
+          <folding>
+            <element signature="e#39#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Accumulators.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataframeToDisk.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="826">
+          <caret line="55" column="45" lean-forward="true" selection-start-line="50" selection-start-column="6" selection-end-line="55" selection-end-column="45" />
+          <folding>
+            <element signature="e#37#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CountByValue.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/BroadcastAndAccumulator/BroadcastVariablesOps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#44#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/PairRDDOps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="28" selection-end-column="55" />
+          <folding>
+            <element signature="e#112#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Join.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="100" column="4" lean-forward="true" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
         </state>
       </provider>
     </entry>

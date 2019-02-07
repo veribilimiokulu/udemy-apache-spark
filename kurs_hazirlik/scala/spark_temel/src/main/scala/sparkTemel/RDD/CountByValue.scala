@@ -8,7 +8,7 @@ object CountByValue {
 
     Logger.getLogger("org").setLevel(Level.ERROR)
 
-    val conf = new SparkConf().setAppName("sparkTemelRDD").setMaster("local[4]")
+    val conf = new SparkConf().setAppName("CountByValue").setMaster("local[4]")
     val sc = new SparkContext(conf)
 
 
