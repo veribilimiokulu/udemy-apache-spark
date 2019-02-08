@@ -6,24 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkTemel/DistributedSharedVariables/BroadcastVariablesOps.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkTemel/BroadcastAndAccumulator/BroadcastVariablesOps.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/BroadcastAndAccumulator/BroadcastVariablesOps$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/BroadcastAndAccumulator/BroadcastVariablesOps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$main$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$main$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$main$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$main$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$$anonfun$main$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/Join$.class" afterDir="false" />
-    </list>
+    <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -195,8 +178,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="706" />
-    <option name="y" value="16" />
+    <option name="x" value="13" />
+    <option name="y" value="32" />
     <option name="width" value="1391" />
     <option name="height" value="1021" />
   </component>
@@ -243,15 +226,6 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="sparkTemel" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SparkTemel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkTemel" type="462c0819:PsiDirectoryNode" />
-              <item name="DistributedSharedVariables" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -263,7 +237,7 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="sparktemel" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549616291656" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549626724996" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -443,9 +417,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="706" y="16" width="1391" height="1021" extended-state="0" />
+    <frame x="13" y="32" width="1391" height="1021" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17731029" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17731029" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -459,7 +433,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.45045045" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.45045045" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32923833" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.375" />
