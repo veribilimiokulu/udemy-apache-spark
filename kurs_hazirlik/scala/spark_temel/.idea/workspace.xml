@@ -15,125 +15,58 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="613683419">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="scala" value="5554" />
-          <entry key="txt" value="118" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="118" />
-          <entry key="Scala" value="5554" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Scala" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="scala" value="10" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="1690782399">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="00_RDD_Takip" value="1" />
-          <entry key="scala" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Scala" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="00_RDD_Takip" value="75" />
-          <entry key="scala" value="152" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="75" />
-          <entry key="Scala" value="152" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="586853202">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="25" />
-          <entry key="project.open.time.0" value="10" />
-          <entry key="project.open.time.1" value="9" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="25" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="scala" value="17466" />
-          <entry key="txt" value="70" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="70" />
-          <entry key="Scala" value="17466" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="csv" value="1" />
-          <entry key="scala" value="27" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Scala" value="27" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages" />
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataframeGiris.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DistributedSharedVariables/BroadcastVariablesOps.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="38" column="45" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="38" selection-end-column="45" />
+            <state relative-caret-position="1069">
+              <caret line="95" column="78" selection-start-line="95" selection-start-column="78" selection-end-line="95" selection-end-column="78" />
+              <folding>
+                <element signature="e#44#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DistributedSharedVariables/AccumulatorsOps.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="34" />
+              <folding>
+                <element signature="e#47#86#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Join.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="26" column="45" selection-start-line="10" selection-start-column="3" selection-end-line="26" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/PairRDDOps.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="28" selection-end-column="55" />
+              <folding>
+                <element signature="e#112#151#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataframeToDisk.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="901">
+              <caret line="55" column="45" selection-start-line="50" selection-start-column="6" selection-end-line="55" selection-end-column="45" />
               <folding>
                 <element signature="e#37#77#0" expanded="true" />
               </folding>
@@ -142,37 +75,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/Schema.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CountByValue.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="45" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="26" selection-end-column="45" />
+            <state relative-caret-position="170">
+              <caret line="11" column="35" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="35" />
               <folding>
-                <element signature="e#36#76#0" expanded="true" />
+                <element signature="e#24#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DatafrmaOperations01.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Accumulators.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="28" column="14" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="28" selection-end-column="14" />
-              <folding>
-                <element signature="e#36#76#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/StringOps.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="66" column="44" lean-forward="true" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
-              <folding>
-                <element signature="e#36#76#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="527">
+              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -187,23 +105,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>?</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DtasetFromTextFile.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DatasetFromTextFile.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/WordCountDataSet.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/WordCoutnRDD.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/WordCountRDD.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/PivotTable.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/Transformations/Filter.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/VeriOkuma/WordCountRDD.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Transformations/Map.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Transformations/Filter.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Transformations/MapAndFlatMap.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/VeriOkuma/SparkConfAndContext.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataSet/PivotTable.scala" />
@@ -214,17 +126,13 @@
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/WordCountRDD.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/DataCleaning.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/RDDOlusturmak.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Join.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/MapAndFlatMap.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/MapTransformation.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/FlatMapTransformation.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/ReduceByKey.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CountByValue.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CollectCountCountByValue.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/groupBy.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/MapFlatMap.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Filter.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/PairRDDOps.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/reduce.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/SentetikCustomers.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CombineByKey.scala" />
@@ -235,9 +143,30 @@
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataframeGiris.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/WordCountDataSet.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/CsvDosyasinaSQLAtmak.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/Schema.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DatafrmaOperations01.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/StringOps.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/PairRDDOps.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/LogAnalizi.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/ReduceByKey.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DatafrmeOperations01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/Schema.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataframeToDisk.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DateTimeOps.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/SparkSQL.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataExplore.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/DataExplore.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataCleaning.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/OneHotEncoderOps.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/StringIndexerOps.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/CategoricalOps.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PipelineOps.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CountByValue.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Join.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/BroadcastAndAccumulator/BroadcastVariablesOps.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DistributedSharedVariables/BroadcastVariablesOps.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DistributedSharedVariables/AccumulatorsOps.scala" />
       </list>
     </option>
   </component>
@@ -249,9 +178,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1038" />
-    <option name="width" value="1309" />
-    <option name="height" value="1047" />
+    <option name="x" value="13" />
+    <option name="y" value="32" />
+    <option name="width" value="1391" />
+    <option name="height" value="1021" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -262,6 +192,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -295,26 +226,10 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="sparkTemel" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SparkTemel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkTemel" type="462c0819:PsiDirectoryNode" />
-              <item name="DataFrameDataSet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SparkTemel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,8 +237,8 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="sparktemel" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537888953744" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Datasets/OnlineRetail.csv" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549626724996" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19345011" />
@@ -341,13 +256,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringOps">
-    <configuration name="CsvDosyasinaSQLAtmak" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkTemel.DataFrameDataSet.CsvDosyasinaSQLAtmak" />
+  <component name="RunManager" selected="Application.AccumulatorsOps">
+    <configuration name="AccumulatorsOps" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkTemel.DistributedSharedVariables.AccumulatorsOps" />
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sparkTemel.DataFrameDataSet.*" />
+          <option name="PATTERN" value="sparkTemel.DistributedSharedVariables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -355,12 +270,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatafrmaOperations01" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkTemel.DataFrameDataSet.DatafrmaOperations01" />
+    <configuration name="BroadcastVariablesOps" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkTemel.DistributedSharedVariables.BroadcastVariablesOps" />
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sparkTemel.DataFrameDataSet.*" />
+          <option name="PATTERN" value="sparkTemel.DistributedSharedVariables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -368,12 +283,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Schema" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkTemel.DataFrameDataSet.Schema" />
+    <configuration name="Join" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkTemel.RDD.Join" />
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sparkTemel.DataFrameDataSet.*" />
+          <option name="PATTERN" value="sparkTemel.RDD.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -381,12 +296,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringOps" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkTemel.DataFrameDataSet.StringOps" />
+    <configuration name="PipelineOps" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MachineLearning.Preprocessing.PipelineOps" />
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sparkTemel.DataFrameDataSet.*" />
+          <option name="PATTERN" value="MachineLearning.Preprocessing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -394,12 +309,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCountDataSet" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkTemel.DataFrameDataSet.WordCountDataSet" />
+    <configuration name="PreprocessOps" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MachineLearning.Preprocessing.PreprocessOps" />
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sparkTemel.DataFrameDataSet.*" />
+          <option name="PATTERN" value="MachineLearning.Preprocessing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -408,19 +323,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.WordCountDataSet" />
-      <item itemvalue="Application.CsvDosyasinaSQLAtmak" />
-      <item itemvalue="Application.Schema" />
-      <item itemvalue="Application.DatafrmaOperations01" />
-      <item itemvalue="Application.StringOps" />
+      <item itemvalue="Application.PreprocessOps" />
+      <item itemvalue="Application.PipelineOps" />
+      <item itemvalue="Application.Join" />
+      <item itemvalue="Application.BroadcastVariablesOps" />
+      <item itemvalue="Application.AccumulatorsOps" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringOps" />
-        <item itemvalue="Application.DatafrmaOperations01" />
-        <item itemvalue="Application.Schema" />
-        <item itemvalue="Application.CsvDosyasinaSQLAtmak" />
-        <item itemvalue="Application.WordCountDataSet" />
+        <item itemvalue="Application.AccumulatorsOps" />
+        <item itemvalue="Application.BroadcastVariablesOps" />
+        <item itemvalue="Application.Join" />
+        <item itemvalue="Application.PipelineOps" />
+        <item itemvalue="Application.PreprocessOps" />
       </list>
     </recent_temporary>
   </component>
@@ -477,14 +392,34 @@
       <option name="project" value="LOCAL" />
       <updated>1537297806489</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Scala SparkTemel RDD ReduceByKey'e yorum eklendi veri yolu değiştirildi.">
+      <created>1548627349974</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1548627349975</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Scala Dataframe Schema kurs hazırlık eklendi">
+      <created>1548679043131</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1548679043131</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Scala Dataframe DataframeToDisk kurs hazırlık eklendi">
+      <created>1548682599939</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1548682599939</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1038" y="0" width="1309" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="13" y="32" width="1391" height="1021" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.012810248" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17731029" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -493,15 +428,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5021882" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5540541" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.39775562" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.45045045" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32713348" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32923833" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.375" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -510,10 +445,8 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -525,7 +458,10 @@
     <MESSAGE value="2. Commit SparkTemel'e Pivot eklendi" />
     <MESSAGE value="3. Commit scala SparkTemel'e RDD map flatmap ve filter eklendi" />
     <MESSAGE value="Scala SparkTemel MapAndFlatMap'e iptal edilen tutarları hesaplama eklendi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scala SparkTemel MapAndFlatMap'e iptal edilen tutarları hesaplama eklendi" />
+    <MESSAGE value="Scala SparkTemel RDD ReduceByKey'e yorum eklendi veri yolu değiştirildi." />
+    <MESSAGE value="Scala Dataframe Schema kurs hazırlık eklendi" />
+    <MESSAGE value="Scala Dataframe DataframeToDisk kurs hazırlık eklendi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scala Dataframe DataframeToDisk kurs hazırlık eklendi" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/WordCountRDD.scala" />
@@ -559,13 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Join.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/MapTransformation.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -588,13 +517,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../../Datasets/OnlineRetail.csv" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/ReduceByKey.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/reduce.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -609,13 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/PairRDDOps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/SentetikCustomers.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -623,52 +538,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CombineByKey.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/BroadcastVariables.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="38" selection-start-line="2" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Accumulators.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/groupBy.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Filter.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="69" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CollectCountCountByValue.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CountByValue.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="39" column="122" selection-start-line="39" selection-start-column="122" selection-end-line="39" selection-end-column="122" />
         </state>
       </provider>
     </entry>
@@ -703,42 +576,195 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CollectCountCountByValue.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/BroadcastVariables.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataframeGiris.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="38" column="45" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="38" selection-end-column="45" />
+          <caret line="38" column="45" selection-start-line="34" selection-start-column="4" selection-end-line="38" selection-end-column="45" />
           <folding>
             <element signature="e#37#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/Schema.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/LogAnalizi.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/ReduceByKey.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="45" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="26" selection-end-column="45" />
-          <folding>
-            <element signature="e#36#76#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DatafrmaOperations01.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/groupBy.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="28" column="14" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="28" selection-end-column="14" />
-          <folding>
-            <element signature="e#36#76#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/StringOps.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="66" column="44" lean-forward="true" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+        <state relative-caret-position="51">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
           <folding>
             <element signature="e#36#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CombineByKey.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DatafrmeOperations01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#36#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/Schema.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="108" column="40" selection-start-line="108" selection-start-column="40" selection-end-line="108" selection-end-column="40" />
+          <folding>
+            <element signature="e#36#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DateTimeOps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="14" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="32" selection-end-column="14" />
+          <folding>
+            <element signature="e#37#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataExplore.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/DataExplore.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/OneHotEncoderOps.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PipelineOps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="56" column="54" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
+          <folding>
+            <element signature="e#38#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="168" column="45" selection-start-line="168" selection-start-column="45" selection-end-line="168" selection-end-column="45" />
+          <folding>
+            <element signature="e#39#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataCleaning.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="803">
+          <caret line="277" column="45" selection-start-line="277" selection-start-column="11" selection-end-line="277" selection-end-column="45" />
+          <folding>
+            <element signature="e#39#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="803">
+          <caret line="281" column="36" selection-start-line="281" selection-start-column="36" selection-end-line="281" selection-end-column="36" />
+          <folding>
+            <element signature="e#39#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/PairRDDOps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="28" selection-end-column="55" />
+          <folding>
+            <element signature="e#112#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataframeToDisk.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="55" column="45" selection-start-line="50" selection-start-column="6" selection-end-line="55" selection-end-column="45" />
+          <folding>
+            <element signature="e#37#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CountByValue.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="35" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Accumulators.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DistributedSharedVariables/BroadcastVariablesOps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1069">
+          <caret line="95" column="78" selection-start-line="95" selection-start-column="78" selection-end-line="95" selection-end-column="78" />
+          <folding>
+            <element signature="e#44#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/Join.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="26" column="45" selection-start-line="10" selection-start-column="3" selection-end-line="26" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DistributedSharedVariables/AccumulatorsOps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="34" />
+          <folding>
+            <element signature="e#47#86#0" expanded="true" />
           </folding>
         </state>
       </provider>
