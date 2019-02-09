@@ -35,29 +35,9 @@ object BroadcastVariablesOps {
       return productIdAndNames
     }
 
-
+    // fonksiyon ile dosyayı okuyalım ve broadcast edelim
     val broadcastedProducts = sc.broadcast(loadProducts)
-    /*
-   def loadProducts():Map[Int, String] ={
-
-      var productName:Map[Int, String] = Map()
-
-      val source = Source.fromFile("D:\\Datasets\\retail_db\\products.csv")
-
-      val lines = source.getLines().filter(x => !(x.contains("productCategoryId")))
-      for(line <- lines){
-
-        var field = line.split(",")
-        productName+=(field(0).toInt -> field(2))
-      }
-
-      return productName
-    }
-
-    val productDict = sc.broadcast(loadProducts)
-
-
-    */
+    broadcastedProducts.value()
 
     /////////////////////////////  VERİ OKUMA order_items.csv  /////////////////////////////////////////////////////////
     //==========================================================================================================
