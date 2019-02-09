@@ -51,21 +51,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1690782399">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="202" />
     <option name="y" value="20" />
     <option name="width" value="1226" />
@@ -77,9 +67,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -90,58 +78,18 @@
             <path>
               <item name="scala" type="b2602c69:ProjectViewProjectNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="scala_temel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkTemel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkTemel" type="462c0819:PsiDirectoryNode" />
-              <item name="RDD" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -171,7 +119,7 @@
   <component name="ToolWindowManager">
     <frame x="202" y="20" width="1226" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24957119" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4588336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -188,6 +136,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -197,8 +146,5 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
 </project>
