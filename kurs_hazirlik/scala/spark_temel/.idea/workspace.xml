@@ -7,11 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataCleaning.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PipelineOps.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/Regression/LinearRegression.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/LinearRegression.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/LinearRegression.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/LinearRegression.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/DataCleaning$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/DataCleaning$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/DataCleaning$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/DataCleaning$$anonfun$main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/DataCleaning$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/DataCleaning$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/PipelineOps$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/PipelineOps$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/PreprocessOps$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/PreprocessOps$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/Regression/LinearRegression$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Preprocessing/Regression/LinearRegression.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/LinearRegression.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="160">
+              <caret line="54" column="4" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
               <folding>
                 <element signature="e#49#88#0" expanded="true" />
               </folding>
@@ -57,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -71,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="-34">
               <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
             </state>
           </provider>
@@ -146,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataSet/PivotTable.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataSet/WordCountDataSet.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/scalaGiris/ScalaGiris.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/SparkConfAndContext.scala" />
@@ -183,7 +187,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/SparkSQL.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataExplore.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/DataExplore.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataCleaning.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/OneHotEncoderOps.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/StringIndexerOps.scala" />
@@ -197,6 +200,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/Regression/LinearRegression.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/PreprocessOps.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/LinearRegression.scala" />
       </list>
     </option>
   </component>
@@ -208,8 +213,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="355" />
-    <option name="y" value="97" />
+    <option name="x" value="215" />
+    <option name="y" value="30" />
     <option name="width" value="1391" />
     <option name="height" value="1021" />
   </component>
@@ -267,7 +272,7 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="sparktemel" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550302220761" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550307255468" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -327,11 +332,11 @@
       </method>
     </configuration>
     <configuration name="LinearRegression" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="MachineLearning.Preprocessing.Regression.LinearRegression" />
+      <option name="MAIN_CLASS_NAME" value="MachineLearning.Regression.LinearRegression" />
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MachineLearning.Preprocessing.Regression.*" />
+          <option name="PATTERN" value="MachineLearning.Regression.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -447,9 +452,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="355" y="97" width="1391" height="1021" extended-state="0" />
+    <frame x="215" y="30" width="1391" height="1021" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.324568" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17129977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -458,7 +464,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4144144" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49436936" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -782,16 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/LinearRegression.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="e#49#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/PreprocessOps.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -809,13 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PipelineOps.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -825,8 +814,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="-34">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/LinearRegression.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="54" column="4" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+          <folding>
+            <element signature="e#49#88#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

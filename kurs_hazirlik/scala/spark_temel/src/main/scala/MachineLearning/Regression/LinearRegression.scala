@@ -38,18 +38,32 @@ object LinearRegression {
     // Okuma kontrolü yapıldıktan sonra veri seti Kaggle'dan daha detaylı incelenir
     //https://www.kaggle.com/kumarajarshi/life-expectancy-who
 
+    //********* SÜTUN İSİMLERİNDEKİ BOŞLUKLARI KALDIRMAK VE YENİDEN İSİMLENDİRMEK ************************
+    //df.printSchema()
+    //df.columns.foreach(println(_))
+    val yeniSutunIsimleri = Array("Country", "Year", "Status", "LifeExpectancy", "AdultMortality", "InfantDeaths", "Alcohol",
+     "PercentageExpenditure", "HepatitisB", "Measles", "BMI", "Under-fiveDeaths", "Polio", "TotalExpenditure",
+     "Diphtheria", "HIV_AIDS", "GDP", "Population", "Thinness1-19Years", "Thinness5-9Years", "IncomeCompositionOfResources","Schooling")
+
+    val df2 = df.toDF(yeniSutunIsimleri:_*)
+
+    // yeni sütun isimlerini ve değerlerin doğruluğunu görelim
+    df2.show()
+
+
 
 
     //********* VERİ SETİNİ EĞİTİM VE TEST OLARAK 2'YE AYIRMAK ************************
 
     // Veri setini train ve test olarak ayırma
     val Array(trainDF, testDF) = df.randomSplit(Array(0.75, 0.25),142L)
-    println("trainDF: ")
+
 
     // Ayrılan setleri kontrol etmek
-    trainDF.show(5)
+    println("trainDF: ")
+    //trainDF.show(5)
     println("testDF: ")
-    testDF.show(5)
+   // testDF.show(5)
 
 
     /*
