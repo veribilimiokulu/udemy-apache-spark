@@ -1,10 +1,12 @@
 package MachineLearning.Preprocessing
+
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark.sql.{DataFrame, SparkSession}
-import org.apache.spark.sql.functions._
+import org.apache.spark.ml.Pipeline
+import org.apache.spark.ml.classification.LogisticRegression
 import org.apache.spark.ml.feature.{OneHotEncoderEstimator, StandardScaler, StringIndexer, VectorAssembler}
-import org.apache.spark.ml.{Pipeline, PipelineModel}
-import org.apache.spark.ml.classification.{LogisticRegression, LogisticRegressionModel}
+import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.functions.{col, when}
+
 object PipelineOps {
   def main(args: Array[String]): Unit = {
     ///////////////////// LOG SEVİYESİNİ AYARLAMA /////////////////////
@@ -19,7 +21,6 @@ object PipelineOps {
       .getOrCreate()
 
     val sc = spark.sparkContext
-    import spark.implicits._
 
     ///////////////////// VERİ OKUMA ///////////////////////////////////
     val df = spark.read.format("csv")

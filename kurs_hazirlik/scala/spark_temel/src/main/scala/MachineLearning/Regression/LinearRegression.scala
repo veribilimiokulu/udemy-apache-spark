@@ -1,4 +1,5 @@
-package MachineLearning.Preprocessing.Regression
+package MachineLearning.Regression
+
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.ml.regression.LinearRegression
 import org.apache.spark.sql.SparkSession

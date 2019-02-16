@@ -1,9 +1,10 @@
 package MachineLearning.Preprocessing
 
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark.ml.feature.{OneHotEncoderEstimator, StringIndexer, VectorAssembler, StandardScaler}
+import org.apache.spark.ml.feature.{OneHotEncoderEstimator, StandardScaler, StringIndexer, VectorAssembler}
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
+
 object PreprocessOps {
   def main(args: Array[String]): Unit = {
 
@@ -19,7 +20,6 @@ object PreprocessOps {
       .getOrCreate()
 
     val sc = spark.sparkContext
-    import spark.implicits._
 
     ///////////////////// VERİ OKUMA ///////////////////////////////////
     val df = spark.read.format("csv")
