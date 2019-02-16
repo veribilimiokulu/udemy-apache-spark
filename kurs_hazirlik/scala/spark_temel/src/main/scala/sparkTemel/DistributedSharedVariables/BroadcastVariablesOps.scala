@@ -1,5 +1,8 @@
 package sparkTemel.DistributedSharedVariables
-
+/*
+Erkan ŞİRİN
+Ciroya en çok katkıda bulunan 10 ürünü broadcast variables kullanarak bulma
+ */
 import org.apache.log4j.{Logger, Level}
 import org.apache.spark.{SparkContext, SparkConf}
 import scala.io.Source
@@ -37,7 +40,7 @@ object BroadcastVariablesOps {
 
     // fonksiyon ile dosyayı okuyalım ve broadcast edelim
     val broadcastedProducts = sc.broadcast(loadProducts)
-    broadcastedProducts.value()
+    broadcastedProducts.value
 
     /////////////////////////////  VERİ OKUMA order_items.csv  /////////////////////////////////////////////////////////
     //==========================================================================================================
