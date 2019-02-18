@@ -148,6 +148,14 @@ object SimpleLinearRegression {
     // Artıkları kendimiz hesaplayıp tahmin, gerçek değer ile yan yana inceleyelim
     resultDF.withColumn("residuals", (resultDF.col("label") - resultDF.col("prediction"))).show()
 
+    // y = 4.537119328969264 + 0.04723638038563483 * Advertisement
+
+
+    // Predictions
+    val predictDF = Seq(100).toDF("Advertisement")
+    val dfPredictionsVec = vectorAssembler.transform(predictDF)
+    lrModel.transform(dfPredictionsVec).show()
+
   }
 
 }

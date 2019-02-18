@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65394900-b508-4089-a340-e2b7deccdddb" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/StringOps.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/StringOps.scala" afterDir="false" />
-=======
+    <list default="true" id="ba1c62f1-3214-4d82-bb45-2e42b1a5b9c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/LinearRegressionOps.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/StringOps.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/StringOps.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spark_temel.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Regression/LinearRegressionOps$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Regression/LinearRegressionOps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SparkTemel/DataframeDataset/StringOps$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SparkTemel/DataframeDataset/StringOps$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
->>>>>>> ed2dff2d390cf9895b1abc5e0b5ecddd506f6715
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,135 +18,42 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-<<<<<<< HEAD
-  <component name="FUSProjectUsageTrigger">
-    <session id="-70970778">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="21" />
-          <entry key="project.open.time.0" value="11" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="4" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="21" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="csv" value="3" />
-          <entry key="scala" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSV" value="3" />
-          <entry key="Scala" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="scala" value="6137" />
-          <entry key="txt" value="55" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="55" />
-          <entry key="Scala" value="6137" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages" />
-    </session>
-  </component>
-=======
->>>>>>> ed2dff2d390cf9895b1abc5e0b5ecddd506f6715
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2839">
-              <caret line="170" column="37" selection-start-line="165" selection-start-column="3" selection-end-line="170" selection-end-column="37" />
-              <folding>
-                <element signature="e#39#78#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PipelinesOps.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="81" selection-start-line="81" selection-end-line="81" />
-              <folding>
-                <element signature="e#38#77#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/Join.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="85" column="75" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="75" />
-              <folding>
-                <element signature="e#24#63#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="442">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DistributedVariables/BroadcastVariablesOps.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/BasitLineerRegresyon.scala">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="574">
-              <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+            <state relative-caret-position="679">
+              <caret line="101" column="46" lean-forward="true" selection-start-line="97" selection-start-column="3" selection-end-line="101" selection-end-column="46" />
               <folding>
-                <element signature="e#37#77#0" expanded="true" />
-              </folding>
-=======
-            <state relative-caret-position="183">
-              <caret line="77" column="58" selection-start-line="77" selection-start-column="58" selection-end-line="77" selection-end-column="58" />
-              <folding>
-                <element signature="e#40#79#0" expanded="true" />
+                <element signature="e#36#75#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/StringOps.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
->>>>>>> ed2dff2d390cf9895b1abc5e0b5ecddd506f6715
+            <state relative-caret-position="2278">
+              <caret line="134" column="2" selection-start-line="134" selection-start-column="2" selection-end-line="134" selection-end-column="2" />
+              <folding>
+                <element signature="e#36#76#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Package Object" />
-        <option value="Scala Object" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -153,68 +61,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/WordCountRDD.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/Filter.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/RDDOlusturmak.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/MapAndFlatMap.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/MapTransformation.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/PairRDDOps.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/FlatMapTransformation.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/MapFlatMap.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/BasicTransformationActionTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/DataFrameGiris.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/Wordcount.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/CsvDosyasinaSQLAtmak.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/StringOps.scala" />
-<<<<<<< HEAD
-=======
-        <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/DataframeToDisk.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/Schema.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/DateTimeOps.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PipelineOps.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/Classification/LogisticRegressionOps.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/SparkStreaming/Streaming.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/Regression/LinearRegressionOps.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/PreprocessOps.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataCleaning.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PipelinesOps.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/Join.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/DistributedVariables/BroadcastVariablesOps.scala" />
->>>>>>> ed2dff2d390cf9895b1abc5e0b5ecddd506f6715
+        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/BasitLineerRegresyon.scala" />
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
-<<<<<<< HEAD
-    <option name="x" value="4" />
-    <option name="y" value="7" />
-    <option name="width" value="1172" />
-    <option name="height" value="996" />
-=======
-    <option name="x" value="-4" />
-    <option name="y" value="2" />
-    <option name="width" value="1097" />
-    <option name="height" value="1012" />
->>>>>>> ed2dff2d390cf9895b1abc5e0b5ecddd506f6715
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
+    <option name="x" value="-13" />
+    <option name="width" value="1294" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,24 +108,28 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="SparkTemel" type="462c0819:PsiDirectoryNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark_temel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Regression" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-<<<<<<< HEAD
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537908409167" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Datasets/OnlineRetail.csv" />
-=======
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549632696653" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550498651689" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
->>>>>>> ed2dff2d390cf9895b1abc5e0b5ecddd506f6715
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -277,19 +143,13 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="Application.StringOps">
-    <configuration name="BasicTransformationActionTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="SparkTemel.RDD.BasicTransformationActionTest" />
-=======
-  <component name="RunManager" selected="Application.BroadcastVariablesOps">
-    <configuration name="BroadcastVariablesOps" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="SparkTemel.DistributedVariables.BroadcastVariablesOps" />
->>>>>>> ed2dff2d390cf9895b1abc5e0b5ecddd506f6715
+  <component name="RunManager">
+    <configuration name="BasitLineerRegresyon" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MachineLearning.Regression.BasitLineerRegresyon" />
       <module name="spark_temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SparkTemel.DistributedVariables.*" />
+          <option name="PATTERN" value="MachineLearning.Regression.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -297,97 +157,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Join" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="SparkTemel.RDD.Join" />
-      <module name="spark_temel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SparkTemel.RDD.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinearRegressionOps" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="MachineLearning.Preprocessing.Regression.LinearRegressionOps" />
-      <module name="spark_temel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MachineLearning.Preprocessing.Regression.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-<<<<<<< HEAD
-    <configuration name="StringOps" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="SparkTemel.DataframeDataset.StringOps" />
-      <module name="spark_temel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SparkTemel.DataframeDataset.*" />
-=======
-    <configuration name="PipelinesOps" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="MachineLearning.Preprocessing.PipelinesOps" />
-      <module name="spark_temel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MachineLearning.Preprocessing.*" />
->>>>>>> ed2dff2d390cf9895b1abc5e0b5ecddd506f6715
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Streaming" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="SparkStreaming.Streaming" />
-      <module name="spark_temel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SparkStreaming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-<<<<<<< HEAD
-      <item itemvalue="Application.BasicTransformationActionTest" />
-      <item itemvalue="Application.DataFrameGiris" />
-      <item itemvalue="Application.Wordcount" />
-      <item itemvalue="Application.CsvDosyasinaSQLAtmak" />
-      <item itemvalue="Application.StringOps" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringOps" />
-        <item itemvalue="Application.CsvDosyasinaSQLAtmak" />
-        <item itemvalue="Application.Wordcount" />
-        <item itemvalue="Application.DataFrameGiris" />
-        <item itemvalue="Application.BasicTransformationActionTest" />
-=======
-      <item itemvalue="Application.LinearRegressionOps" />
-      <item itemvalue="Application.PipelinesOps" />
-      <item itemvalue="Application.Streaming" />
-      <item itemvalue="Application.Join" />
-      <item itemvalue="Application.BroadcastVariablesOps" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.BroadcastVariablesOps" />
-        <item itemvalue="Application.Join" />
-        <item itemvalue="Application.PipelinesOps" />
-        <item itemvalue="Application.LinearRegressionOps" />
-        <item itemvalue="Application.Streaming" />
->>>>>>> ed2dff2d390cf9895b1abc5e0b5ecddd506f6715
+        <item itemvalue="Application.BasitLineerRegresyon" />
       </list>
     </recent_temporary>
   </component>
@@ -396,39 +168,19 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="65394900-b508-4089-a340-e2b7deccdddb" name="Default Changelist" comment="" />
-      <created>1536915274973</created>
+      <changelist id="ba1c62f1-3214-4d82-bb45-2e42b1a5b9c6" name="Default Changelist" comment="" />
+      <created>1550484722953</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1536915274973</updated>
+      <updated>1550484722953</updated>
     </task>
-    <task id="LOCAL-00001" summary="PairRDDOps scala spark temel kurs esnasına eklendi">
-      <created>1537330005644</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1537330005644</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Scala Dataframe kurs esnası StringOps eklendi">
-      <created>1548679244433</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1548679244433</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-    <frame x="4" y="7" width="1172" height="996" extended-state="0" />
+    <frame x="-13" y="0" width="1294" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
-=======
-    <frame x="-4" y="2" width="1097" height="1012" extended-state="0" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11282546" />
->>>>>>> ed2dff2d390cf9895b1abc5e0b5ecddd506f6715
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28525123" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -437,243 +189,56 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5631399" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4037199" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.29642856" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32764506" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3894967" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="right" id="Maven" order="8" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="PairRDDOps scala spark temel kurs esnasına eklendi" />
-    <MESSAGE value="Scala Dataframe kurs esnası StringOps eklendi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scala Dataframe kurs esnası StringOps eklendi" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/WordCountRDD.scala">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="-1513">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/Filter.scala">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+        <state relative-caret-position="442">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/RDDOlusturmak.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/StringOps.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="39" column="67" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../Datasets/OnlineRetail_Old.csv" />
-    <entry file="file://$PROJECT_DIR$/../../../../Datasets/OnlineRetail.csv" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/MapTransformation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="49" selection-start-line="1" selection-end-line="2" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/MapFlatMap.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="89" selection-start-line="9" selection-start-column="4" selection-end-line="21" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/PairRDDOps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/BasicTransformationActionTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/DataFrameGiris.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/Wordcount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-          <folding>
-            <element signature="e#36#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/CsvDosyasinaSQLAtmak.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="2278">
+          <caret line="134" column="2" selection-start-line="134" selection-start-column="2" selection-end-line="134" selection-end-column="2" />
           <folding>
             <element signature="e#36#76#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/Schema.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/BasitLineerRegresyon.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="12" selection-end-line="112" />
+        <state relative-caret-position="679">
+          <caret line="101" column="46" lean-forward="true" selection-start-line="97" selection-start-column="3" selection-end-line="101" selection-end-column="46" />
           <folding>
-            <element signature="e#37#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/DataframeToDisk.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
-          <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
-          <folding>
-            <element signature="e#73#113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/StringOps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="574">
-          <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
-          <folding>
-            <element signature="e#37#77#0" expanded="true" />
-=======
-        <state relative-caret-position="51">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/DataExplore.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/DateTimeOps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-          <folding>
-            <element signature="e#37#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/DataCleaning.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/LinearRegressionOps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="e#50#89#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Classification/LogisticRegressionOps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkStreaming/Streaming.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding>
-            <element signature="e#23#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PipelineOps.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/package.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/PreprocessOps.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataCleaning.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PreprocessOps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2839">
-          <caret line="170" column="37" selection-start-line="165" selection-start-column="3" selection-end-line="170" selection-end-column="37" />
-          <folding>
-            <element signature="e#39#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/PipelinesOps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-          <folding>
-            <element signature="e#38#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataExplore.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/Join.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="85" column="75" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="75" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DistributedVariables/BroadcastVariablesOps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="77" column="58" selection-start-line="77" selection-start-column="58" selection-end-line="77" selection-end-column="58" />
-          <folding>
-            <element signature="e#40#79#0" expanded="true" />
->>>>>>> ed2dff2d390cf9895b1abc5e0b5ecddd506f6715
+            <element signature="e#36#75#0" expanded="true" />
           </folding>
         </state>
       </provider>
