@@ -6,18 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pyspark/MachineLearning/Regression/.ipynb_checkpoints/BasitLineerRegresyon-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pyspark/MachineLearning/Regression/BasitLineerRegresyon.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/MultipleLinearRegression.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/MultipleLinearRegression.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Regression/MultipleLinearRegression$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Regression/MultipleLinearRegression$$anonfun$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Regression/MultipleLinearRegression$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Regression/MultipleLinearRegression$$anonfun$main$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Regression/MultipleLinearRegression$$anonfun$main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Regression/MultipleLinearRegression$$anonfun$main$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Regression/MultipleLinearRegression$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Regression/MultipleLinearRegression$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Regression/SimpleLinearRegression$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Regression/SimpleLinearRegression$.class" afterDir="false" />
-    </list>
+    <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -211,9 +200,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="439" />
-    <option name="y" value="6" />
-    <option name="width" value="1497" />
+    <option name="x" value="-5" />
+    <option name="y" value="3" />
+    <option name="width" value="1161" />
     <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -279,7 +268,7 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="sparktemel" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550560315168" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550568107081" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -459,10 +448,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="439" y="6" width="1497" height="1032" extended-state="0" />
+    <frame x="-5" y="3" width="1161" height="1032" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16283925" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21253406" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -471,7 +460,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4916574" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4916574" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
