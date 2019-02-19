@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba1c62f1-3214-4d82-bb45-2e42b1a5b9c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/LinearRegressionOps.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/StringOps.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/StringOps.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spark_temel.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Regression/LinearRegressionOps$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Regression/LinearRegressionOps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SparkTemel/DataframeDataset/StringOps$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SparkTemel/DataframeDataset/StringOps$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ba1c62f1-3214-4d82-bb45-2e42b1a5b9c6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/BasitLineerRegresyon.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="101" column="46" lean-forward="true" selection-start-line="97" selection-start-column="3" selection-end-line="101" selection-end-column="46" />
+            <state relative-caret-position="693">
+              <caret line="101" column="46" selection-start-line="97" selection-start-column="3" selection-end-line="101" selection-end-column="46" />
               <folding>
                 <element signature="e#36#75#0" expanded="true" />
               </folding>
@@ -44,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/StringOps.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2278">
+            <state relative-caret-position="2193">
               <caret line="134" column="2" selection-start-line="134" selection-start-column="2" selection-end-line="134" selection-end-column="2" />
               <folding>
                 <element signature="e#36#76#0" expanded="true" />
@@ -67,7 +58,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-13" />
+    <option name="x" value="174" />
+    <option name="y" value="1" />
     <option name="width" value="1294" />
     <option name="height" value="1047" />
   </component>
@@ -177,10 +169,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="0" width="1294" height="1047" extended-state="0" />
+    <frame x="174" y="1" width="1294" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28525123" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29011345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -225,7 +217,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/StringOps.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2278">
+        <state relative-caret-position="2193">
           <caret line="134" column="2" selection-start-line="134" selection-start-column="2" selection-end-line="134" selection-end-column="2" />
           <folding>
             <element signature="e#36#76#0" expanded="true" />
@@ -235,8 +227,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/BasitLineerRegresyon.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="101" column="46" lean-forward="true" selection-start-line="97" selection-start-column="3" selection-end-line="101" selection-end-column="46" />
+        <state relative-caret-position="693">
+          <caret line="101" column="46" selection-start-line="97" selection-start-column="3" selection-end-line="101" selection-end-column="46" />
           <folding>
             <element signature="e#36#75#0" expanded="true" />
           </folding>

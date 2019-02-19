@@ -17,7 +17,7 @@ object MultipleLinearRegression {
       .appName("LinearRegression")
       .master("local[4]")
       .config("spark.driver.memory","2g")
-      .config("spark.executor.memory","6g")
+      .config("spark.executor.memory","4g")
       .getOrCreate()
 
     val sc = spark.sparkContext
@@ -36,8 +36,6 @@ object MultipleLinearRegression {
       .option("inferSchema","true")
       .load("D:\\Datasets\\Advertising.csv")
 
-
-df.withColumn("summed", (col("TV") + col("Newspaper") + col("Radio"))).show()
 
     //********* VERİ SETİNİ ANLAMAK VE KEŞFETMEK ************************
     // okunan dataframe'e ilk bakış
@@ -63,6 +61,7 @@ df.withColumn("summed", (col("TV") + col("Newspaper") + col("Radio"))).show()
     val df2 = df.toDF(yeniSutunIsimleri:_*)
 
     // yeni sütun isimlerini ve değerlerin doğruluğunu görelim
+    println("Yeni sütün isimleriyle df, Sales label oldu: ")
     df2.show()
 
 
@@ -77,7 +76,7 @@ df.withColumn("summed", (col("TV") + col("Newspaper") + col("Radio"))).show()
 
     // Nümerik nitelikleri belirleyelim. Bunun için tüm niteliklerden kategorikleri çıkarmalıyız.
     // Önce Set haline çevirdik diff ile iki küme farkını aldık ve sonuu tekrar array haline getirdik.
-    var numerikNtelikler = yeniSutunIsimleri.toSet.diff(label.toSet).toArray
+    var numerikNtelikler = Array("TV","Radio")
 
     // Kategorik ve nümerik nitelikleri yazdırıp görelim
     println("\nNümerik nitelikler:")
@@ -99,15 +98,15 @@ df.withColumn("summed", (col("TV") + col("Newspaper") + col("Radio"))).show()
     //df2.describe().show()
 
     // Veri setinde null kontrolü
+    println("Null kontrolü: ")
     for(nitelik <- df2.columns){
-      if(df2.filter(df2.col(nitelik).isNull).count() > 0) println(s"${nitelik} null")
+      if(df2.filter(df2.col(nitelik).isNull).count() > 0) println(s"${nitelik} null") else println(s"${nitelik} içinde null yok")
     }
 
     // 1. Yöntem : Çok uğraşmadan null değerleri düşürelim
     val df3 = df2.na.drop()
 
 
-   // df3.show()
 
     //*********  DOĞRUSAL REGRESYONUN VARSAYIMLARI KARŞILANIYOR MU?************************
 
@@ -130,7 +129,6 @@ df.withColumn("summed", (col("TV") + col("Newspaper") + col("Radio"))).show()
 */
     //Vector Assembler ile tüm girdileri bir vektör haline getirelim
     val vectorAssembler = new VectorAssembler()
-      // nümerik değişkenleri daha önce ayırmıştık arkasıa kategorik niteliği ekliyoruz
       .setInputCols(numerikNtelikler)
       .setOutputCol("features")
 
@@ -158,12 +156,15 @@ df.withColumn("summed", (col("TV") + col("Newspaper") + col("Radio"))).show()
     // Modeli eğitme
     val pipelineModel = pipelineObject.fit(trainDF)
 
+    // Artıkları kendimiz hesaplayıp tahmin, gerçek değer ile yan yana inceleyelim
+    val resultDF = pipelineModel.transform(testDF)
+    resultDF.withColumn("residuals", (resultDF.col("label") - resultDF.col("prediction"))).show()
 
     // Pipeline model içinden lrModeli alma
     val lrModel = pipelineModel.stages.last.asInstanceOf[LinearRegressionModel] // pipeline katarında lrModel ensonda
 
 
-
+    // Regresyon modele ait  istatistikler
       println(s"RMSE: ${lrModel.summary.rootMeanSquaredError}")
       println(s"R kare : ${lrModel.summary.r2}")
       println(s"Düzeltilmiş R kare : ${lrModel.summary.r2adj}")
@@ -174,32 +175,13 @@ df.withColumn("summed", (col("TV") + col("Newspaper") + col("Radio"))).show()
       println(s"p değerler: [${lrModel.summary.pValues.mkString(",")}]")
       // t değerlerini görme. Not: Son değer sabit için
       println(s"t değerler: [${lrModel.summary.tValues.mkString(",")}]")
-      // Regresyon denklem.: y = 5.119779389623744 + 0.04437812983632717 * Reklam
+      // Regresyon denklem.: y =
 
       // Dataframe içinde tahmin edilen değerlerle gerçekleri görelim
-      lrModel.summary.predictions.show()
+      //lrModel.summary.predictions.show()
 
 
 
-      // Artıkları kendimiz hesaplayıp tahmin, gerçek değer ile yan yana inceleyelim
-      val resultDF = pipelineModel.transform(testDF)
-      resultDF.withColumn("residuals", (resultDF.col("label") - resultDF.col("prediction"))).show()
-/*
-    // Model parametrelerini inceleme
-    // Katsayıları ve atıkları görelim
-    println(s"Katsayılar: ${lrModel.coefficients} Atıklar: ${lrModel.intercept}")
-
-    // Summarize the model over the training set and print out some metrics
-    val trainingSummary = lrModel.summary
-    println(s"numIterations: ${trainingSummary.totalIterations}")
-    println(s"objectiveHistory: [${trainingSummary.objectiveHistory.mkString(",")}]")
-    trainingSummary.residuals.show()
-    println(s"RMSE: ${trainingSummary.rootMeanSquaredError}")
-    println(s"r2: ${trainingSummary.r2}")
-
-
-
-*/
   }
 
 }
