@@ -35,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/MultipleLinearRegression.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
+            <state relative-caret-position="17">
               <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
               <folding>
                 <element signature="e#36#75#0" expanded="true" />
@@ -47,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/SimpleLinearRegression.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="153" column="18" selection-start-line="153" selection-start-column="18" selection-end-line="153" selection-end-column="18" />
+            <state relative-caret-position="647">
+              <caret line="156" column="46" lean-forward="true" selection-start-line="156" selection-start-column="46" selection-end-line="156" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -213,8 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,6 +259,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -449,9 +449,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="3" width="1161" height="1032" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21253406" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21616712" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -784,20 +783,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/SimpleLinearRegression.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="153" column="18" selection-start-line="153" selection-start-column="18" selection-end-line="153" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/MultipleLinearRegression.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
+        <state relative-caret-position="17">
           <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
           <folding>
             <element signature="e#36#75#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/SimpleLinearRegression.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="156" column="46" lean-forward="true" selection-start-line="156" selection-start-column="46" selection-end-line="156" selection-end-column="46" />
         </state>
       </provider>
     </entry>
