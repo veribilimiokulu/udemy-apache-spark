@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="" />
+    <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,15 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DistributedSharedVariables/BroadcastVariablesOps.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataCleaning.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -38,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/MultipleLinearRegression.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+            <state relative-caret-position="136">
+              <caret line="170" column="54" lean-forward="true" selection-start-line="166" selection-start-column="4" selection-end-line="176" selection-end-column="72" />
               <folding>
                 <element signature="e#36#75#0" expanded="true" />
               </folding>
@@ -47,11 +40,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/SimpleLinearRegression.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="647">
-              <caret line="156" column="46" lean-forward="true" selection-start-line="156" selection-start-column="46" selection-end-line="156" selection-end-column="46" />
+              <caret line="156" column="46" selection-start-line="156" selection-start-column="46" selection-end-line="156" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/RegressionTuning.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="150" column="12" selection-start-line="150" selection-start-column="12" selection-end-line="150" selection-end-column="12" />
+              <folding>
+                <element signature="e#36#75#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/SparkConfAndContext.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/00_RDD_Takip" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/WordCountRDD.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/DataCleaning.scala" />
@@ -189,6 +193,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/LinearRegression.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/SimpleLinearRegression.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/MultipleLinearRegression.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/RegressionTuning.scala" />
       </list>
     </option>
   </component>
@@ -202,7 +207,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-5" />
     <option name="y" value="3" />
-    <option name="width" value="1161" />
+    <option name="width" value="1271" />
     <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -213,6 +218,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,8 +266,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,7 +273,7 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="sparktemel" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550568107081" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550644788918" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -287,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MultipleLinearRegression">
+  <component name="RunManager" selected="Application.RegressionTuning">
     <configuration name="AccumulatorsOps" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="sparkTemel.DistributedSharedVariables.AccumulatorsOps" />
       <module name="Spark-Temel" />
@@ -314,12 +319,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Join" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkTemel.RDD.Join" />
+    <configuration name="MultipleLinearRegression" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MachineLearning.Regression.MultipleLinearRegression" />
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sparkTemel.RDD.*" />
+          <option name="PATTERN" value="MachineLearning.Regression.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -327,8 +332,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleLinearRegression" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="MachineLearning.Regression.MultipleLinearRegression" />
+    <configuration name="RegressionTuning" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MachineLearning.Regression.RegressionTuning" />
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
@@ -356,17 +361,17 @@
     <list>
       <item itemvalue="Application.AccumulatorsOps" />
       <item itemvalue="Application.BroadcastVariablesOps" />
-      <item itemvalue="Application.Join" />
       <item itemvalue="Application.MultipleLinearRegression" />
       <item itemvalue="Application.SimpleLinearRegression" />
+      <item itemvalue="Application.RegressionTuning" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RegressionTuning" />
         <item itemvalue="Application.MultipleLinearRegression" />
         <item itemvalue="Application.SimpleLinearRegression" />
         <item itemvalue="Application.BroadcastVariablesOps" />
         <item itemvalue="Application.AccumulatorsOps" />
-        <item itemvalue="Application.Join" />
       </list>
     </recent_temporary>
   </component>
@@ -448,9 +453,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="3" width="1161" height="1032" extended-state="0" />
+    <frame x="-5" y="3" width="1271" height="1032" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21616712" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19983485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -459,13 +464,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4916574" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49968335" visible="true" weight="0.52057844" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.28153154" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5003167" side_tool="true" weight="0.52057844" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32923833" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3737486" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -783,20 +788,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/SimpleLinearRegression.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="156" column="46" selection-start-line="156" selection-start-column="46" selection-end-line="156" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/MultipleLinearRegression.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        <state relative-caret-position="136">
+          <caret line="170" column="54" lean-forward="true" selection-start-line="166" selection-start-column="4" selection-end-line="176" selection-end-column="72" />
           <folding>
             <element signature="e#36#75#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/SimpleLinearRegression.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/RegressionTuning.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="156" column="46" lean-forward="true" selection-start-line="156" selection-start-column="46" selection-end-line="156" selection-end-column="46" />
+        <state relative-caret-position="193">
+          <caret line="150" column="12" selection-start-line="150" selection-start-column="12" selection-end-line="150" selection-end-column="12" />
+          <folding>
+            <element signature="e#36#75#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
