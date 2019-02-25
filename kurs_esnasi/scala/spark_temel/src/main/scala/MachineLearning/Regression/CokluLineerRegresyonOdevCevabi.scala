@@ -51,12 +51,12 @@ object CokluLineerRegresyonOdevCevabi {
 
     var label = Array("label")
 
-    // df2.describe().show()
+   // df2.describe().show()
 
     //veri temizliği
     val df3 = df2.na.drop()
 
-    // df3.describe().show()
+   // df3.describe().show()
 
     // Veri hazırlığı
     //StringIndexer

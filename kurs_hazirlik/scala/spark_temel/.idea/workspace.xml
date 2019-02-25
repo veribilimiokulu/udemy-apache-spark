@@ -7,11 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/RegressionTuning.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/RegressionTuning.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Regression/RegressionTuning$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Regression/RegressionTuning$$anonfun$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Regression/RegressionTuning$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Regression/RegressionTuning$$anonfun$main$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Regression/RegressionTuning$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Regression/RegressionTuning$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/CokluLineerRegresyonOdevCevabi.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/CokluLineerRegresyonOdevCevabi.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/CokluLineerRegresyonOdevCevabiNotlar" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/CokluLineerRegresyonOdevCevabiNotlar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/RegressionTuningWithAdvertisementData.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3587">
+            <state relative-caret-position="3502">
               <caret line="211" column="78" selection-start-line="211" selection-start-column="78" selection-end-line="211" selection-end-column="78" />
               <folding>
                 <element signature="e#36#75#0" expanded="true" />
@@ -38,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/RegressionTuning.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
+            <state relative-caret-position="2686">
               <caret line="165" selection-start-line="11" selection-start-column="2" selection-end-line="165" />
               <folding>
                 <element signature="e#36#75#0" expanded="true" />
@@ -47,23 +46,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/CokluLineerRegresyonOdevCevabi.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+            <state relative-caret-position="153">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="37" />
               <folding>
-                <element signature="e#35#74#0" expanded="true" />
+                <element signature="e#36#75#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/CokluLineerRegresyonOdevCevabiNotlar">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2703">
-              <caret line="159" column="47" selection-start-line="159" selection-start-column="47" selection-end-line="159" selection-end-column="47" />
+            <state relative-caret-position="748">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
@@ -139,8 +138,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/RegressionTuningWithAdvertisementData.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/RegressionTuning.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/RegressionTuningNotes" />
-        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/CokluLineerRegresyonOdevCevabiNotlar" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/CokluLineerRegresyonOdevCevabi.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/CokluLineerRegresyonOdevCevabiNotlar" />
       </list>
     </option>
   </component>
@@ -219,7 +218,7 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="sparktemel" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551077819296" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551091166761" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -402,7 +401,7 @@
     <frame x="-5" y="0" width="1812" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14212328" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27454337" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -411,7 +410,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49968335" visible="true" weight="0.45623633" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49968335" weight="0.45623633" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39822024" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -757,7 +756,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/RegressionTuningWithAdvertisementData.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3587">
+        <state relative-caret-position="3502">
           <caret line="211" column="78" selection-start-line="211" selection-start-column="78" selection-end-line="211" selection-end-column="78" />
           <folding>
             <element signature="e#36#75#0" expanded="true" />
@@ -767,8 +766,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/RegressionTuning.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
+        <state relative-caret-position="2686">
           <caret line="165" selection-start-line="11" selection-start-column="2" selection-end-line="165" />
+          <folding>
+            <element signature="e#36#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/CokluLineerRegresyonOdevCevabi.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="37" />
           <folding>
             <element signature="e#36#75#0" expanded="true" />
           </folding>
@@ -777,18 +786,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/CokluLineerRegresyonOdevCevabiNotlar">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2703">
-          <caret line="159" column="47" selection-start-line="159" selection-start-column="47" selection-end-line="159" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Regression/CokluLineerRegresyonOdevCevabi.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
-          <folding>
-            <element signature="e#35#74#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="748">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
