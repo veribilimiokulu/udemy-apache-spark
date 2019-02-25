@@ -1,0 +1,160 @@
+GERGERİYE DOĞRU ELEME YÖNTEMİ
+1. MODEL
+        (0.0,AdultMortality)
+        (0.0,HIV_AIDS)
+        (0.0,IncomeCompositionOfResources)
+        (0.0,Schooling)
+        (1.3100631690576847E-14,UnderFiveDeaths)
+        (1.1191048088221578E-13,InfantDeaths)
+        (5.161302052414385E-9,sabit)
+        (1.3504475717684983E-6,Year)
+        (1.1872554294134474E-5,BMI)
+        (0.03410771888525388,TotalExpenditure)
+        (0.036784730648350195,Diphtheria)
+        (0.03850611012629401,Alcohol)
+        (0.15331214775103552,Polio)
+        (0.19006879853270808,Thinness59)
+        (0.19636439554226293,GDP)
+        (0.3990587606103899,PercentageExpenditure)
+        (0.40883023629914694,HepatitisB)
+        (0.44689226890120537,Measles)
+        (0.5733586217428295,Thinness11)
+        1. Tur (0.9574581459941871,Population)
+        Düzeltilmiş R kare : 0.8373151435783986
+
+
+ 2. MODEL
+
+		 (0.0,AdultMortality)
+		(0.0,HIV_AIDS)
+		(0.0,IncomeCompositionOfResources)
+		(0.0,Schooling)
+		(7.771561172376096E-15,UnderFiveDeaths)
+		(3.5083047578154947E-14,InfantDeaths)
+		(5.084272780564447E-9,sabit)
+		(1.337304360804481E-6,Year)
+		(1.1733876717601177E-5,BMI)
+		(0.034029994207898984,TotalExpenditure)
+		(0.036719428820213285,Diphtheria)
+		(0.038471760499343644,Alcohol)
+		(0.15334021724208702,Polio)
+		(0.19026429710500148,Thinness59)
+		(0.19595682556205274,GDP)
+		(0.3992549065798334,PercentageExpenditure)
+		2. Tur (0.4095538075558305,HepatitisB)
+		2. Tur (0.44580298812695673,Measles)
+		2. Tur (0.5743345675716467,Thinness11)
+
+		Düzeltilmiş R kare : 0.83744070220879
+
+3. MODEL
+
+		(0.0,AdultMortality)
+		(0.0,HIV_AIDS)
+		(0.0,IncomeCompositionOfResources)
+		(0.0,Schooling)
+		(4.884981308350689E-15,UnderFiveDeaths)
+		(1.3322676295501878E-14,InfantDeaths)
+		(2.7062527774290857E-9,sabit)
+		(8.210919533180316E-7,Year)
+		(9.036445394849935E-6,BMI)
+		(0.03289462010000177,TotalExpenditure)
+		(0.03485885714445125,Alcohol)
+		(0.05526736184350334,Diphtheria)
+		(0.10051377125096006,Thinness59)
+		3. Tur (0.1759638160752386,Polio)
+		3. Tur (0.1913839450593533,GDP)
+		3. Tur (0.3914213897284471,PercentageExpenditure)
+
+		Düzeltilmiş R kare : 0.8376239522987197
+
+4. MODEL
+
+		(0.0,AdultMortality)
+		(0.0,HIV_AIDS)
+		(0.0,IncomeCompositionOfResources)
+		(0.0,Schooling)
+		(1.3100631690576847E-14,UnderFiveDeaths)
+		(3.6193270602780103E-14,InfantDeaths)
+		(9.371677256453381E-8,sabit)
+		(1.4845252969575284E-5,Year)
+		(2.7082395095412437E-5,BMI)
+		(0.00794982001049127,Diphtheria)
+		(0.011663608922703128,TotalExpenditure)
+		(0.07502318474162517,Thinness59)
+		4. Tur (0.5013316939800565,Alcohol)
+
+		Düzeltilmiş R kare : 0.8318332377000659
+
+5. MODEL
+
+		(0.0,AdultMortality)
+		(0.0,HIV_AIDS)
+		(0.0,IncomeCompositionOfResources)
+		(0.0,Schooling)
+		(1.3322676295501878E-15,UnderFiveDeaths)
+		(4.440892098500626E-15,InfantDeaths)
+		(1.01945291763883E-7,sabit)
+		(1.775691971994675E-5,Year)
+		(2.1182802226515918E-5,BMI)
+		(0.008863072870860522,Diphtheria)
+		(0.012833741524813647,TotalExpenditure)
+		5. Tur (0.09055780001079872,Thinness59)
+
+
+6. MODEL
+		(0.0,AdultMortality)
+		(0.0,HIV_AIDS)
+		(0.0,IncomeCompositionOfResources)
+		(0.0,Schooling)
+		(3.3306690738754696E-15,UnderFiveDeaths)
+		(1.3766765505351941E-14,InfantDeaths)
+		(4.8100994964883625E-8,sabit)
+		(2.600456270318574E-7,BMI)
+		(9.060887527168049E-6,Year)
+		(0.007318335152928235,TotalExpenditure)
+		(0.00972105060596773,Diphtheria)
+
+		Düzeltilmiş R kare : 0.8316625025002247
+
+		Tüm p değerleri 0.05 altında kaldığı için model tamamdır. Burada durabiliriz.
+		Toplam 98 niteliği model dışı bırakmamıza rağmen düzeltilmiş R kare neredeyse hiç
+		düşmedi. Başka bir deyişle varyansı 8 tane daha az değişkenle aynı oranda açıklayabildik.
+
+		Artık model tuning yapabiliriz.
+
+Oluştutulan modelin parametreleri:
+        RMSE: 3.59125401374999
+        R kare : 0.8342168994111746
+        Düzeltilmiş R kare : 0.8328130394369813
+        Katsayılar : [-0.10347060994570109,-0.01734613666239935,0.09192714369904585,0.03308060796341415,-0.07002311236875798,0.1101302270054431,0.012657018231206,-0.4462191741930162,9.74458012834549,0.9361501607983576,-1.0689922468757582]
+        Sabit : 261.37076348011516
+
+        lrModel parametreleri:
+        aggregationDepth: suggested depth for treeAggregate (>= 2) (default: 2)
+        elasticNetParam: the ElasticNet mixing parameter, in range [0, 1]. For alpha = 0, the penalty is an L2 penalty. For alpha = 1, it is an L1 penalty (default: 0.0)
+        epsilon: The shape parameter to control the amount of robustness. Must be > 1.0. (default: 1.35)
+        featuresCol: features column name (default: features, current: features)
+        fitIntercept: whether to fit an intercept term (default: true)
+        labelCol: label column name (default: label, current: label)
+        loss: The loss function to be optimized. Supported options: squaredError, huber. (Default squaredError) (default: squaredError)
+        maxIter: maximum number of iterations (>= 0) (default: 100)
+        predictionCol: prediction column name (default: prediction)
+        regParam: regularization parameter (>= 0) (default: 0.0)
+        solver: The solver algorithm for optimization. Supported options: auto, normal, l-bfgs. (Default auto) (default: auto)
+        standardization: whether to standardize the training features before fitting the model (default: true)
+        tol: the convergence tolerance for iterative algorithms (>= 0) (default: 1.0E-6)
+        weightCol: weight column name. If this is not set or empty, we treat all instance weights as 1.0 (undefined)
+        p değerleri ile nitelikler:
+        (0.0,AdultMortality)
+        (0.0,HIV_AIDS)
+        (0.0,IncomeCompositionOfResources)
+        (0.0,Schooling)
+        (2.220446049250313E-16,UnderFiveDeaths)
+        (1.3322676295501878E-15,InfantDeaths)
+        (1.495898325210021E-7,BMI)
+        (2.6044025247529135E-7,Status)
+        (4.30255307373173E-5,Year)
+        (0.0016486938216504488,sabit)
+        (0.011668534426355182,Diphtheria)
+        (0.014737404124180564,TotalExpenditure)

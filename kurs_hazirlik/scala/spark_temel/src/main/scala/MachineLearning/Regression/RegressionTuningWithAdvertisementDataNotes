@@ -1,0 +1,28 @@
+
+Model Oluşturma
+RMSE: 1.6900162365680282
+R kare : 0.8909048610067862
+Düzeltilmiş R kare : 0.8893574122267407
+Katsayılar : [0.044708135484395846,0.19713864004707948]
+Sabit : 2.8848635769614845
+p değerler: [0.0,0.0,2.517985819849855E-13]
+t değerler: [26.432042688505113,19.97057192891265,8.087662176433497]
+En iyi lrmodelin parametreleri:
+aggregationDepth: suggested depth for treeAggregate (>= 2) (default: 2)
+elasticNetParam: the ElasticNet mixing parameter, in range [0, 1]. For alpha = 0, the penalty is an L2 penalty. For alpha = 1, it is an L1 penalty (default: 0.0)
+epsilon: The shape parameter to control the amount of robustness. Must be > 1.0. (default: 1.35)
+featuresCol: features column name (default: features, current: features)
+fitIntercept: whether to fit an intercept term (default: true)
+labelCol: label column name (default: label, current: label)
+loss: The loss function to be optimized. Supported options: squaredError, huber. (Default squaredError) (default: squaredError)
+maxIter: maximum number of iterations (>= 0) (default: 100)
+predictionCol: prediction column name (default: prediction)
+regParam: regularization parameter (>= 0) (default: 0.0)
+solver: The solver algorithm for optimization. Supported options: auto, normal, l-bfgs. (Default auto) (default: auto)
+standardization: whether to standardize the training features before fitting the model (default: true)
+tol: the convergence tolerance for iterative algorithms (>= 0) (default: 1.0E-6)
+weightCol: weight column name. If this is not set or empty, we treat all instance weights as 1.0 (undefined)
+p değerleri ile nitelikler:
+(0.0,Radio)
+(0.0,TV)
+(2.517985819849855E-13,sabit)

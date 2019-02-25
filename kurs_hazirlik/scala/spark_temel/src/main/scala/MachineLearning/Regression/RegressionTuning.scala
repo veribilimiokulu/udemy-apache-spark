@@ -24,6 +24,7 @@ object RegressionTuning {
 
 
     ///// Veriyi okuma
+    // Veri kaynağı: https://www.kaggle.com/kumarajarshi/life-expectancy-who
     val df = spark.read.format("csv")
       .option("inferSchema",true)
       .option("header",true)
@@ -59,28 +60,33 @@ object RegressionTuning {
     // satır sayıları eşitlendi diğer null değerler kategorik niteliklerle ilgilidir.
 
     // Veri hazırlığı
+//StringIndexer
+    val statusStringIndexer = new StringIndexer().setInputCol("Status").setOutputCol("statusIndexed")
 
+    // OneHotEncoderEstimator
+    val encoder = new OneHotEncoderEstimator().setInputCols(Array("statusIndexed")).setOutputCols(Array("statusEncoded"))
 
     // vectorAssembler
    val vectorAssembler = new VectorAssembler()
-     .setInputCols(numericCols)
+     .setInputCols(numericCols ++ encoder.getOutputCols) // Nümerik niteliklere encoded kategorik nitelikleri ekleme
      .setOutputCol("features")
 
     // lineer model
     import org.apache.spark.ml.regression.{LinearRegression, LinearRegressionModel}
-    val lrObj = new LinearRegression()
+    val linearRegressionObject = new LinearRegression()
       .setLabelCol("label")
       .setFeaturesCol("features")
 
     // Pipeline model
-    val pipelineObj = new Pipeline().setStages(Array(vectorAssembler, lrObj))
+    val pipelineObject = new Pipeline().setStages(Array(statusStringIndexer, encoder, vectorAssembler, linearRegressionObject))
 
     // veri setini ayırma
     val Array(trainDF, testDF) = df3.randomSplit(Array(0.8, 0.2), 142L)
     trainDF.cache()
+    testDF.cache()
 
     // Modeli eğitme
-    val pipelineModel = pipelineObj.fit(trainDF)
+    val pipelineModel = pipelineObject.fit(trainDF)
 
     // Modeli test etme
     val resultDF = pipelineModel.transform(testDF)
@@ -90,7 +96,7 @@ object RegressionTuning {
 
     // PipelineModel içinden lineer modelialma
     val lrModel = pipelineModel.stages.last.asInstanceOf[LinearRegressionModel]
-
+/*
     // Model istatistiklerini görmme
     // Regresyon modele ait  istatistikler
     println(s"RMSE: ${lrModel.summary.rootMeanSquaredError}")
@@ -103,13 +109,15 @@ object RegressionTuning {
     println(s"p değerler: [${lrModel.summary.pValues.mkString(",")}]")
     // t değerlerini görme. Not: Son değer sabit için
     println(s"t değerler: [${lrModel.summary.tValues.mkString(",")}]")
+    println("lrModel parametreleri: ")
+    println(lrModel.explainParams)
 
-
+*/
     /////  MODEL OLUŞTURMA: GERİYE DOĞRU ELEME YÖNTEMİ ///////////////////
     //===========================================================================
       //p değerlerini daha iyi görmek için
       println(s"p değerleri ile nitelikler:")
-      var pIcinNitelikler = numericCols ++ Array("sabit")
+      var pIcinNitelikler = numericCols ++ Array("sabit") ++ Array("Status")
       var zippedPValues = pIcinNitelikler.zip(lrModel.summary.pValues)
       zippedPValues.map(x => (x._2, x._1)).sorted.foreach(println(_))
 
@@ -119,13 +127,19 @@ object RegressionTuning {
 
     // Kullanılacak parametreler
     val paramGrid = new ParamGridBuilder()
-      .addGrid(lrObj.elasticNetParam, Array(0.2, 0.5, 0.7))
-      .addGrid(lrObj.regParam, Array(0.1, 0.01))
+      .addGrid(linearRegressionObject.aggregationDepth, Array(2, 5))
+      .addGrid(linearRegressionObject.elasticNetParam, Array(0.0, 0.2, 0.7))
+      .addGrid(linearRegressionObject.epsilon, Array(1.35, 1.15))
+      //.addGrid(linearRegressionObject.loss, Array("squaredError","huber")) //elasticNetParam kullanıldığında kullanılamaz
+      .addGrid(linearRegressionObject.maxIter, Array(100, 10))
+      .addGrid(linearRegressionObject.regParam, Array(0.00, 0.01, 0.05))
+      .addGrid(linearRegressionObject.solver, Array("auto","normal","l-bfgs"))
+      .addGrid(linearRegressionObject.tol, Array(1.0E-6, 1.0E-4))
       .build()
 
     // Cross Validation
     val cv = new CrossValidator()
-      .setEstimator(pipelineObj)
+      .setEstimator(pipelineObject)
       .setEvaluator(new RegressionEvaluator)
       .setEstimatorParamMaps(paramGrid)
       .setNumFolds(5)  // Use 3+ in practice
