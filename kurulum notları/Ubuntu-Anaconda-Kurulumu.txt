@@ -1,0 +1,30 @@
+Ubuntu Anaconda Kurulumu
+1. https://www.anaconda.com/ adresine eriş
+
+2. Download Anaconda linkine tıklayın
+
+3. Linux Sürümünü,  Python 3.X versiyonunu ve 64bit installer seçin ve save file deyin
+
+4. Terminal'i açın ve mv Downloads/Anaconda3_XXXXXX .
+komutu ile indirilen dosyayı home dizininize taşıyın
+
+5. Terminalden 
+bash Anaconda3_XXXXXX.sh komutunu çalıştırın
+alta 
+>>> 
+gelecektir
+Burada enter tuşlayın
+
+Önerilen dizine kurmak için enter tuşlayın 
+Path'e ekleyeyim mi diye sorduğunda yes de kabul et.
+
+Microsoft VSCode için no de
+
+
+6. Terminalden 
+source .bashrc 
+ile işlemleri güncelle
+
+7. anaconda-navigator
+komutuyla Anaconda'yı çalıştırın
+
