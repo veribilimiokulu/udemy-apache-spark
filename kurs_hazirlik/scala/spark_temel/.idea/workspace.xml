@@ -6,11 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Variance - Bias.snb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/Streaming/FileStreamWordCount.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="591">
-              <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+              <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
               <folding>
                 <element signature="e#19#44#0" expanded="true" />
               </folding>
@@ -81,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="50" column="21" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="50" selection-end-column="21" />
+            <state relative-caret-position="850">
+              <caret line="50" column="21" selection-start-line="46" selection-start-column="8" selection-end-line="50" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -184,6 +180,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,7 +218,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,11 +311,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MultipleLinearRegression" />
-      <item itemvalue="Application.RegressionTuning" />
-      <item itemvalue="Application.RegressionTuningWithAdvertisementData" />
       <item itemvalue="Application.CokluLineerRegresyonOdevCevabi" />
       <item itemvalue="Application.FileStreamWordCount" />
+      <item itemvalue="Application.MultipleLinearRegression" />
+      <item itemvalue="Application.RegressionTuningWithAdvertisementData" />
+      <item itemvalue="Application.RegressionTuning" />
     </list>
     <recent_temporary>
       <list>
@@ -410,8 +406,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="0" width="1567" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2435302" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24684805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -795,15 +792,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="50" column="21" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="50" selection-end-column="21" />
+        <state relative-caret-position="850">
+          <caret line="50" column="21" selection-start-line="46" selection-start-column="8" selection-end-line="50" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Streaming/FileStreamWordCount.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="591">
-          <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
           <folding>
             <element signature="e#19#44#0" expanded="true" />
           </folding>
