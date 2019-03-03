@@ -29,7 +29,7 @@ object QuickExample {
 
     val sortedWords = wordCounts.map(x => (x._2, x._1))
         .transform(_.sortByKey(false))
-    
+
     sortedWords.print(50)
 
     ssc.start()
