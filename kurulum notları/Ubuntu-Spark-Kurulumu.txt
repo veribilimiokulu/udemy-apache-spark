@@ -9,41 +9,60 @@ Java-8 install
 	2. sudo apt-get update
 
 	3. sudo apt-get install oracle-java8-installer
-	
+				NOT: Eğer burada "E: dpkg was interrupted, you must manually run 'sudo dpg --configure -a' to correct the problem." şeklinde bir hata alırsanız. 
+				Bu hatayı düzeltmek için: sudo dpg --configure -a komutunu çalıştırın
+				Daha sonra 3. maddedeki komutu tekrar çalıştırın. 
+		
+		Oracle lisans anlaşması için onay isteyecektir 	"yes"	 diyelim.
+		
 	4. java -version 
+				komutundan sonra 
+				java version "1.8.0_201"
+				şeklinde java versiyonunu ekranda görmemiz lazım
 	
 	5. sudo update-alternatives --config java
 
-		With the “auto mode”, highest priority alternative will always be selected as 
-		the default alternative even when a new or an upgraded package is installed whereas 
-		with the “manual mode”, regardless of the priority, your choice will always 
-		be considered as the default alternative until you choose another package.
+				komutu bize java kurulum diznini verecektir.
+				
 
 
 Set JAVA_HOME environment variable
 	
-	1. Java'nın nerede yüklü olduğunu öğren 
+	1. Java'nın nerede yüklü olduğunu öğrenin
 			sudo update-alternatives --config java
+			
+			Buradan sadece /usr/lib/jvm/java-8-oracle  e kadar olan yeri kopyala
 			
 	2. sudo nano /etc/environment		
 			
-	3. Birinci maddede çıkan sonucu 
-	  JAVA_HOME="/usr/lib/jvm/java-8-oracle"		
-	  veya
-	  JAVA_HOME="/usr/lib/jvm/java-8-oracle/jre/bin/java"
-			
-			
-	4.  JAVA_HOME Ayarlama
+	3. 1. maddede kopyaladığınız kısmı kullanarak dosya içinde en alt satıra aşağıdaki satırı ekleyiniz:
+		JAVA_HOME="/usr/lib/jvm/java-8-oracle"	
 
+		Ctrl+O -> Enter -> Ctrl+X ile kaydedip çıkın.
+			
+	4.  JAVA_HOME Kontrol
+		 Yapılan değişikliğin geçerli olması için:
 		source /etc/environment
-		echo $JAVA_HOME		
+		
+		JAVA_HOME'u kontrol etmek için:
+		echo $JAVA_HOME	
+		
+		çıktı:
+		/usr/lib/jvm/java-8-oracle
 			
 Spark Kurulum			
-Spark'ı Firefox üzerinden indir
-	1. Downloads dizininden /home/erkan'a taşı 
-		Komut: mv Downloads/spark-2.3.1-bin-hadoop2.7.tgz .
+	1. Spark 2.3.1'i indirmek için Firefox üzerinden https://archive.apache.org/dist/spark/spark-2.3.1/ adresine gidin.
+		spark-2.3.1-bin-hadoop2.7.tgz dosyasını indirin
+		
+		Save File deyin. Dosya Downloads klasörüne kaydedilecektir.
+		
+	1. Spark dosyasını Downloads dizininden /home/erkan 'a taşıyın (erkan yerine sizin kullanıcı adınız olmalı) 
+		
+		mv Downloads/spark-2.3.1-bin-hadoop2.7.tgz .
+		
+		sonundaki noktayı unutmayın. Komutu /home/erkan dizininden çağırdık . bulunduğumuz dizine işaret eder.
 	
-	2. Aç
+	2. .tgz uzantılı spark dosyasını açmak
 	Komut:tar -xzf spark-2.3.1-bin-hadoop2.7.tgz
 	
 	3. spark a soft link ekle
@@ -51,20 +70,40 @@ Spark'ı Firefox üzerinden indir
 	
 	4. SPARK_HOME ayarla ve Spark/bin Path'e ekle
 	sudo nano /etc/environment komutuyla environment içine gir
-		PATH sonuna ":/home/erkan/spark/bin"  ekle 
+		PATH sonuna ":/home/erkan/spark/bin"  ekle  (erkan yerine kendi kullanıcı adınız olmalı)
 		ekledikten sonra en alt satırda JAVA_HOME altına
 		SPARK_HOME="/home/erkan/spark"
-		ekle 
-		Ctrl+O -> Enter -> Ctrl+X ile çık
+		ekle (erkan yerine kendi kullanıcı adınız olmalı)
+		Ctrl+O -> Enter -> Ctrl+X ile çıkın
 		
 	5. Ayarların geçerli olması için source /etc/environment
 	komutunu çalıştır
 		
 	6. spark-shell ile sparkın çalıştığını kontrol et.
+		scala>
+		karşınıza çıkacaktır.
+		spark-shell'den çıkmak için 
+		:q
+		yazınız.
 		
+	7. pyspark çalıştırma kontrolü
+		sudo nano .bashrc içine giriniz
+		En alta aşağıdaki satırı ekleyiniz.
+		export PYSPARK_PYTHON=python3
 		
+		Ctrl+O -> Enter -> Ctrl+X ile çıkın
 				
-			
+		source .bashrc komutuyla değişiklikleri güncelleyin
+		
+		pyspark komutu ile pyspark çalışacaktır.
+		
+		karşınızda 
+		>>>
+		görünüz.
+		
+		exit()
+		
+		ile çıkınız.
 			
 			
 			

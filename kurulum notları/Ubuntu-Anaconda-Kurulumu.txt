@@ -16,7 +16,7 @@ gelecektir
 Burada enter tuşlayın
 
 Önerilen dizine kurmak için enter tuşlayın 
-Path'e ekleyeyim mi diye sorduğunda yes de kabul et.
+Path'e ekleyeyim mi diye sorduğunda yes de kabul edin.
 
 Microsoft VSCode için no de
 
