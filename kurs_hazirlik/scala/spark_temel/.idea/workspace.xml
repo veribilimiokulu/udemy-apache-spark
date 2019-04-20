@@ -22,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
+            <state relative-caret-position="935">
               <caret line="55" column="21" selection-start-line="51" selection-start-column="8" selection-end-line="55" selection-end-column="21" />
             </state>
           </provider>
@@ -31,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/KMeansBasic.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="204" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="204" />
+            <state relative-caret-position="3349">
+              <caret line="204" selection-start-line="14" selection-start-column="3" selection-end-line="204" />
               <folding>
                 <element signature="e#35#112#0" expanded="true" />
               </folding>
@@ -43,7 +43,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/ClusteringEvaluation.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1272">
+            <state relative-caret-position="829">
               <caret line="211" column="70" selection-start-line="211" selection-start-column="70" selection-end-line="211" selection-end-column="70" />
               <folding>
                 <element signature="e#35#112#0" expanded="true" />
@@ -136,7 +136,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-86" />
+    <option name="x" value="151" />
+    <option name="y" value="28" />
     <option name="width" value="1594" />
     <option name="height" value="1047" />
   </component>
@@ -149,7 +150,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,6 +196,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,9 +384,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-86" y="0" width="1594" height="1047" extended-state="0" />
+    <frame x="151" y="28" width="1594" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19687092" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19947849" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -760,16 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/KMeansBasic.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="204" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="204" />
-          <folding>
-            <element signature="e#35#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Streaming/StructuredStreaming/ReadFromCsv.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -786,14 +777,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
+        <state relative-caret-position="935">
           <caret line="55" column="21" selection-start-line="51" selection-start-column="8" selection-end-line="55" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/KMeansBasic.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3349">
+          <caret line="204" selection-start-line="14" selection-start-column="3" selection-end-line="204" />
+          <folding>
+            <element signature="e#35#112#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/ClusteringEvaluation.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1272">
+        <state relative-caret-position="829">
           <caret line="211" column="70" selection-start-line="211" selection-start-column="70" selection-end-line="211" selection-end-column="70" />
           <folding>
             <element signature="e#35#112#0" expanded="true" />
