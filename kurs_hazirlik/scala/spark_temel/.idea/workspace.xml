@@ -7,13 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Spark-Temel.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Clustering/ClusteringEvaluation$$anonfun$identifyCategoricAndNumeric$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Clustering/ClusteringEvaluation$$anonfun$identifyCategoricAndNumeric$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Clustering/ClusteringEvaluation$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Clustering/ClusteringEvaluation$.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="289">
+              <caret line="59" column="36" lean-forward="true" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -58,13 +54,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Classification/LogisticRegressionOps.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="541">
               <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
               <folding>
                 <element signature="e#40#79#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataframeGiris.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="21" column="28" selection-start-line="8" selection-start-column="4" selection-end-line="21" selection-end-column="28" />
+              <folding>
+                <element signature="e#37#77#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/ReadFromPosgres.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+              <folding>
+                <element signature="e#37#77#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,7 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/PairRDDOps.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/LogAnalizi.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/ReduceByKey.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DatafrmeOperations01.scala" />
@@ -141,8 +160,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/KMeanBasic.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/KMeansBasic.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/ClusteringEvaluation.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Classification/LogisticRegressionOps.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/ReadFromPosgres.scala" />
       </list>
     </option>
   </component>
@@ -200,7 +220,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkTemel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SparkTemel" type="b2602c69:ProjectViewProjectNode" />
@@ -208,8 +228,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkTemel" type="462c0819:PsiDirectoryNode" />
+              <item name="DataFrameDataSet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -222,7 +242,7 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="sparktemel" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556086250457" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557013585144" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -241,13 +261,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LogisticRegressionOps">
+  <component name="RunManager" selected="Application.ReadFromPosgres">
     <configuration name="ClusteringEvaluation" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="MachineLearning.Clustering.ClusteringEvaluation" />
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="MachineLearning.Clustering.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataframeGiris" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkTemel.DataFrameDataSet.DataframeGiris" />
+      <module name="Spark-Temel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sparkTemel.DataFrameDataSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,25 +314,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFromCsv" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Streaming.StructuredStreaming.ReadFromCsv" />
+    <configuration name="ReadFromPosgres" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkTemel.DataFrameDataSet.ReadFromPosgres" />
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Streaming.StructuredStreaming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaticStreamingJoin" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Streaming.StructuredStreaming.StaticStreamingJoin" />
-      <module name="Spark-Temel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Streaming.StructuredStreaming.*" />
+          <option name="PATTERN" value="sparkTemel.DataFrameDataSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,16 +340,16 @@
       <item itemvalue="Application.ClusteringEvaluation" />
       <item itemvalue="Application.KMeansBasic" />
       <item itemvalue="Application.LogisticRegressionOps" />
-      <item itemvalue="Application.ReadFromCsv" />
-      <item itemvalue="Application.StaticStreamingJoin" />
+      <item itemvalue="Application.DataframeGiris" />
+      <item itemvalue="Application.ReadFromPosgres" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadFromPosgres" />
+        <item itemvalue="Application.DataframeGiris" />
         <item itemvalue="Application.LogisticRegressionOps" />
         <item itemvalue="Application.ClusteringEvaluation" />
         <item itemvalue="Application.KMeansBasic" />
-        <item itemvalue="Application.StaticStreamingJoin" />
-        <item itemvalue="Application.ReadFromCsv" />
       </list>
     </recent_temporary>
   </component>
@@ -414,7 +434,7 @@
     <frame x="22" y="17" width="1857" height="980" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17640512" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17807457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -423,7 +443,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49968335" weight="0.41440377" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49968335" visible="true" weight="0.23730814" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39822024" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -459,13 +479,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Scala Dataframe DataframeToDisk kurs hazırlık eklendi" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/BasicTransformationActionsTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/WordCountDataSet.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
@@ -494,16 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataframeGiris.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="38" column="45" selection-start-line="34" selection-start-column="4" selection-end-line="38" selection-end-column="45" />
-          <folding>
-            <element signature="e#37#77#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -796,13 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/KMeansBasic.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3349">
@@ -829,6 +825,33 @@
           <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
           <folding>
             <element signature="e#40#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataframeGiris.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="21" column="28" selection-start-line="8" selection-start-column="4" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="e#37#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="59" column="36" lean-forward="true" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/ReadFromPosgres.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+          <folding>
+            <element signature="e#37#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
