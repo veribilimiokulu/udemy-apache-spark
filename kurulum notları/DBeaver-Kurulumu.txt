@@ -1,0 +1,10 @@
+
+
+DBEAVER WINDOWS 10 KURULUMU
+===============================
+
+1. https://github.com/dbeaver/dbeaver/releases
+adresinden dbeaver-ce-6.0.3-x86_64-setup.exe
+dosyasını indiriyoruz.
+
+2. JRE Java kurulumu yapmıyoruz 
