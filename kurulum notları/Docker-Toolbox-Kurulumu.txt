@@ -1,0 +1,78 @@
+1. Windows 7 ve üzeri kullanıyor olmalısınız. İşletim sistemi 64 bit olmalıdır.
+
+2. Windows 10 Pro, Enterprise ve Education kullanmıyorsanız ve bu sürümleri kullandığınız halde Oracle Virtualbox kullanmaya devam etmek istiyorsanız
+DockerToolbox kurmanız gerekir.
+
+3. Ctrl+Alt+delete tuşlarına aynı anda basarak Taskmanager -> Performance sekmesine ulaşın
+sağ altta Virtualization Enabled olmalıdır.
+
+4. https://github.com/docker/toolbox/releases 
+adresinden Assets bölümünden DockerToolbox-18.09.3.exe
+dosyasını indirin (217 MB)
+
+5. DockerToolbox'ı kurun.
+	Docker-compose hariç diğer seçenekleri kaldırın.
+	(Virtualbox kurulu değilse onu seçebilirsiniz)
+6. Terminali açın (Örneğin gitbash)
+
+7. Terminalde docker-meachine ls komutunu yazın
+
+8. Terminalde docker-machine create default komutunu çalıştırın
+
+Beklenen ekran çıktıları:
+	Running pre-create checks...
+	Creating machine...
+	(default) Copying C:\Users\user\.docker\machine\cache\boot2docker.iso to C:\Users\user\.docker\machine\machines\default\boot2docker.iso...
+	(default) Creating VirtualBox VM...
+	(default) Creating SSH key...
+	(default) Starting the VM...
+	(default) Check network to re-create if needed...
+	(default) Windows might ask for the permission to configure a dhcp server. Sometimes, such confirmation window is minimized in the taskbar.
+	(default) Waiting for an IP...
+	Waiting for machine to be running, this may take a few minutes...
+	Detecting operating system of created instance...
+	Waiting for SSH to be available...
+	Detecting the provisioner...
+	Provisioning with boot2docker...
+	Copying certs to the local machine directory...
+	Copying certs to the remote machine...
+	Setting Docker configuration on the remote daemon...
+	Checking connection to Docker...
+	Docker is up and running!
+	To see how to connect your Docker Client to the Docker Engine running on this virtual machine, run: D:\Program Files\Docker Toolbox\docker-machine.exe env default
+
+9. Şu iki komutu çalıştırın 
+
+$ docker-machine env
+
+$ eval "$(docker-machine env default)"
+
+10. docker ps 
+komutu ile mevcut container'ları listeleyin (Yeni yüklediğimiz için sonuç boş olmalıdır)
+
+11. POSTGRESQL Docker Kurulumu
+docker run -p 5432:5432 -d \
+-e POSTGRES_PASSWORD=postgres \
+-e POSTGRES_USER=postgres \
+-e POSTGRES_DB=spark-db \
+-v pgdata:/var/lib/postgresql/data \
+postgres
+
+
+12. docker ps ile kontrol edelim
+$ docker ps
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES
+d25235bc5eb2        postgres            "docker-entrypoint.s…"   14 seconds ago      Up 14 seconds       0.0.0.0:5432->5432/tcp   nervous_leavitt
+
+13. postgresql makinesine bağlanma
+$ winpty docker.exe exec -it d25235bc5eb2 psql -U postgres spark-db
+
+Beklenen çıktı:
+psql (11.2 (Debian 11.2-1.pgdg90+1))
+Type "help" for help.
+
+spark-db=#
+	
+14. \q
+komutu ile postgres shell'den çıkalım.
+
