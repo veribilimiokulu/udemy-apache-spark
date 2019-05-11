@@ -1,0 +1,111 @@
+Spark ile PostgreSQL Veri tabanından Veri Okumak
+======================================================
+
+1. Windows terminal (gitBash veya cmd)
+docker-machine start default
+
+docker-machine env
+ 
+eval $("C:\Program Files\Docker Toolbox\docker-machine.exe" env) 
+
+2. PostgreSQL container container id ve isim öğrenme
+
+docker container ls -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                    PORTS               NAMES
+ceae3953f0a7        postgres            "docker-entrypoint.s…"   19 hours ago        Exited (0) 19 hours ago                       reverent_nobel
+
+3. Docker PosgreSQL container çalıştırma
+ docker container start ceae3953f0a7
+ 
+4. PosgreSQL container ip adresini öğrenme
+ $ docker-machine ls
+NAME      ACTIVE   DRIVER       STATE     URL                         SWARM   DOCKER     ERRORS
+default   *        virtualbox   Running   tcp://192.168.99.107:2376           v18.09.5
+
+  
+5. ip numarasını windows hosts dosyasına ekleme
+192.168.99.107 docker
+ 
+  
+6. 
+DBeaver PosgreSQL bağlantısı oluşturma
+	Host: docker 
+	Database: 
+	User: postgres
+	Password: postgres
+	
+	Show all databases kutucuğunu işaretle
+	
+	Test-connection
+	
+	Başarılı bir bağlantı sağlanmalıdır.
+
+7. Ana makineden posgres docker container'a csv dosyası aktarma
+ docker cp /d/Datasets/simple_data.csv ceae3953f0a7:simple_data.csv
+
+
+8. DBeaver üzerinden kopyananan csv ile veri tabanı oluşturmak
+PosgreSQL  bağlantısına sağ tıkla ve yeni bir SQL Editor aç 
+
+create table simple_data (
+sirano varchar(50),
+isim varchar(50),
+yas integer,
+meslek varchar(50),
+sehir varchar(50), 
+aylik_gelir float
+);
+
+ile tablo yarat
+
+9. Aynı SQL editör içinde 
+
+copy simple_data from '/simple_data.csv' delimiters ',' csv header;
+
+
+yaz satırı seç ve alt+enter ile 
+yaratılan tabloya container'a kopyaladığımız csv dosyasından insert yap
+
+10. veri kontrolü
+select * from spark.public.simple_data
+
+11. Spark ile veriyi okumak
+ pom.xml dosyasına aşağıdaki dependency'i eklemeyi unutmayın
+    <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.4.1207</version>
+        </dependency>
+
+
+PostgreSQL Pratik Komutlar
+----------------------------
+
+1. PosgreSQL container bağlantı
+ winpty docker.exe exec -it cea bash
+root@ceae3953f0a7:/#
+
+
+2. posgres shell bağlantı
+ psql -U postgres
+
+3. veri tabanlarını listeleme
+\l
+                                 List of databases
+   Name    |  Owner   | Encoding |  Collate   |   Ctype    |   Access privileges
+-----------+----------+----------+------------+------------+-----------------------
+ postgres  | postgres | UTF8     | en_US.utf8 | en_US.utf8 |
+ spark     | postgres | UTF8     | en_US.utf8 | en_US.utf8 |
+ template0 | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/postgres          +
+           |          |          |            |            | postgres=CTc/postgres
+ template1 | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/postgres          +
+           |          |          |            |            | postgres=CTc/postgres
+(4 rows)
+
+8. veri tabanı seçmek
+postgres-# \c spark-db
+You are now connected to database "spark-db" as user "postgres".
+spark-db-#
+
+9. 
