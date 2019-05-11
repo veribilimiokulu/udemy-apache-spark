@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba1c62f1-3214-4d82-bb45-2e42b1a5b9c6" name="Default Changelist" comment="" />
+    <list default="true" id="ba1c62f1-3214-4d82-bb45-2e42b1a5b9c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,17 +17,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+            <state relative-caret-position="587">
+              <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/WriteToMongoDB.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="16" selection-end-column="20" />
+              <folding>
+                <element signature="e#36#76#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/WriteToMongoDB.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/ReadFromMongoDB.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#36#76#0" expanded="true" />
               </folding>
@@ -54,6 +69,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/ReadFromPostgres.scala" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/WriteToMongoDB.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/ReadFromMongoDB.scala" />
       </list>
     </option>
   </component>
@@ -65,8 +81,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="591" />
-    <option name="y" value="39" />
+    <option name="x" value="34" />
+    <option name="y" value="19" />
     <option name="width" value="1253" />
     <option name="height" value="958" />
   </component>
@@ -78,6 +94,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,11 +142,10 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557574789031" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557607440240" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -145,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WriteToMongoDB">
+  <component name="RunManager" selected="Application.ReadFromMongoDB">
     <configuration name="ReadFromConsole" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Streaming.StructuredStreaming.ReadFromConsole" />
       <module name="spark_temel" />
@@ -172,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFromFile" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Streaming.StructuredStreaming.ReadFromFile" />
+    <configuration name="ReadFromMongoDB" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="SparkTemel.DataframeDataset.ReadFromMongoDB" />
       <module name="spark_temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Streaming.StructuredStreaming.*" />
+          <option name="PATTERN" value="SparkTemel.DataframeDataset.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadFromMongoDB" />
         <item itemvalue="Application.WriteToMongoDB" />
         <item itemvalue="Application.ReadFromPostgres" />
         <item itemvalue="Application.ReadFromCsv" />
         <item itemvalue="Application.ReadFromConsole" />
-        <item itemvalue="Application.ReadFromFile" />
       </list>
     </recent_temporary>
   </component>
@@ -235,10 +251,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="591" y="39" width="1253" height="958" extended-state="0" />
-    <editor active="true" />
+    <frame x="34" y="19" width="1253" height="958" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20368817" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20704107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -247,7 +262,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41939393" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40969697" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -391,15 +406,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        <state relative-caret-position="587">
+          <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/WriteToMongoDB.scala">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#36#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/ReadFromMongoDB.scala">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#36#76#0" expanded="true" />
           </folding>
