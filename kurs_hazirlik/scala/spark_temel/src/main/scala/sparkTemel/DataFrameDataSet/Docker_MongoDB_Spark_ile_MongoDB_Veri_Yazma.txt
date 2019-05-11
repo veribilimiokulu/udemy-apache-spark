@@ -1,0 +1,95 @@
+//////////////// WİNDOWS DOCKER TOOLBOX MONGO DB KURULUMU VE SPARK İLE MONGODB'YE VERİ YAZMA //////////////////
+
+1. Windows Docker çalıştırma
+
+	1.1 gitbash açılır
+	
+	1.2. docker-machine start default
+	
+	1.3.  docker-machine env
+	
+	1.4. eval $("C:\Program Files\Docker Toolbox\docker-machine.exe" env)
+	
+	1.5. 
+	$ docker-machine ls
+	NAME      ACTIVE   DRIVER       STATE     URL                         SWARM   DOCKER     ERRORS
+	default   *        virtualbox   Running   tcp://192.168.99.107:2376           v18.09.5
+	
+	default docker machine çalışıyor ip 192.168.99.107
+
+	1.6. C:\Windows\System32\drivers\etc\hosts
+		dosyasına
+		192.168.99.107 docker
+		satırını ekleyelim
+		
+2. MongoDB docker container yaratma ve çalıştırma:
+	
+	2.1. internete bağlanması için dns verdik.
+docker run --name mongodb -d \
+-p 27017:27017 \
+--dns 8.8.8.8 \
+mongo
+
+	2.2 Kontrol
+	$ docker ps
+	CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                      NAMES
+	a0aefa23f092        mongo               "docker-entrypoint.s…"   5 seconds ago       Up 5 seconds        0.0.0.0:27017->27017/tcp   mongodb
+
+
+3. Spark uygulama pom.xml dosyası dependencies bölümüne
+<dependency>
+    <groupId>org.mongodb.spark</groupId>
+    <artifactId>mongo-spark-connector_2.11</artifactId>
+    <version>2.3.1</version>
+</dependency>
+eklenir. 
+
+Spark ile MongoDB'ye simple_data.csv yazma uygulamasını çalıştırılır.
+
+4. MondoDB container erişim 
+		
+	4.1. Container bash'e ulaşma 
+	$ winpty docker.exe exec -it mongodb bash
+	root@a0aefa23f092:/#
+
+	4.2. MongoDB Shell'e ulaşma 
+	root@cf1368808995:/# mongo
+	yazdığımızda 
+	>
+	gelecektir.
+	
+	4.3. Show all databases
+	> show dbs
+	admin   0.000GB
+	config  0.000GB
+	local   0.000GB
+	test    0.000GB
+	
+	4.4. test database seçimi 
+	> use test
+	switched to db test
+	
+	4.5. test database içindeki collectionsları listeleme 
+	> show collections;
+	spark
+	
+	4.6. Yadığımız veriyi görme:
+	db.spark.find();
+	
+{ "_id" : ObjectId("5cd6a0980e0e0a4674d1cd10"), "sirano" : 1, "isim" : "Cemal", "yas" : 35, "meslek" : "Isci", "sehir" : "Ankara", "aylik_gelir" : 3500 }
+{ "_id" : ObjectId("5cd6a0980e0e0a4674d1cd11"), "sirano" : 2, "isim" : "Ceyda", "yas" : 42, "meslek" : "Memur", "sehir" : "Kayseri", "aylik_gelir" : 4200 }
+{ "_id" : ObjectId("5cd6a0980e0e0a4674d1cd12"), "sirano" : 3, "isim" : "Timur", "yas" : 30, "meslek" : "Müzisyen", "sehir" : "Istanbul", "aylik_gelir" : 9000 }
+{ "_id" : ObjectId("5cd6a0980e0e0a4674d1cd13"), "sirano" : 4, "isim" : "Burcu", "yas" : 29, "meslek" : "Pazarlamaci", "sehir" : "Ankara", "aylik_gelir" : 4200 }
+{ "_id" : ObjectId("5cd6a0980e0e0a4674d1cd14"), "sirano" : 5, "isim" : "Yasemin", "yas" : 23, "meslek" : "Pazarlamaci", "sehir" : "Bursa", "aylik_gelir" : 4800 }
+{ "_id" : ObjectId("5cd6a0980e0e0a4674d1cd15"), "sirano" : 6, "isim" : "Ali", "yas" : 33, "meslek" : "Memur", "sehir" : "Ankara", "aylik_gelir" : 4250 }
+{ "_id" : ObjectId("5cd6a0980e0e0a4674d1cd16"), "sirano" : 7, "isim" : "Dilek", "yas" : 29, "meslek" : "Pazarlamaci", "sehir" : "Istanbul", "aylik_gelir" : 7300 }
+{ "_id" : ObjectId("5cd6a0980e0e0a4674d1cd17"), "sirano" : 8, "isim" : "Murat", "yas" : 31, "meslek" : "Müzisyen", "sehir" : "Istanbul", "aylik_gelir" : 12000 }
+{ "_id" : ObjectId("5cd6a0980e0e0a4674d1cd18"), "sirano" : 9, "isim" : "Ahmet", "yas" : 33, "meslek" : "Doktor", "sehir" : "Ankara", "aylik_gelir" : 18000 }
+{ "_id" : ObjectId("5cd6a0980e0e0a4674d1cd19"), "sirano" : 10, "isim" : "Muhittin", "yas" : 46, "meslek" : "Berber", "sehir" : "Istanbul", "aylik_gelir" : 12000 }
+{ "_id" : ObjectId("5cd6a0980e0e0a4674d1cd1a"), "sirano" : 11, "isim" : "Hicaziye", "yas" : 47, "meslek" : "Tuhafiyeci", "sehir" : "Ankara", "aylik_gelir" : 4800 }
+{ "_id" : ObjectId("5cd6a0980e0e0a4674d1cd1b"), "sirano" : 12, "isim" : "Harun", "yas" : 43, "meslek" : "Tornacı", "sehir" : "Ankara", "aylik_gelir" : 4200 }
+{ "_id" : ObjectId("5cd6a0980e0e0a4674d1cd1c"), "sirano" : 13, "isim" : "Hakkı", "yas" : 33, "meslek" : "Memur", "sehir" : "Çorum", "aylik_gelir" : 3750 }
+{ "_id" : ObjectId("5cd6a0980e0e0a4674d1cd1d"), "sirano" : 14, "isim" : "Gülizar", "yas" : 37, "meslek" : "Doktor", "sehir" : "İzmir", "aylik_gelir" : 14250 }
+{ "_id" : ObjectId("5cd6a0980e0e0a4674d1cd1e"), "sirano" : 15, "isim" : "Şehmuz", "yas" : 41, "meslek" : "Müzisyen", "sehir" : "Ankara", "aylik_gelir" : 8700 }
+
+Yukarıda gördüğümüz gibi başarıyla bir veri yazması yaptık.
