@@ -1,4 +1,4 @@
-Spark-Scala Structured Streaming ile Kafka'dan Veri Okuyarak Wordcout Uygulaması Yapmak
+PySpark Structured Streaming ile Kafka'dan Veri Okuyarak Wordcout Uygulaması Yapmak
 ===========================================================================================
 
 1. Windows cmd açılır
