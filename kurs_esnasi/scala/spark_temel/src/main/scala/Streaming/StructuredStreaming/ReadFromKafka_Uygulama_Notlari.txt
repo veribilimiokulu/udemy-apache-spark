@@ -1,0 +1,39 @@
+Spark-Scala Structured Streaming ile Kafka'dan Veri Okuyarak Wordcout Uygulaması Yapmak
+===========================================================================================
+
+1. Windows cmd açılır
+zkServer
+komutu ile Zookeeper başlatılır.
+
+2. İkinci bir Windows cmd açılır
+kafka-server-start.bat %KAFKA_HOME%\config\server.properties
+komutu ile kafka çalıştırılır.
+
+3. Üçüncü bir Windows cmd açılır 
+
+kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic deneme
+komutu ile deneme adında bir topic oluşturulur 
+
+4. Aynı terminal de 
+
+kafka-console-producer.bat --broker-list localhost:9092 --topic deneme
+komutu ile konsol producer uygulaması başlatılır.
+
+
+5. İntellij İdea Projesi açılır.
+StructuredStreaming paketi içinde ReadFromKafka objesi oluşturulur.
+
+6. pom.xml içinde dependencies bölümüne
+<dependency>
+    <groupId>org.apache.spark</groupId>
+    <artifactId>spark-sql-kafka-0-10_2.11</artifactId>
+    <version>2.3.1</version>
+</dependency>
+	
+	eklenir.
+	
+7. Scala Wordcount Kodları yazılır ve çalıştırılır.
+		
+8. Üçüncü açılan terminalden (kafka-console-producer)
+elle mesajlar yazılır.
+yazılan mesajların çıktıları Intellij konsolundan gözlenir.
