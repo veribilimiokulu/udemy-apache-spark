@@ -3,10 +3,11 @@ package Streaming.StructuredStreaming
 Erkan ŞİRİN
 Spark Structured Streaming ve kafka kullanılarak wordcount uygulaması
  */
-import org.apache.spark.sql.functions._
+import org.apache.spark.sql.{functions => f}
 import org.apache.spark.sql.types._
 import org.apache.spark.sql.SparkSession
 import org.apache.log4j.{Logger, Level}
+import org.apache.spark.sql.streaming.Trigger
 
 object ReadFromKafka {
   def main(args: Array[String]): Unit = {
@@ -46,12 +47,13 @@ df ham hali
  */
 
     // Ham dataframe'in key ve value sütunlarını stringe çevir
-    val df2 = df.select(col("key").cast(StringType), col("value").cast(StringType))
+    val df2 = df.select($"key".cast(StringType), $"value".cast(StringType))
 
     // value sütununu boşluklarından ayır ve kelime sayısını tespit et.
-    val df3 = df2.select("value").as[String].flatMap(_.split(" "))
-      .groupBy(col("value")).count()
-      .sort(desc("count"))
+    val df3 = df2.select("value").as[String]
+      .flatMap(_.split("\\W+"))
+      .groupBy("value").count()
+      .sort(f.desc("count"))
 
     // Streaming başlasın
     val query = df3.writeStream
