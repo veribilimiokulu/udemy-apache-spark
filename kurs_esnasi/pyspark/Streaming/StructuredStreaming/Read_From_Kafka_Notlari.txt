@@ -1,0 +1,34 @@
+PySpark Structured Streaming ile Kafka'dan Veri Okuyarak Wordcout Uygulaması Yapmak
+===========================================================================================
+
+1. Windows cmd açılır
+zkServer
+komutu ile Zookeeper başlatılır.
+
+2. İkinci bir Windows cmd açılır
+kafka-server-start.bat %KAFKA_HOME%\config\server.properties
+komutu ile kafka çalıştırılır.
+
+3. Üçüncü bir Windows cmd açılır 
+
+kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic deneme
+komutu ile deneme adında bir topic oluşturulur 
+
+4. Aynı terminal de 
+
+kafka-console-producer.bat --broker-list localhost:9092 --topic deneme
+komutu ile konsol producer uygulaması başlatılır.
+
+
+5. Jupyter açılır.
+Kodlar yazılır.
+
+
+	
+6. PySpark Wordcount Kodları yazılır ve çalıştırılır.
+		
+7. Üçüncü açılan terminalden (kafka-console-producer)
+elle mesajlar yazılır.
+
+8.
+Yazılan mesajların çıktıları Jupyter konsolundan gözlenir (cmd).

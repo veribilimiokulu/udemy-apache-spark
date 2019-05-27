@@ -44,7 +44,8 @@ mongo
 </dependency>
 eklenir. 
 
-Spark ile MongoDB'ye simple_data.csv yazma uygulamasını çalıştırılır.
+Spark ile MongoDB'ye simple_data.csv yazma uygulaması çalıştırılır.
+Yazma sonuçlarını görmek için:
 
 4. MondoDB container erişim 
 		
@@ -93,3 +94,12 @@ Spark ile MongoDB'ye simple_data.csv yazma uygulamasını çalıştırılır.
 { "_id" : ObjectId("5cd6a0980e0e0a4674d1cd1e"), "sirano" : 15, "isim" : "Şehmuz", "yas" : 41, "meslek" : "Müzisyen", "sehir" : "Ankara", "aylik_gelir" : 8700 }
 
 Yukarıda gördüğümüz gibi başarıyla bir veri yazması yaptık.
+
+exit; ile çıkış yapabilirsiniz.
+
+Dilerseniz 
+winpty docker.exe exec -it 3f83773d4aee mongo
+ile doğrudan 
+ 
+ 
+ 
