@@ -7,11 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/pyspark/Dataframe/.ipynb_checkpoints/Dataframe Giriş-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/pyspark/Dataframe/.ipynb_checkpoints/Dataframe Giriş-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/pyspark/Dataframe/Dataframe Giriş.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/pyspark/Dataframe/Dataframe Giriş.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Streaming/StructuredStreaming/ReadFromKafka.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Streaming/StructuredStreaming/ReadFromKafka.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Streaming/StructuredStreaming/ReadFromKafka$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Streaming/StructuredStreaming/ReadFromKafka$.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,19 +23,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="55" column="21" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="55" selection-end-column="21" />
+            <state relative-caret-position="935">
+              <caret line="55" column="21" selection-start-line="51" selection-start-column="8" selection-end-line="55" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Classification/LogisticRegressionOps.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-464">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#40#79#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Streaming/StructuredStreaming/ReadFromKafka.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Classification/ClassificationWithIris.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="162">
+              <caret line="101" column="52" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="52" />
               <folding>
-                <element signature="e#127#171#0" expanded="true" />
+                <element signature="e#40#79#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/Schema.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataframeToDisk.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DateTimeOps.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/SparkSQL.scala" />
@@ -117,6 +125,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/WriteToMongoDB.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/ReafFromMongoDB.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Streaming/StructuredStreaming/ReadFromKafka.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Classification/ClassificationWithIris.scala" />
       </list>
     </option>
   </component>
@@ -128,8 +137,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="22" />
-    <option name="y" value="16" />
+    <option name="x" value="737" />
+    <option name="y" value="3" />
     <option name="width" value="1188" />
     <option name="height" value="1026" />
   </component>
@@ -141,7 +150,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,7 +181,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="Streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SparkTemel" type="b2602c69:ProjectViewProjectNode" />
@@ -181,13 +189,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="Streaming" type="462c0819:PsiDirectoryNode" />
-              <item name="StructuredStreaming" type="462c0819:PsiDirectoryNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Classification" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -196,7 +205,7 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="sparktemel" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558125527882" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559741933265" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -215,13 +224,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReadFromKafka">
-    <configuration name="DataframeGiris" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkTemel.DataFrameDataSet.DataframeGiris" />
+  <component name="RunManager" selected="Application.ClassificationWithIris">
+    <configuration name="ClassificationWithIris" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MachineLearning.Classification.ClassificationWithIris" />
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sparkTemel.DataFrameDataSet.*" />
+          <option name="PATTERN" value="MachineLearning.Classification.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,19 +300,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.DataframeGiris" />
-      <item itemvalue="Application.ReadFromPosgres" />
-      <item itemvalue="Application.WriteToMongoDB" />
-      <item itemvalue="Application.ReafFromMongoDB" />
+      <item itemvalue="Application.ClassificationWithIris" />
       <item itemvalue="Application.ReadFromKafka" />
+      <item itemvalue="Application.ReadFromPosgres" />
+      <item itemvalue="Application.ReafFromMongoDB" />
+      <item itemvalue="Application.WriteToMongoDB" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassificationWithIris" />
         <item itemvalue="Application.ReadFromKafka" />
         <item itemvalue="Application.ReafFromMongoDB" />
         <item itemvalue="Application.WriteToMongoDB" />
         <item itemvalue="Application.ReadFromPosgres" />
-        <item itemvalue="Application.DataframeGiris" />
       </list>
     </recent_temporary>
   </component>
@@ -388,7 +397,7 @@
     <frame x="22" y="16" width="1188" height="1026" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22429077" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22783688" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -397,7 +406,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49968335" weight="0.44344905" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49968335" visible="true" weight="0.32362822" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39822024" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -433,13 +442,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Scala Dataframe DataframeToDisk kurs hazırlık eklendi" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CollectCountCountByValue.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/BroadcastVariables.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -749,16 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Classification/LogisticRegressionOps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataframeGiris.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -801,17 +793,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="55" column="21" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="55" selection-end-column="21" />
+        <state relative-caret-position="935">
+          <caret line="55" column="21" selection-start-line="51" selection-start-column="8" selection-end-line="55" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Streaming/StructuredStreaming/ReadFromKafka.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="e#127#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Classification/LogisticRegressionOps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-464">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#40#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Classification/ClassificationWithIris.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="101" column="52" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="52" />
+          <folding>
+            <element signature="e#40#79#0" expanded="true" />
           </folding>
         </state>
       </provider>
