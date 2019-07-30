@@ -1,4 +1,4 @@
-Python kurulu mu kontrol edelim:
+Python kurulu mu? kontrol edelim:
 python3 -V
 	komutu sonunda python versiyonu gelmelidir.
 	Eğer kurulu değilse aşağıdaki konutlarla kuralım:
@@ -10,7 +10,7 @@ sudo apt-get install python3.6
 
 1.	Kütüphane ve programları güncelleme
 sudo apt update && sudo apt upgrade -y
-	Yenş kurulmuş Ubuntu'da uzun sürecektir.
+	Yeni kurulmuş Ubuntu'da uzun sürecektir.
 
 2. Java kurulumu 
 ===========================
