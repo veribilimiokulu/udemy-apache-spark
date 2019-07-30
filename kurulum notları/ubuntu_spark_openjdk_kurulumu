@@ -1,0 +1,169 @@
+Python kurulu mu kontrol edelim:
+python3 -V
+	komutu sonunda python versiyonu gelmelidir.
+	Eğer kurulu değilse aşağıdaki konutlarla kuralım:
+	
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get update
+sudo apt-get install python3.6
+		
+
+1.	Kütüphane ve programları güncelleme
+sudo apt update && sudo apt upgrade -y
+	Yenş kurulmuş Ubuntu'da uzun sürecektir.
+
+2. Java kurulumu 
+===========================
+
+2.1. Repo ekle
+sudo add-apt-repository ppa:openjdk-r/ppa
+sudo apt-get update
+
+2.2. Java kurulumu
+sudo apt-get install openjdk-8-jdk
+
+2.3. Mevcut java versiyonlarını listele
+sudo update-java-alternatives --list
+	
+	java-1.8.0-openjdk-amd64       1081       /usr/lib/jvm/java-1.8.0-openjdk-amd64
+	
+2.4. Java-8'i varsayılan seçme
+sudo update-alternatives --config java
+	Eğer tek bir versiyon varsa aşağıdaki ikazı verecektir.
+	There is only one alternative in link group java (providing /usr/bin/java): /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+	Nothing to configure.
+
+
+2.5. Javac için aynısını tekrarlama
+sudo update-alternatives --config javac
+	
+	Eğer tek bir versiyon varsa aşağıdaki ikazı verecektir.
+	There is only one alternative in link group java (providing /usr/bin/java): /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+	Nothing to configure.
+
+2.6. JAVA HOME ayarlama
+
+sudo nano /etc/environment
+	JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"
+	Ctrl+O -> Enter -> Ctrl+X ile kaydedip çıkın.
+source /etc/environment
+	Kontrol
+echo $JAVA_HOME
+/usr/lib/jvm/java-1.8.0-openjdk-amd64
+
+
+
+
+3. Spark Kurulumu
+========================
+
+3.1. Spark'ı indir
+wget https://archive.apache.org/dist/spark/spark-2.3.1/spark-2.3.1-bin-hadoop2.7.tgz
+
+
+3.2.
+tar -xzf spark-2.3.1-bin-hadoop2.7.tgz
+
+3.3. Spark klasörüne soft link verme
+ln -s spark-2.3.1-bin-hadoop2.7 spark
+
+
+3.3.  SPARK_HOME ayarla ve Spark/bin Path'e ekle
+sudo nano /etc/environment 
+	komutuyla environment içine gir
+	PATH sonuna ":/home/erkan/spark/bin"  ekle  (erkan yerine kendi kullanıcı adınız olmalı)
+	ekledikten sonra en alt satırda JAVA_HOME altına
+	SPARK_HOME="/home/erkan/spark"
+	ekle (erkan yerine kendi kullanıcı adınız olmalı)
+	Ctrl+O -> Enter -> Ctrl+X ile çıkın
+		
+	/etc/environment dosyasının için şuna benzer olmalıdır:
+		PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/erkan/spark/bin"
+		JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"
+		SPARK_HOME="/home/erkan/spark"
+
+
+	Ayarların geçerli olması için:
+source /etc/environment 
+	komutunu çalıştır
+	
+		
+3.4. spark-shell ile sparkın çalıştığını kontrol et.
+		scala>
+		karşınıza çıkacaktır.
+		
+		örnek konutlar yazınız.
+		val a = 200
+		val b = 100
+		a + b
+		gibi
+		çalışmalıdır.
+		spark-shell'den çıkmak için 
+		:q
+		yazınız.
+		
+3.5. pyspark çalıştırma kontrolü
+
+sudo nano .bashrc 
+	içine giriniz
+	En alta aşağıdaki satırı ekleyiniz.
+	export PYSPARK_PYTHON=python3
+		
+		Ctrl+O -> Enter -> Ctrl+X ile çıkın
+				
+source .bashrc 
+	komutuyla değişiklikleri güncelleyin
+		
+pyspark 
+	komutu ile pyspark çalışacaktır.
+		
+		karşınızda 
+>>>
+		görünüz.
+		
+>>> exit()
+		
+		ile çıkınız.
+			
+			
+			
+4. Python Pip Kurulumu
+===========================
+
+4.1.
+sudo apt install python3-pip
+
+4.2. Pip kontrol
+pip3 -V
+	pip 9.0.1 from /usr/lib/python3/dist-packages (python 3.6)
+
+
+
+5. Jupyter ve diğer paketlerin kurulumu
+===========================================
+
+5.1. 
+pip3 install pandas matplotlib numpy sklearn findspark jupyter
+		
+		
+		
+5.2. Jupyter çalıştırma
+python3 -m notebook
+
+	Size aşağıdakine benzer bir link üretecektir.
+	http://localhost:8888/?token=cae39580debda4752bf326a2a057db848cf278c8902a55e5
+	yukarıdakilinki browser ile açınız (sizin token farklı olabilir burayı değil kendi
+	bilgisayarınızdaki linki kullanınız)
+	
+5.3. Jupyter spark deneme 
+new python3 notebook açınız
+
+	Aşağıdaki kodlar ile bir rdd yaratıp ekrana yazdırarak test ediniz.
+	
+import findspark	
+findspark.init("/home/erkan/spark") # erkan yerine kendi kullanıcınız
+from pyspark.sql import SparkSession
+spark = SparkSession.builder.getOrCreate()
+sc = spark.sparkContext
+my_rdd = sc.parallelize([1,2,3,4])
+my_rdd.take(4)
