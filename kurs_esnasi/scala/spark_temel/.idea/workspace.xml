@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba1c62f1-3214-4d82-bb45-2e42b1a5b9c6" name="Default Changelist" comment="" />
+    <list default="true" id="ba1c62f1-3214-4d82-bb45-2e42b1a5b9c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/WordCountRDD.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/WordCountRDD.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spark_temel.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SparkTemel/RDD/WordCountRDD$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SparkTemel/RDD/WordCountRDD$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_hazirlik/pyspark/Streaming/StructuredStreaming/ReadFromKafka.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_hazirlik/pyspark/Streaming/StructuredStreaming/ReadFromKafka.ipynb" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,24 +15,39 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Classification/ClassificationWithIris.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1683">
+              <caret line="100" column="27" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
+              <folding>
+                <element signature="e#40#79#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Classification/ClassificationWithIris.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/WordCountRDD.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="100" column="27" lean-forward="true" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
+            <state relative-caret-position="40">
+              <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
               <folding>
-                <element signature="e#40#79#0" expanded="true" />
+                <element signature="e#24#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,6 +78,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/Streaming/StructuredStreaming/ReadFromKafka.scala" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Classification/ClassificationWithIris.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/WordCountRDD.scala" />
       </list>
     </option>
   </component>
@@ -68,9 +90,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1216" />
-    <option name="height" value="1047" />
+    <option name="x" value="442" />
+    <option name="y" value="20" />
+    <option name="width" value="1314" />
+    <option name="height" value="961" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -111,7 +134,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkTemel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spark_temel" type="b2602c69:ProjectViewProjectNode" />
@@ -119,8 +142,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkTemel" type="462c0819:PsiDirectoryNode" />
+              <item name="RDD" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -131,6 +154,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559992083023" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -147,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClassificationWithIris">
+  <component name="RunManager" selected="Application.WordCountRDD">
     <configuration name="ClassificationWithIris" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="MachineLearning.Classification.ClassificationWithIris" />
       <module name="spark_temel" />
@@ -187,12 +211,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFromPostgres" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="SparkTemel.DataframeDataset.ReadFromPostgres" />
+    <configuration name="WordCountRDD" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="SparkTemel.RDD.WordCountRDD" />
       <module name="spark_temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SparkTemel.DataframeDataset.*" />
+          <option name="PATTERN" value="SparkTemel.RDD.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordCountRDD" />
         <item itemvalue="Application.ClassificationWithIris" />
         <item itemvalue="Application.ReadFromKafka" />
         <item itemvalue="Application.ReadFromMongoDB" />
         <item itemvalue="Application.WriteToMongoDB" />
-        <item itemvalue="Application.ReadFromPostgres" />
       </list>
     </recent_temporary>
   </component>
@@ -237,9 +261,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1216" height="1047" extended-state="0" />
+    <frame x="442" y="20" width="1314" height="961" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2214533" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2137161" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -248,7 +272,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4474836" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33291924" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -417,26 +441,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Classification/LogisticRegressionOps.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Classification/LogisticRegressionOps.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Classification/ClassificationWithIris.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="1683">
+          <caret line="100" column="27" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
+          <folding>
+            <element signature="e#40#79#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Classification/ClassificationWithIris.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/WordCountRDD.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="100" column="27" lean-forward="true" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
+        <state relative-caret-position="40">
+          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
           <folding>
-            <element signature="e#40#79#0" expanded="true" />
+            <element signature="e#24#63#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -165,6 +165,9 @@ object ClusteringEvaluation {
 
       pipelineModel
    }
+
+    /////////////////////////////////////    KÜMELEME DEĞERLENDİRME silhouette   //////////////////////////////////////
+
     // Kümeleme değerlendirici oluşturma
     val evaluator = new ClusteringEvaluator()
       .setFeaturesCol("scaledFeatureVector")
@@ -229,6 +232,9 @@ object ClusteringEvaluation {
 
 
   } // ana fonksiyon sonu
+
+
+
   ////////////////////  FONKSİYONLAR  /////////////////////////////
   // Kategorik ve nümerik nitelikleri birbirinden ayırma
   def identifyCategoricAndNumeric(df:DataFrame,colsToAnalyze: Array[String]): (Array[String], Array[String]) = {

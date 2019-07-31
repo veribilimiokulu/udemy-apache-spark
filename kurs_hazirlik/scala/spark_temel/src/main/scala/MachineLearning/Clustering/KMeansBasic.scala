@@ -18,7 +18,7 @@ object KMeansBasic {
 
     // SparkSession oluşturma
     val spark = SparkSession.builder()
-      .appName("KMeans Clustering").master("local[6]")
+      .appName("KMeans Clustering").master("local[4]")
       .config("spark.driver.memory", "2g")
       .config("spark.executor.memory", "4g")
       .config("spark.sql.codegen.wholeStage", "false")
@@ -183,6 +183,8 @@ object KMeansBasic {
 
 
   } // ana fonksiyon sonu
+
+
 ////////////////////  FONKSİYONLAR  /////////////////////////////
   // Kategorik ve nümerik nitelikleri birbirinden ayırma
   def identifyCategoricAndNumeric(df:DataFrame,colsToAnalyze: Array[String]): (Array[String], Array[String]) = {

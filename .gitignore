@@ -1,3 +1,12 @@
 sunumlar
 kurs_hazirlik/scala/spark_temel/out
 kurs_esnasi/scala/spark_temel/out
+.ipynb_checkpoints
+kurs_hazirlik/pyspark/.ipynb_checkpoints
+kurs_hazirlik/pyspark/DataFrame/.ipynb_checkpoints
+kurs_hazirlik/pyspark/DataFrame/spark-warehouse
+kurs_hazirlik/pyspark/MachineLearning/.ipynb_checkpoints
+kurs_hazirlik/pyspark/MachineLearning/Classification/.ipynb_checkpoints
+kurs_hazirlik/pyspark/MachineLearning/Clustering/.ipynb_checkpoints
+kurs_hazirlik/pyspark/MachineLearning/Preprocessing/.ipynb_checkpoints
+kurs_hazirlik/pyspark/MachineLearning/Regression/.ipynb_checkpoints
