@@ -7,13 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/src/main/scala/SparkTemel/RDD/WordCountRDD.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/src/main/scala/SparkTemel/RDD/WordCountRDD.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/target/classes/META-INF/spark_temel.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/target/classes/SparkTemel/RDD/WordCountRDD$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/target/classes/SparkTemel/RDD/WordCountRDD$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pyspark/Streaming/StructuredStreaming/ReadFromKafka.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../pyspark/Streaming/StructuredStreaming/ReadFromKafka.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/ClusteringEvaluation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/ClusteringEvaluation.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/KMeansBasic.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/KMeansBasic.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
+            <state relative-caret-position="935">
               <caret line="55" column="21" selection-start-line="51" selection-start-column="8" selection-end-line="55" selection-end-column="21" />
             </state>
           </provider>
@@ -41,11 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/KMeansMallCustomerBasic.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
+            <state relative-caret-position="1105">
               <caret line="69" column="19" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="19" />
-              <folding>
-                <element signature="e#38#77#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -53,11 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/KMeansCustomerOptimalK.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="99" column="20" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="20" />
-              <folding>
-                <element signature="e#37#76#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="686">
+              <caret line="114" column="1" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -146,8 +134,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-47" />
-    <option name="y" value="50" />
+    <option name="x" value="-3" />
+    <option name="y" value="7" />
     <option name="width" value="1052" />
     <option name="height" value="1026" />
   </component>
@@ -159,6 +147,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,8 +195,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,11 +298,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ReadFromKafka" />
-      <item itemvalue="Application.ClassificationWithIris" />
       <item itemvalue="Application.ClassificationWithAdult" />
-      <item itemvalue="Application.KMeansMallCustomerBasic" />
+      <item itemvalue="Application.ClassificationWithIris" />
       <item itemvalue="Application.KMeansCustomerOptimalK" />
+      <item itemvalue="Application.KMeansMallCustomerBasic" />
+      <item itemvalue="Application.ReadFromKafka" />
     </list>
     <recent_temporary>
       <list>
@@ -404,10 +392,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-47" y="50" width="1052" height="1026" extended-state="0" />
+    <frame x="-3" y="7" width="1052" height="1026" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13810484" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14112903" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -416,7 +404,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49968335" visible="true" weight="0.4770115" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49968335" weight="0.4770115" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39822024" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -825,28 +813,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
+        <state relative-caret-position="935">
           <caret line="55" column="21" selection-start-line="51" selection-start-column="8" selection-end-line="55" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/KMeansMallCustomerBasic.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
+        <state relative-caret-position="1105">
           <caret line="69" column="19" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="19" />
-          <folding>
-            <element signature="e#38#77#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/KMeansCustomerOptimalK.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="99" column="20" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="20" />
-          <folding>
-            <element signature="e#37#76#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="686">
+          <caret line="114" column="1" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
         </state>
       </provider>
     </entry>
