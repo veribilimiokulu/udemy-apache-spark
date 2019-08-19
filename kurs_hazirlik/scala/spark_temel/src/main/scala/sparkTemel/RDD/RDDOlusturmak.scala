@@ -72,7 +72,7 @@ object RDDOlusturmak {
 
     /********************** Metin dosyalarından RDD oluşturmak *****************************/
     println("\nMetin dosyalarından RDD oluşturmak")
-    val rddFromTextFile = sc.textFile("C:\\Users\\toshiba\\SkyDrive\\veribilimi.co\\Datasets\\OnlineRetail.csv")
+    val rddFromTextFile = sc.textFile("D:\\Datasets\\OnlineRetail.csv")
     rddFromTextFile.take(5).foreach(println)
 
     println("Okunan metin dosyasının satır sayısı: ")

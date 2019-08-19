@@ -7,7 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Spark_Temel_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Spark_Temel_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/RDDOlusturmak.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/RDDOlusturmak.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Clustering/KMeansCustomerOptimalK$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Clustering/KMeansCustomerOptimalK$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Clustering/KMeansCustomerOptimalK$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Clustering/KMeansCustomerOptimalK$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Clustering/KMeansCustomerOptimalK$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Clustering/KMeansCustomerOptimalK$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Clustering/KMeansMallCustomerBasic$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Clustering/KMeansMallCustomerBasic$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MachineLearning/Clustering/KMeansMallCustomerBasic$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MachineLearning/Clustering/KMeansMallCustomerBasic$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/RDDOlusturmak$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkTemel/RDD/RDDOlusturmak$.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,8 +30,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -41,11 +52,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/KMeansCustomerOptimalK.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="686">
               <caret line="114" column="1" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/RDDOlusturmak.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="686">
+              <caret line="81" column="1" lean-forward="true" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -72,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/DataExplore.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/DataExplore.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataCleaning.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/OneHotEncoderOps.scala" />
@@ -123,6 +142,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/ClusteringEvaluation.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/KMeansMallCustomerBasic.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/KMeansCustomerOptimalK.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/RDDOlusturmak.scala" />
       </list>
     </option>
   </component>
@@ -136,7 +156,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-3" />
     <option name="y" value="7" />
-    <option name="width" value="1052" />
+    <option name="width" value="1334" />
     <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -147,7 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -159,6 +178,24 @@
             <path>
               <item name="SparkTemel" type="b2602c69:ProjectViewProjectNode" />
               <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkTemel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkTemel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Spark_Temel_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkTemel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -166,6 +203,21 @@
               <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkTemel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkTemel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_temel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SparkTemel" type="b2602c69:ProjectViewProjectNode" />
@@ -180,7 +232,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkTemel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SparkTemel" type="b2602c69:ProjectViewProjectNode" />
@@ -188,13 +240,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Clustering" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkTemel" type="462c0819:PsiDirectoryNode" />
+              <item name="RDD" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,7 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KMeansCustomerOptimalK">
+  <component name="RunManager" selected="Application.RDDOlusturmak">
     <configuration name="ClassificationWithAdult" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="MachineLearning.Classification.ClassificationWithAdult" />
       <module name="Spark-Temel" />
@@ -275,12 +328,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFromKafka" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Streaming.StructuredStreaming.ReadFromKafka" />
+    <configuration name="RDDOlusturmak" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkTemel.RDD.RDDOlusturmak" />
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Streaming.StructuredStreaming.*" />
+          <option name="PATTERN" value="sparkTemel.RDD.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -302,15 +355,15 @@
       <item itemvalue="Application.ClassificationWithIris" />
       <item itemvalue="Application.KMeansCustomerOptimalK" />
       <item itemvalue="Application.KMeansMallCustomerBasic" />
-      <item itemvalue="Application.ReadFromKafka" />
+      <item itemvalue="Application.RDDOlusturmak" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RDDOlusturmak" />
         <item itemvalue="Application.KMeansCustomerOptimalK" />
         <item itemvalue="Application.KMeansMallCustomerBasic" />
         <item itemvalue="Application.ClassificationWithAdult" />
         <item itemvalue="Application.ClassificationWithIris" />
-        <item itemvalue="Application.ReadFromKafka" />
       </list>
     </recent_temporary>
   </component>
@@ -392,10 +445,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="7" width="1052" height="1026" extended-state="0" />
+    <frame x="-3" y="7" width="1334" height="1026" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14112903" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.49843013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -404,7 +457,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49968335" weight="0.4770115" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49968335" weight="0.19655173" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39822024" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -440,13 +493,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Scala Dataframe DataframeToDisk kurs hazırlık eklendi" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/ReduceByKey.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/groupBy.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -832,6 +878,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/RDDOlusturmak.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="81" column="1" lean-forward="true" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -892,7 +945,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -6,8 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="scala" />
-        <module name="Spark-Temel" />
+        <module name="spar-scala-maven-ornek" />
       </profile>
     </annotationProcessing>
   </component>
