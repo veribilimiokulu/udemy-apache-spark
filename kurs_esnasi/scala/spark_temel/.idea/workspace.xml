@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba1c62f1-3214-4d82-bb45-2e42b1a5b9c6" name="Default Changelist" comment="" />
+    <list default="true" id="ba1c62f1-3214-4d82-bb45-2e42b1a5b9c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,19 +19,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="595">
+              <caret line="62" column="23" lean-forward="true" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/KMeansMallCustomerBasic.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/WriteToKafka.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="70" column="51" lean-forward="true" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
+            <state relative-caret-position="335">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
               <folding>
-                <element signature="e#37#97#0" expanded="true" />
+                <element signature="e#37#95#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,6 +64,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Classification/ClassificationWithIris.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/RDD/WordCountRDD.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/KMeansMallCustomerBasic.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/WriteToKafka.scala" />
       </list>
     </option>
   </component>
@@ -73,9 +76,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="694" />
-    <option name="y" value="41" />
-    <option name="width" value="1251" />
+    <option name="x" value="666" />
+    <option name="y" value="68" />
+    <option name="width" value="1055" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -118,7 +121,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkTemel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spark_temel" type="b2602c69:ProjectViewProjectNode" />
@@ -126,8 +129,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Clustering" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkTemel" type="462c0819:PsiDirectoryNode" />
+              <item name="DataframeDataset" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -154,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KMeansMallCustomerBasic">
+  <component name="RunManager" selected="Application.WriteToKafka">
     <configuration name="ClassificationWithIris" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="MachineLearning.Classification.ClassificationWithIris" />
       <module name="spark_temel" />
@@ -194,19 +197,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFromMongoDB" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="SparkTemel.DataframeDataset.ReadFromMongoDB" />
-      <module name="spark_temel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SparkTemel.DataframeDataset.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WordCountRDD" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="SparkTemel.RDD.WordCountRDD" />
       <module name="spark_temel" />
@@ -220,13 +210,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WriteToKafka" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="SparkTemel.DataframeDataset.WriteToKafka" />
+      <module name="spark_temel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SparkTemel.DataframeDataset.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WriteToKafka" />
         <item itemvalue="Application.KMeansMallCustomerBasic" />
         <item itemvalue="Application.WordCountRDD" />
         <item itemvalue="Application.ClassificationWithIris" />
         <item itemvalue="Application.ReadFromKafka" />
-        <item itemvalue="Application.ReadFromMongoDB" />
       </list>
     </recent_temporary>
   </component>
@@ -244,10 +247,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="694" y="41" width="1251" height="1047" extended-state="0" />
+    <frame x="666" y="68" width="1055" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16288833" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09346734" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -256,7 +259,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4590348" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33782268" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -446,19 +449,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/KMeansMallCustomerBasic.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="70" column="51" lean-forward="true" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
+          <caret line="70" column="51" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
           <folding>
             <element signature="e#37#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="62" column="23" lean-forward="true" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/WriteToKafka.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#37#95#0" expanded="true" />
           </folding>
         </state>
       </provider>
