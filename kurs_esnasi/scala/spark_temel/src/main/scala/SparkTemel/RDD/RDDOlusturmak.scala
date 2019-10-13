@@ -43,7 +43,7 @@ val spark = SparkSession.builder()
 
 
     println("\nMetin dosyasından  RDD oluşturma: ")
-    val rddFromTextFile = sc.textFile("C:/Users/toshiba/SkyDrive/veribilimi.co/Datasets/OnlineRetail.csv")
+    val rddFromTextFile = sc.textFile("D:/Datasets/OnlineRetail.csv")
 rddFromTextFile.take(3).foreach(println)
   }
 }

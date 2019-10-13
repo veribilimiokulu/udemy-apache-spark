@@ -7,11 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/pyspark/Streaming/StructuredStreaming/.ipynb_checkpoints/ReadFromKafka-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/pyspark/Streaming/StructuredStreaming/.ipynb_checkpoints/ReadFromKafka-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/pyspark/Streaming/StructuredStreaming/ReadFromFile.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/pyspark/Streaming/StructuredStreaming/ReadFromFile.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/pyspark/Streaming/StructuredStreaming/ReadFromKafka.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/pyspark/Streaming/StructuredStreaming/ReadFromKafka.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pyspark/Streaming/StructuredStreaming/.ipynb_checkpoints/ReadFromKafka-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../pyspark/Streaming/StructuredStreaming/.ipynb_checkpoints/ReadFromKafka-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,29 +27,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="55" column="21" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="55" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/WriteToKafka.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-              <folding>
-                <element signature="e#37#77#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1190">
+              <caret line="70" column="21" selection-start-line="66" selection-start-column="7" selection-end-line="70" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/ReadFromPosgres.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/WriteToKafka.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="28" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="31" selection-end-column="28" />
+            <state relative-caret-position="799">
+              <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/ReafFromMongoDB.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#37#77#0" expanded="true" />
               </folding>
@@ -81,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/DataCleaning.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/OneHotEncoderOps.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/StringIndexerOps.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Preprocessing/CategoricalOps.scala" />
@@ -132,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/MachineLearning/Clustering/KMeansCustomerOptimalK.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/RDDOlusturmak.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/WriteToKafka.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/SparkAndDataSources/ReadFromMongo.scala" />
       </list>
     </option>
   </component>
@@ -145,7 +140,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="387" />
     <option name="y" value="6" />
-    <option name="width" value="1334" />
+    <option name="width" value="1479" />
     <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -156,7 +151,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,6 +223,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -257,20 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WriteToKafka">
-    <configuration name="ClassificationWithAdult" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="MachineLearning.Classification.ClassificationWithAdult" />
-      <module name="Spark-Temel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MachineLearning.Classification.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReadFromMongo">
     <configuration name="KMeansCustomerOptimalK" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="MachineLearning.Clustering.KMeansCustomerOptimalK" />
       <module name="Spark-Temel" />
@@ -310,6 +292,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReadFromMongo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkTemel.DataFrameDataSet.SparkAndDataSources.sparkTemel.DataFrameDataSet.ReadFromMongo" />
+      <module name="Spark-Temel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sparkTemel.DataFrameDataSet.SparkAndDataSources.sparkTemel.DataFrameDataSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WriteToKafka" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="sparkTemel.DataFrameDataSet.WriteToKafka" />
       <module name="Spark-Temel" />
@@ -333,19 +328,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ClassificationWithAdult" />
       <item itemvalue="Application.KMeansCustomerOptimalK" />
       <item itemvalue="Application.KMeansMallCustomerBasic" />
       <item itemvalue="Application.RDDOlusturmak" />
+      <item itemvalue="Application.ReadFromMongo" />
       <item itemvalue="Application.WriteToKafka" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadFromMongo" />
         <item itemvalue="Application.WriteToKafka" />
         <item itemvalue="Application.RDDOlusturmak" />
         <item itemvalue="Application.KMeansCustomerOptimalK" />
         <item itemvalue="Application.KMeansMallCustomerBasic" />
-        <item itemvalue="Application.ClassificationWithAdult" />
       </list>
     </recent_temporary>
   </component>
@@ -427,10 +422,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="387" y="6" width="1334" height="1026" extended-state="0" />
+    <frame x="387" y="6" width="1479" height="1026" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3021978" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2797745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -475,16 +470,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Scala Dataframe DataframeToDisk kurs hazırlık eklendi" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/StringOps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding>
-            <element signature="e#36#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/RDD/CombineByKey.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -752,16 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/ReafFromMongoDB.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="e#37#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/WriteToMongoDB.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -843,27 +818,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="55" column="21" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="55" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/ReadFromPosgres.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="31" column="28" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="31" selection-end-column="28" />
+          <caret line="31" column="28" selection-start-line="18" selection-start-column="2" selection-end-line="31" selection-end-column="28" />
           <folding>
             <element signature="e#37#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/SparkAndDataSources/ReadFromMongo.scala" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="70" column="21" selection-start-line="66" selection-start-column="7" selection-end-line="70" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/WriteToKafka.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+        <state relative-caret-position="799">
+          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkTemel/DataFrameDataSet/ReafFromMongoDB.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#37#77#0" expanded="true" />
           </folding>

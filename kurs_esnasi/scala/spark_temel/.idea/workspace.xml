@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba1c62f1-3214-4d82-bb45-2e42b1a5b9c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ba1c62f1-3214-4d82-bb45-2e42b1a5b9c6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +26,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/WriteToKafka.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
+            <state relative-caret-position="585">
               <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="e#37#95#0" expanded="true" />
@@ -75,12 +73,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="666" />
-    <option name="y" value="68" />
-    <option name="width" value="1055" />
-    <option name="height" value="1047" />
-  </component>
+  <component name="ProjectId" id="1S8HGzmpNsBm76JNgSrc76oekVa" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -157,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WriteToKafka">
+  <component name="RunManager" selected="Application.RDDOlusturmak">
     <configuration name="ClassificationWithIris" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="MachineLearning.Classification.ClassificationWithIris" />
       <module name="spark_temel" />
@@ -184,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFromKafka" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Streaming.StructuredStreaming.ReadFromKafka" />
+    <configuration name="RDDOlusturmak" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="SparkTemel.RDD.RDDOlusturmak" />
       <module name="spark_temel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Streaming.StructuredStreaming.*" />
+          <option name="PATTERN" value="SparkTemel.RDD.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RDDOlusturmak" />
         <item itemvalue="Application.WriteToKafka" />
         <item itemvalue="Application.KMeansMallCustomerBasic" />
         <item itemvalue="Application.WordCountRDD" />
         <item itemvalue="Application.ClassificationWithIris" />
-        <item itemvalue="Application.ReadFromKafka" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +252,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33782268" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33782268" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -468,7 +461,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTemel/DataframeDataset/WriteToKafka.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
+        <state relative-caret-position="585">
           <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="e#37#95#0" expanded="true" />
