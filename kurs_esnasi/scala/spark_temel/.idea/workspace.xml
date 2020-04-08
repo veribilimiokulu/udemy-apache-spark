@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba1c62f1-3214-4d82-bb45-2e42b1a5b9c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../pyspark/RDD/Wordcount_RDD.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../pyspark/RDD/Wordcount_RDD.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RDDOlusturmak">
+  <component name="RunManager" selected="Application.WordCountRDD">
     <configuration name="ClassificationWithIris" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="MachineLearning.Classification.ClassificationWithIris" />
       <module name="spark_temel" />
@@ -119,10 +121,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordCountRDD" />
         <item itemvalue="Application.RDDOlusturmak" />
         <item itemvalue="Application.WriteToKafka" />
         <item itemvalue="Application.KMeansMallCustomerBasic" />
-        <item itemvalue="Application.WordCountRDD" />
         <item itemvalue="Application.ClassificationWithIris" />
       </list>
     </recent_temporary>
