@@ -7,9 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/pyspark/RDD/Wordcount_RDD.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/pyspark/RDD/Wordcount_RDD.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/pyspark/RDD/BroadcastVariablesOps.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/pyspark/RDD/BroadcastVariablesOps.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/pyspark/RDD/RDD_Join-01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/pyspark/RDD/RDD_Join-01.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spark_temel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spark_temel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SparkTemel/DataframeDataset/SparkAndDataSources/sparkTemel/DataFrameDataSet/ReadFromMongo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SparkTemel/DataframeDataset/SparkAndDataSources/sparkTemel/DataFrameDataSet/ReadFromMongo$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SparkTemel/DataframeDataset/SparkAndDataSources/sparkTemel/DataFrameDataSet/ReadFromMongo.class" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,15 +57,14 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="387" />
-    <option name="y" value="6" />
-    <option name="width" value="1479" />
-    <option name="height" value="1026" />
-  </component>
   <component name="ProjectId" id="1UYcjo5L8wcFu79rRxEfGg5tzd5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
@@ -71,34 +79,9 @@
     <property name="project.structure.side.proportion" value="0.19345011" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.ReadFromMongo">
+  <component name="RunManager" selected="Application.ReadFromConsole">
     <configuration name="KMeansCustomerOptimalK" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="MachineLearning.Clustering.KMeansCustomerOptimalK" />
-      <module name="Spark-Temel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MachineLearning.Clustering.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KMeansMallCustomerBasic" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="MachineLearning.Clustering.KMeansMallCustomerBasic" />
       <module name="Spark-Temel" />
       <extension name="coverage">
         <pattern>
@@ -116,6 +99,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sparkTemel.RDD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadFromConsole" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Streaming.StructuredStreaming.ReadFromConsole" />
+      <module name="spark_temel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Streaming.StructuredStreaming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,18 +156,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.KMeansCustomerOptimalK" />
-      <item itemvalue="Application.KMeansMallCustomerBasic" />
       <item itemvalue="Application.RDDOlusturmak" />
       <item itemvalue="Application.ReadFromMongo" />
       <item itemvalue="Application.WriteToKafka" />
+      <item itemvalue="Application.ReadFromConsole" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadFromConsole" />
         <item itemvalue="Application.ReadFromMongo" />
         <item itemvalue="Application.WriteToKafka" />
         <item itemvalue="Application.RDDOlusturmak" />
         <item itemvalue="Application.KMeansCustomerOptimalK" />
-        <item itemvalue="Application.KMeansMallCustomerBasic" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +253,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -277,6 +275,24 @@
     <MESSAGE value="Scala Dataframe Schema kurs hazırlık eklendi" />
     <MESSAGE value="Scala Dataframe DataframeToDisk kurs hazırlık eklendi" />
     <option name="LAST_COMMIT_MESSAGE" value="Scala Dataframe DataframeToDisk kurs hazırlık eklendi" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1338" height="252" key="GridCell.Tab.0.bottom" timestamp="1596633125892">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1338" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596633125892" />
+    <state width="1338" height="252" key="GridCell.Tab.0.center" timestamp="1596633125892">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1338" height="252" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596633125892" />
+    <state width="1338" height="252" key="GridCell.Tab.0.left" timestamp="1596633125892">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1338" height="252" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596633125892" />
+    <state width="1338" height="252" key="GridCell.Tab.0.right" timestamp="1596633125892">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1338" height="252" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596633125892" />
   </component>
   <component name="masterDetails">
     <states>

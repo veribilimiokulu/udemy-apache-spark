@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Spark-Temel" />
+        <module name="spark_temel" />
         <module name="scala" />
+        <module name="Spark-Temel" />
       </profile>
     </annotationProcessing>
   </component>

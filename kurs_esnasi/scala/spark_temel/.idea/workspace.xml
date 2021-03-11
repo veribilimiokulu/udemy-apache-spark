@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba1c62f1-3214-4d82-bb45-2e42b1a5b9c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../pyspark/RDD/Wordcount_RDD.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../pyspark/RDD/Wordcount_RDD.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pyspark/RDD/.ipynb_checkpoints/RDDOlusturmak-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../pyspark/RDD/.ipynb_checkpoints/RDDOlusturmak-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pyspark/RDD/BroadcastVariablesOps.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../pyspark/RDD/BroadcastVariablesOps.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pyspark/RDD/RDDOlusturmak.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../pyspark/RDD/RDDOlusturmak.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pyspark/RDD/RDD_Join-01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../pyspark/RDD/RDD_Join-01.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_hazirlik/pyspark/DataFrame/DateTimeOps.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_hazirlik/pyspark/DataFrame/DateTimeOps.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/spark_temel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/spark_temel.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/target/classes/SparkTemel/DataframeDataset/SparkAndDataSources/sparkTemel/DataFrameDataSet/ReadFromMongo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/target/classes/SparkTemel/DataframeDataset/SparkAndDataSources/sparkTemel/DataFrameDataSet/ReadFromMongo$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_hazirlik/scala/spark_temel/target/classes/SparkTemel/DataframeDataset/SparkAndDataSources/sparkTemel/DataFrameDataSet/ReadFromMongo.class" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,23 +47,16 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559992083023" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.WordCountRDD">
     <configuration name="ClassificationWithIris" type="Application" factoryName="Application" temporary="true">
