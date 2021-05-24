@@ -7,17 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="172fdde7-0213-4a1b-97c8-5c89186376ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/pyspark/RDD/BroadcastVariablesOps.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/pyspark/RDD/BroadcastVariablesOps.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/pyspark/RDD/RDD_Join-01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/pyspark/RDD/RDD_Join-01.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/spark_temel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spark_temel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SparkTemel/DataframeDataset/SparkAndDataSources/sparkTemel/DataFrameDataSet/ReadFromMongo$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SparkTemel/DataframeDataset/SparkAndDataSources/sparkTemel/DataFrameDataSet/ReadFromMongo$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SparkTemel/DataframeDataset/SparkAndDataSources/sparkTemel/DataFrameDataSet/ReadFromMongo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kurs_esnasi/pyspark/MachineLearning/Preprocessing/DataCleaning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kurs_esnasi/pyspark/MachineLearning/Preprocessing/DataCleaning.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
