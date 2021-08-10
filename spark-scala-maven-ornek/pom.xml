@@ -13,7 +13,7 @@
     <properties>
         <spark.version>2.3.2</spark.version>
         <java.version>1.8</java.version>
-        <junit.version>4.11</junit.version>
+        <junit.version>4.13.1</junit.version>
         <JAVA8.HOME>C:\Program Files\Java\jdk1.8.0_201</JAVA8.HOME>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <scala.version>2.11.8</scala.version>
