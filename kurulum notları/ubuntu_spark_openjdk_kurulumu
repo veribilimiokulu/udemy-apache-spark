@@ -42,7 +42,6 @@ sudo update-alternatives --config javac
 	Nothing to configure.
 
 2.6. JAVA HOME ayarlama
-
 sudo nano /etc/environment
 	JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"
 	Ctrl+O -> Enter -> Ctrl+X ile kaydedip çıkın.
@@ -51,7 +50,12 @@ source /etc/environment
 echo $JAVA_HOME
 /usr/lib/jvm/java-1.8.0-openjdk-amd64
 
-
+2.7. JAVA_HOME bulunamadı hatası
+terminal üzerinde bash profilini açmak için aşağıdaki satırı terminale yazıyoruz.
+vi ~/.bash_profile
+	bash profilini açtıktan sonra aşağıdaki iki satırı yapıştırınız.
+	export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+	export PATH=$PATH:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin
 
 
 3. Spark Kurulumu
